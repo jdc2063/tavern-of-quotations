@@ -190,7 +190,7 @@ marineford() {
     done < marineford.csv
 }
 
-down() {
+ellipse() {
     while IFS=';' read -r ad citation reponse coeur; do
         declare -i ad
         if [[ $ad -eq $ran_a ]]; then

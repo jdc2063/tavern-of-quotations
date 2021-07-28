@@ -2255,9 +2255,13 @@ appel100() {
         arc
     fi
     if [[ $nombre100 -ne 0 ]]; then
-        
-        echo -n -e "\t$nombre100"
-       -e  \necho -n -e "\t$personnage100"
+        echo -n $n
+        n=$((n+1))
+        arc_actuel=$arc100
+        if [[ $joueur -eq 4 ]]; then
+            echo -n -e "\t$nombre100"
+        fi
+        echo -n -e "\t$personnage100"
         arc
     fi
     appel105
