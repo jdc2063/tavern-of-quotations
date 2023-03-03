@@ -1,13 +1,16 @@
 id;citation;reponse;coeur
-1;-"Le vieux, tes tifs, faut les couper";Luffy;0
-2;-"Je vous en supplie, ayez pitié de cet enfant! Il ne sait pas ce qu'il fait";Miss Catharina;0
-3;-"Faites attention, j'ai cru voir un trou dans le sol";Zoro;0
-4;-"Serais-tu du genre à ne pas tenir tes engagements?";Nami;0
-5;-"Regarde mon corps sublime! Fixe-le attentivement";Vivi;0
-6;-"Alors quant à se prendre une raclée mortelle autant que ça serve à protéger quelqu'un que je considère comme une amie";Miss Monday;0
-7;-"Ceux qui se mettent en travers de notre chemin nous avons pour habitude de les envoyez six pieds sous terre";Miss Valentine;0
-8;-"C'est bientôt fini ce vacarme?";Luffy et Zoro;0
-9;-"Des mannequins, quelle idée stupide";Robin;0
-10;-"Vous serez gentils de ne pas pointer vos joujoux sur moi";Robin;0
-11;-"Ce n'est pas à elle de décider du cap à suivre de notre bateau";Luffy;0
-12;-"Regarde un peu! L'arrière de mon crâne est mis à prix à au moins 30 millions!! Epatant, hein?";Usopp;0
+1;-"Le vieux, tes tifs, faut les couper";Luffy;0;106;18
+2;-"Apprenez qu'un sabreur digne de  ce nom ne se noit jamais complètement dans l'alcool";Zoro;0;107;12
+3;-"Je vous en supplie, ayez pitié de cet enfant! Il ne sait pas ce qu'il fait";Miss Catharina;0;108;11
+4;-"Faites attention, j'ai cru voir un trou dans le sol";Zoro;0;108;15
+5;-"Regarde mon corps sublime! Fixe-le attentivement";Vivi;0;109;16
+6;-"Cessez vos salamalecs";Vivi;0;110;15
+7;-"Serais-tu du genre à ne pas tenir tes engagements?";Nami;0;111;6
+8;-"Alors quant à se prendre une raclée mortelle autant que ça serve à protéger quelqu'un que je considère comme une amie";Miss Monday;0;111;10
+9;-"Ceux qui se mettent en travers de notre chemin nous avons pour habitude de les envoyez six pieds sous terre";Miss Valentine;0;111;17
+10;-"C'est pas bientôt fini ce bordel?";Luffy et Zoro;0;112;17
+11;-"Essayer de m'avoir avec un leurre, qu'ils sont mignons";Robin;0;114;5
+12;-"Je vous demanderais de ne pas pointer sur moi ces objets aussi dangereux";Robin;0;114;11
+13;-"Vous serez gentils de ne pas pointer vos joujoux sur moi";Robin;0;114;11
+14;-"Ce n'est pas à elle de décider de la route à suivre de notre bateau";Luffy;0;114;16
+15;-"Eh bien des rumeurs disent qu'en fait ce serait l'arrière de mon crâne qui est mis à prix à 30 millions de berrys";Usopp;0;115;2

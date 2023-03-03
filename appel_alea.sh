@@ -1,6 +1,6 @@
 arc() {
     if [[ $arc_actuel -eq 1 ]]; then
-        echo -e "\t\teast blue"
+        echo -e "\t\tEast blue"
     elif [[ $arc_actuel -eq 2 ]]; then
         echo -e "\t\tLogueTown/Cap Jumeaux"
     elif [[ $arc_actuel -eq 3 ]]; then

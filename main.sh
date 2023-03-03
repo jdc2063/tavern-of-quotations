@@ -13,7 +13,7 @@ while [[ $salida -ne 1 ]]; do
         sleep 2
         echo "Et qui sait....peut être ta tombe"
         sleep 2
-        echo "Hé bien, que souhaites tu faire? Tu peux te mesurer à moi, regarder le nombre de citation qui se trouvent ici, voir ma selection ou encore reboursser chemin"
+        echo "Hé bien, que souhaites tu faire? Tu peux te mesurer à moi, regarder le nombre de citation qui se trouvent ici, voir ma selection ou encore rebrousser chemin"
     fi
     if [[ $joueur -eq 3 ]]; then
         finish=1

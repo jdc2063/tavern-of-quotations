@@ -179,7 +179,7 @@ down() {
     done < impel_down.csv
 }
 
-marineford() {
+ford() {
     while IFS=';' read -r ad citation reponse coeur; do
         declare -i ad
         if [[ $ad -eq $ran_a ]]; then
