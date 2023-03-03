@@ -10,7 +10,7 @@ while IFS=";" read -r id citation reponse coeur; do
         compteur_east=$((compteur_east+1))
         compteur_t=$((compteur_t+1))
     fi
-done < east_blue.csv
+done < ./csv/east_blue.csv
 if [[ $choose -eq 2 ]]; then
     if [[ $compteur_east -eq 0 ]]; then
         echo "East blue ne possède pas encore de citations"
@@ -30,7 +30,7 @@ while IFS=";" read -r id citation reponse coeur; do
         compteur_logue=$((compteur_logue+1))
         compteur_t=$((compteur_t+1))
        fi
-done < logue_jumeaux.csv
+done < ./csv/logue_jumeaux.csv
 if [[ $choose -eq 2 ]]; then
     if [[ $compteur_logue -eq 0 ]]; then
         echo "Logue Town et Cap des Jumeaux ne possèdent pas encore de citations"
@@ -50,7 +50,7 @@ while IFS=";" read -r id citation reponse coeur; do
         compteur_peak=$((compteur_peak+1))
         compteur_t=$((compteur_t+1))
        fi
-done < whiskey_peak.csv
+done < ./csv/whiskey_peak.csv
 if [[ $choose -eq 2 ]]; then
     if [[ $compteur_peak -eq 0 ]]; then
         echo "Whiskey Peak ne possède pas de citations!"
@@ -70,7 +70,7 @@ while IFS=";" read -r id citation reponse coeur; do
         compteur_garden=$((compteur_garden+1))
         compteur_t=$((compteur_t+1))
        fi
-done < little_garden.csv
+done < ./csv/little_garden.csv
 if [[ $choose -eq 2 ]]; then
     if [[ $compteur_garden -eq 0 ]]; then
         echo "Little Garden ne possède pas de citations!"
@@ -90,7 +90,7 @@ while IFS=";" read -r id citation reponse coeur; do
         compteur_drum=$((compteur_drum+1))
         compteur_t=$((compteur_t+1))
     fi
-done < drum.csv
+done < ./csv/drum.csv
 if [[ $choose -eq 2 ]]; then
     if [[ $compteur_drum -eq 0 ]]; then
         echo "Drum ne possède pas de citations!"
@@ -110,7 +110,7 @@ while IFS=";" read -r id citation reponse coeur; do
         compteur_alabasta=$((compteur_alabasta+1))
         compteur_t=$((compteur_t+1))
     fi
-done < alabasta.csv
+done < ./csv/alabasta.csv
 if [[ $choose -eq 2 ]]; then
     if [[ $compteur_alabasta -eq 0 ]]; then
         echo "Alabasta ne possède pas de citations!"
@@ -130,7 +130,7 @@ while IFS=";" read -r id citation reponse coeur; do
         compteur_jaya=$((compteur_jaya+1))
         compteur_t=$((compteur_t+1))
     fi
-done < jaya.csv
+done < ./csv/jaya.csv
 if [[ $choose -eq 2 ]]; then
     if [[ $compteur_jaya -eq 0 ]]; then
         echo "Jaya ne possède pas de citations!"
@@ -150,7 +150,7 @@ while IFS=";" read -r id citation reponse coeur; do
         compteur_skypea=$((compteur_skypea+1))
         compteur_t=$((compteur_t+1))
     fi
-done < skypea.csv
+done < ./csv/skypea.csv
 if [[ $choose -eq 2 ]]; then
     if [[ $compteur_skypea -eq 0 ]]; then
         echo "Skypiea ne possède pas de citations!"
@@ -170,7 +170,7 @@ while IFS=";" read -r id citation reponse coeur; do
         compteur_davy=$((compteur_davy+1))
         compteur_t=$((compteur_t+1))
     fi
-done < davy_back_fight.csv
+done < ./csv/davy_back_fight.csv
 if [[ $choose -eq 2 ]]; then
     if [[ $compteur_davy -eq 0 ]]; then
         echo "Davy Back Fight ne possède pas encore de citations"
@@ -190,7 +190,7 @@ while IFS=";" read -r id citation reponse coeur; do
         compteur_seven=$((compteur_seven+1))
         compteur_t=$((compteur_t+1))
     fi
-done < water_seven.csv
+done < ./csv/water_seven.csv
 if [[ $choose -eq 2 ]]; then
     if [[ $compteur_seven -eq 0 ]]; then
         echo "Water Seven ne possède pas de citations!"
@@ -210,7 +210,7 @@ while IFS=";" read -r id citation reponse coeur; do
         compteur_lobby=$((compteur_lobby+1))
         compteur_t=$((compteur_t+1))
     fi
-done < enies_lobby.csv
+done < ./csv/enies_lobby.csv
 if [[ $choose -eq 2 ]]; then
     if [[ $compteur_lobby -eq 0 ]]; then
         echo "Enies Lobby ne possède pas de citations!"
@@ -230,7 +230,7 @@ while IFS=";" read -r id citation reponse coeur; do
         compteur_ohara=$((compteur_ohara+1))
         compteur_t=$((compteur_t+1))
     fi
-done < ohara.csv
+done < ./csv/ohara.csv
 if [[ $choose -eq 2 ]]; then
     if [[ $compteur_ohara -eq 0 ]]; then
         echo "Ohara ne possède pas de citations!"
@@ -250,7 +250,7 @@ while IFS=";" read -r id citation reponse coeur; do
         compteur_bark=$((compteur_bark+1))
         compteur_t=$((compteur_t+1))
     fi
-done < thriller_bark.csv
+done < ./csv/thriller_bark.csv
 if [[ $choose -eq 2 ]]; then
     if [[ $compteur_bark -eq 0 ]]; then
         echo "Thriller Bark ne possède pas de citations!"
@@ -270,7 +270,7 @@ while IFS=";" read -r id citation reponse coeur; do
         compteur_sabaody=$((compteur_sabaody+1))
         compteur_t=$((compteur_t+1))
     fi
-done < sabaody.csv
+done < ./csv/sabaody.csv
 if [[ $choose -eq 2 ]]; then
     if [[ $compteur_sabaody -eq 0 ]]; then
         echo "Sabaody ne possède pas de citations!"
@@ -290,7 +290,7 @@ while IFS=";" read -r id citation reponse coeur; do
         compteur_lily=$((compteur_lily+1))
         compteur_t=$((compteur_t+1))
     fi
-done < amazone_lily.csv
+done < ./csv/amazone_lily.csv
 if [[ $choose -eq 2 ]]; then
     if [[ $compteur_lily -eq 0 ]]; then
         echo "Amazone Lily ne possède pas de citations!"
@@ -310,7 +310,7 @@ while IFS=";" read -r id citation reponse coeur; do
         compteur_down=$((compteur_down+1))
         compteur_t=$((compteur_t+1))
     fi
-done < impel_down.csv
+done < ./csv/impel_down.csv
 if [[ $choose -eq 2 ]]; then
     if [[ $compteur_down -eq 0 ]]; then
         echo "Impel Down ne possède pas de citations!"
@@ -330,7 +330,7 @@ while IFS=";" read -r id citation reponse coeur; do
         compteur_ford=$((compteur_ford+1))
         compteur_t=$((compteur_t+1))
     fi
-done < marineford.csv
+done < ./csv/marineford.csv
 if [[ $choose -eq 2 ]]; then
     if [[ $compteur_ford -eq 0 ]]; then
         echo "Marineford ne possède pas de citations!"
@@ -350,7 +350,7 @@ while IFS=";" read -r id citation reponse coeur; do
         compteur_ellipse=$((compteur_ellipse+1))
         compteur_t=$((compteur_t+1))
     fi
-done < ellipse.csv
+done < ./csv/ellipse.csv
 if [[ $choose -eq 2 ]]; then
     if [[ $compteur_ellipse -eq 0 ]]; then
         echo "Ellipse ne possède pas de citations!"
@@ -370,7 +370,7 @@ while IFS=";" read -r id citation reponse coeur; do
         compteur_sabaody_r=$((compteur_sabaody_r+1))
         compteur_t=$((compteur_t+1))
     fi
-done < sabaody_r.csv
+done < ./csv/sabaody_r.csv
 if [[ $choose -eq 2 ]]; then
     if [[ $compteur_sabaody_r -eq 0 ]]; then
         echo "Sabaody après ellipse ne possède pas de citations!"
@@ -390,7 +390,7 @@ while IFS=";" read -r id citation reponse coeur; do
         compteur_poisson=$((compteur_poisson+1))
         compteur_t=$((compteur_t+1))
     fi
-done < homme_poisson.csv
+done < ./csv/homme_poisson.csv
 if [[ $choose -eq 2 ]]; then
     if [[ $compteur_poisson -eq 0 ]]; then
         echo "L'ile des Hommes Poissons ne possède pas de citations!"
@@ -410,7 +410,7 @@ while IFS=";" read -r id citation reponse coeur; do
         compteur_hazard=$((compteur_hazard+1))
         compteur_t=$((compteur_t+1))
     fi
-done < punk_hazard.csv
+done < ./csv/punk_hazard.csv
 if [[ $choose -eq 2 ]]; then
     if [[ $compteur_hazard -eq 0 ]]; then
         echo "Punk Hazard ne possède pas de citations!"
@@ -430,7 +430,7 @@ while IFS=";" read -r id citation reponse coeur; do
         compteur_dressrosa=$((compteur_dressrosa+1))
         compteur_t=$((compteur_t+1))
     fi
-done < dressrosa.csv
+done < ./csv/dressrosa.csv
 if [[ $choose -eq 2 ]]; then
     if [[ $compteur_dressrosa -eq 0 ]]; then
         echo "Dressrosa ne possède pas de citations!"
@@ -450,7 +450,7 @@ while IFS=";" read -r id citation reponse coeur; do
         compteur_zo=$((compteur_zo+1))
         compteur_t=$((compteur_t+1))
     fi
-done < zo.csv
+done < ./csv/zo.csv
 if [[ $choose -eq 2 ]]; then
     if [[ $compteur_zo -eq 0 ]]; then
         echo "Zo ne possède pas de citations!"
@@ -470,7 +470,7 @@ while IFS=";" read -r id citation reponse coeur; do
         compteur_wci=$((compteur_wci+1))
         compteur_t=$((compteur_t+1))
     fi
-done < wci.csv
+done < ./csv/wci.csv
 if [[ $choose -eq 2 ]]; then
     if [[ $compteur_wci -eq 0 ]]; then
         echo "Whole Cake Island ne possède pas de citations!"
@@ -490,7 +490,7 @@ while IFS=";" read -r id citation reponse coeur; do
         compteur_wano=$((compteur_wano+1))  
         compteur_t=$((compteur_t+1))
     fi
-done < wano.csv
+done < ./csv/wano.csv
 if [[ $choose -eq 2 ]]; then
     if [[ $compteur_wano -eq 0 ]]; then
         echo "Wano ne possède pas de citations!"

@@ -5,7 +5,7 @@ east() {
             echo $citation
             raiponce=$reponse
         fi
-    done < east_blue.csv
+    done < ./csv/east_blue.csv
 }
 
 logue() {
@@ -15,7 +15,7 @@ logue() {
             echo $citation
             raiponce=$reponse
         fi
-    done < logue_jumeaux.csv
+    done < ./csv/logue_jumeaux.csv
 }
 
 peak() {
@@ -25,7 +25,7 @@ peak() {
             echo $citation
             raiponce=$reponse
         fi
-    done < whiskey_peak.csv
+    done < ./csv/whiskey_peak.csv
 }
 
 garden() {
@@ -35,7 +35,7 @@ garden() {
             echo $citation
             raiponce=$reponse
         fi
-    done < little_garden.csv
+    done < ./csv/little_garden.csv
 }
 
 drum() {
@@ -45,7 +45,7 @@ drum() {
             echo $citation
             raiponce=$reponse
         fi
-    done < drum.csv
+    done < ./csv/drum.csv
 }
 
 alabasta() {
@@ -55,7 +55,7 @@ alabasta() {
             echo $citation
             raiponce=$reponse
         fi
-    done < alabasta.csv
+    done < ./csv/alabasta.csv
 }
 
 jaya() {
@@ -65,7 +65,7 @@ jaya() {
             echo $citation
             raiponce=$reponse
         fi
-    done < jaya.csv
+    done < ./csv/jaya.csv
 }
 
 skypea() {
@@ -75,7 +75,7 @@ skypea() {
             echo $citation
             raiponce=$reponse
         fi
-    done < skypea.csv
+    done < ./csv/skypea.csv
 }
 
 davy() {
@@ -85,7 +85,7 @@ davy() {
             echo $citation
             raiponce=$reponse
         fi
-    done < davy_back_fight.csv
+    done < ./csv/davy_back_fight.csv
 }
 
 seven() {
@@ -95,7 +95,7 @@ seven() {
             echo $citation
             raiponce=$reponse
         fi
-    done < water_seven.csv
+    done < ./csv/water_seven.csv
 }
 
 bark() {
@@ -105,7 +105,7 @@ bark() {
             echo $citation
             raiponce=$reponse
         fi
-    done < thriller_bark.csv
+    done < ./csv/thriller_bark.csv
 }
 
 ohara() {
@@ -115,7 +115,7 @@ ohara() {
             echo $citation
             raiponce=$reponse
         fi
-    done < ohara.csv
+    done < ./csv/ohara.csv
 }
 
 lobby() {
@@ -125,7 +125,7 @@ lobby() {
             echo $citation
             raiponce=$reponse
         fi
-    done < enies_lobby.csv
+    done < ./csv/enies_lobby.csv
 }
 
 sabaody() {
@@ -135,7 +135,7 @@ sabaody() {
             echo $citation
             raiponce=$reponse
         fi
-    done < sabaody.csv
+    done < ./csv/sabaody.csv
 }
 
 lily() {
@@ -145,7 +145,7 @@ lily() {
             echo $citation
             raiponce=$reponse
         fi
-    done < amazone_lily.csv
+    done < ./csv/amazone_lily.csv
 }
 
 down() {
@@ -155,7 +155,7 @@ down() {
             echo $citation
             raiponce=$reponse
         fi
-    done < impel_down.csv
+    done < ./csv/impel_down.csv
 }
 
 ford() {
@@ -165,7 +165,7 @@ ford() {
             echo $citation
             raiponce=$reponse
         fi
-    done < marineford.csv
+    done < ./csv/marineford.csv
 }
 
 ellipse() {
@@ -175,7 +175,7 @@ ellipse() {
             echo $citation
             raiponce=$reponse
         fi
-    done < ellipse.csv
+    done < ./csv/ellipse.csv
 }
 
 sabaody_r() {
@@ -185,7 +185,7 @@ sabaody_r() {
             echo $citation
             raiponce=$reponse
         fi
-    done < sabaody_r.csv
+    done < ./csv/sabaody_r.csv
 }
 
 poisson() {
@@ -195,7 +195,7 @@ poisson() {
             echo $citation
             raiponce=$reponse
         fi
-    done < homme_poisson.csv
+    done < ./csv/homme_poisson.csv
 }
 
 hazard() {
@@ -205,7 +205,7 @@ hazard() {
             echo $citation
             raiponce=$reponse
         fi
-    done < punk_hazard.csv
+    done < ./csv/punk_hazard.csv
 }
 
 dressrosa() {
@@ -215,7 +215,7 @@ dressrosa() {
             echo $citation
             raiponce=$reponse
         fi
-    done < dressrosa.csv
+    done < ./csv/dressrosa.csv
 }
 
 zo() {
@@ -225,7 +225,7 @@ zo() {
             echo $citation
             raiponce=$reponse
         fi
-    done < zo.csv
+    done < ./csv/zo.csv
 }
 
 wci() {
@@ -235,7 +235,7 @@ wci() {
             echo $citation
             raiponce=$reponse
         fi
-    done < wci.csv
+    done < ./csv/wci.csv
 }
 wano() {
     while IFS=';' read -r od citation reponse coeur; do
@@ -244,7 +244,7 @@ wano() {
             echo $citation
             raiponce=$reponse
         fi
-    done < wano.csv
+    done < ./csv/wano.csv
 }
 
 quit=0
@@ -254,9 +254,9 @@ if [[ $arc_east -eq 1 ]]; then
     while [[ $exist -ne 1 ]]; do
         ran_a=$((RANDOM%compteur_east+1))
         arc_actuel=1
-        source recherche_alea.sh
+        source ./script/recherche_alea.sh
         if [[ $exist -eq 1 ]]; then
-            source installation_alea.sh
+            source ./script/installation_alea.sh
             east
             if [[ $joueur -ne 4 ]]; then
                 read
@@ -284,9 +284,9 @@ elif [[ $arc_logue -eq 1 ]]; then
     while [[ $exist -ne 1 ]]; do
         ran_a=$((RANDOM%compteur_logue+1))
         arc_actuel=2
-        source recherche_alea.sh
+        source ./script/recherche_alea.sh
         if [[ $exist -eq 1 ]]; then
-            source installation_alea.sh
+            source ./script/installation_alea.sh
             logue
             if [[ $joueur -ne 4 ]]; then
                 read
@@ -314,9 +314,9 @@ elif [[ $arc_peak -eq 1 ]]; then
     while [[ $exist -ne 1 ]]; do
         ran_a=$((RANDOM%compteur_peak+1))
         arc_actuel=3
-        source recherche_alea.sh
+        source ./script/recherche_alea.sh
         if [[ $exist -eq 1 ]]; then
-            source installation_alea.sh
+            source ./script/installation_alea.sh
             peak
             if [[ $joueur -ne 4 ]]; then
                 read
@@ -344,9 +344,9 @@ elif [[ $arc_garden -eq 1 ]]; then
     while [[ $exist -ne 1 ]]; do
         ran_a=$((RANDOM%compteur_garden+1))
         arc_actuel=4
-        source recherche_alea.sh
+        source ./script/recherche_alea.sh
         if [[ $exist -eq 1 ]]; then
-            source installation_alea.sh
+            source ./script/installation_alea.sh
             garden
             if [[ $joueur -ne 4 ]]; then
                 read
@@ -374,9 +374,9 @@ elif [[ $arc_drum -eq 1 ]]; then
     while [[ $exist -ne 1 ]]; do
         ran_a=$((RANDOM%compteur_drum+1))
         arc_actuel=5
-        source recherche_alea.sh
+        source ./script/recherche_alea.sh
         if [[ $exist -eq 1 ]]; then
-            source installation_alea.sh
+            source ./script/installation_alea.sh
             drum
             if [[ $joueur -ne 4 ]]; then
                 read
@@ -404,9 +404,9 @@ elif [[ $arc_alabasta -eq 1 ]]; then
     while [[ $exist -ne 1 ]]; do
         ran_a=$((RANDOM%compteur_alabasta+1))
         arc_actuel=6
-        source recherche_alea.sh
+        source ./script/recherche_alea.sh
         if [[ $exist -eq 1 ]]; then
-            source installation_alea.sh
+            source ./script/installation_alea.sh
             alabasta
             if [[ $joueur -ne 4 ]]; then
                 read
@@ -434,9 +434,9 @@ elif [[ $arc_jaya -eq 1 ]]; then
     while [[ $exist -ne 1 ]]; do
         ran_a=$((RANDOM%compteur_jaya+1))
         arc_actuel=7
-        source recherche_alea.sh
+        source ./script/recherche_alea.sh
         if [[ $exist -eq 1 ]]; then
-            source installation_alea.sh
+            source ./script/installation_alea.sh
             jaya
             if [[ $joueur -ne 4 ]]; then
                 read
@@ -464,9 +464,9 @@ elif [[ $arc_skypea -eq 1 ]]; then
     while [[ $exist -ne 1 ]]; do
         ran_a=$((RANDOM%compteur_skypea+1))
         arc_actuel=8
-        source recherche_alea.sh
+        source ./script/recherche_alea.sh
         if [[ $exist -eq 1 ]]; then
-            source installation_alea.sh
+            source ./script/installation_alea.sh
             skypea
             if [[ $joueur -ne 4 ]]; then
                 read
@@ -494,9 +494,9 @@ elif [[ $arc_davy -eq 1 ]]; then
     while [[ $exist -ne 1 ]]; do
         ran_a=$((RANDOM%compteur_davy+1))
         arc_actuel=9
-        source recherche_alea.sh
+        source ./script/recherche_alea.sh
         if [[ $exist -eq 1 ]]; then
-            source installation_alea.sh
+            source ./script/installation_alea.sh
             davy
             if [[ $joueur -ne 4 ]]; then
                 read
@@ -524,9 +524,9 @@ elif [[ $arc_seven -eq 1 ]]; then
     while [[ $exist -ne 1 ]]; do
         ran_a=$((RANDOM%compteur_seven+1))
         arc_actuel=10
-        source recherche_alea.sh
+        source ./script/recherche_alea.sh
         if [[ $exist -eq 1 ]]; then
-            source installation_alea.sh
+            source ./script/installation_alea.sh
             seven
             if [[ $joueur -ne 4 ]]; then
                 read
@@ -554,9 +554,9 @@ elif [[ $arc_lobby -eq 1 ]]; then
     while [[ $exist -ne 1 ]]; do
         ran_a=$((RANDOM%compteur_lobby+1))
         arc_actuel=11
-        source recherche_alea.sh
+        source ./script/recherche_alea.sh
         if [[ $exist -eq 1 ]]; then
-            source installation_alea.sh
+            source ./script/installation_alea.sh
             lobby
             if [[ $joueur -ne 4 ]]; then
                 read
@@ -584,9 +584,9 @@ elif [[ $arc_ohara -eq 1 ]]; then
     while [[ $exist -ne 1 ]]; do
         ran_a=$((RANDOM%compteur_ohara+1))
         arc_actuel=12
-        source recherche_alea.sh
+        source ./script/recherche_alea.sh
         if [[ $exist -eq 1 ]]; then
-            source installation_alea.sh
+            source ./script/installation_alea.sh
             ohara
             if [[ $joueur -ne 4 ]]; then
                 read
@@ -614,9 +614,9 @@ elif [[ $arc_bark -eq 1 ]]; then
     while [[ $exist -ne 1 ]]; do
         ran_a=$((RANDOM%compteur_bark+1))
         arc_actuel=13
-        source recherche_alea.sh
+        source ./script/recherche_alea.sh
         if [[ $exist -eq 1 ]]; then
-            source installation_alea.sh
+            source ./script/installation_alea.sh
             bark
             if [[ $joueur -ne 4 ]]; then
                 read
@@ -644,9 +644,9 @@ elif [[ $arc_sabaody -eq 1 ]]; then
     while [[ $exist -ne 1 ]]; do
         ran_a=$((RANDOM%compteur_sabaody+1))
         arc_actuel=14
-        source recherche_alea.sh
+        source ./script/recherche_alea.sh
         if [[ $exist -eq 1 ]]; then
-            source installation_alea.sh
+            source ./script/installation_alea.sh
             sabaody
             if [[ $joueur -ne 4 ]]; then
                 read
@@ -674,9 +674,9 @@ elif [[ $arc_lily -eq 1 ]]; then
     while [[ $exist -ne 1 ]]; do
         ran_a=$((RANDOM%compteur_lily+1))
         arc_actuel=15
-        source recherche_alea.sh
+        source ./script/recherche_alea.sh
         if [[ $exist -eq 1 ]]; then
-            source installation_alea.sh
+            source ./script/installation_alea.sh
             lily
             if [[ $joueur -ne 4 ]]; then
                 read
@@ -704,9 +704,9 @@ elif [[ $arc_down -eq 1 ]]; then
     while [[ $exist -ne 1 ]]; do
         ran_a=$((RANDOM%compteur_down+1))
         arc_actuel=16
-        source recherche_alea.sh
+        source ./script/recherche_alea.sh
         if [[ $exist -eq 1 ]]; then
-            source installation_alea.sh
+            source ./script/installation_alea.sh
             down
             if [[ $joueur -ne 4 ]]; then
                 read
@@ -734,9 +734,9 @@ elif [[ $arc_ford -eq 1 ]]; then
     while [[ $exist -ne 1 ]]; do
         ran_a=$((RANDOM%compteur_ford+1))
         arc_actuel=17
-        source recherche_alea.sh
+        source ./script/recherche_alea.sh
         if [[ $exist -eq 1 ]]; then
-            source installation_alea.sh
+            source ./script/installation_alea.sh
             ford
             if [[ $joueur -ne 4 ]]; then
                 read
@@ -764,9 +764,9 @@ elif [[ $arc_ellipse -eq 1 ]]; then
     while [[ $exist -ne 1 ]]; do
         ran_a=$((RANDOM%compteur_ellipse+1))
         arc_actuel=17
-        source recherche_alea.sh
+        source ./script/recherche_alea.sh
         if [[ $exist -eq 1 ]]; then
-            source installation_alea.sh
+            source ./script/installation_alea.sh
             ford
             if [[ $joueur -ne 4 ]]; then
                 read
@@ -794,9 +794,9 @@ elif [[ $arc_sabaody_r -eq 1 ]]; then
     while [[ $exist -ne 1 ]]; do
         ran_a=$((RANDOM%compteur_sabaody_r+1))
         arc_actuel=18
-        source recherche_alea.sh
+        source ./script/recherche_alea.sh
         if [[ $exist -eq 1 ]]; then
-            source installation_alea.sh
+            source ./script/installation_alea.sh
             sabaody_r
             if [[ $joueur -ne 4 ]]; then
                 read
@@ -824,9 +824,9 @@ elif [[ $arc_poisson -eq 1 ]]; then
     while [[ $exist -ne 1 ]]; do
         ran_a=$((RANDOM%compteur_poisson+1))
         arc_actuel=19
-        source recherche_alea.sh
+        source ./script/recherche_alea.sh
         if [[ $exist -eq 1 ]]; then
-            source installation_alea.sh
+            source ./script/installation_alea.sh
             poisson
             if [[ $joueur -ne 4 ]]; then
                 read
@@ -854,9 +854,9 @@ elif [[ $arc_hazard -eq 1 ]]; then
     while [[ $exist -ne 1 ]]; do
         ran_a=$((RANDOM%compteur_hazard+1))
         arc_actuel=20
-        source recherche_alea.sh
+        source ./script/recherche_alea.sh
         if [[ $exist -eq 1 ]]; then
-            source installation_alea.sh
+            source ./script/installation_alea.sh
             hazard
             if [[ $joueur -ne 4 ]]; then
                 read
@@ -884,9 +884,9 @@ elif [[ $arc_dressrosa -eq 1 ]]; then
     while [[ $exist -ne 1 ]]; do
         ran_a=$((RANDOM%compteur_dressrosa+1))
         arc_actuel=21
-        source recherche_alea.sh
+        source ./script/recherche_alea.sh
         if [[ $exist -eq 1 ]]; then
-            source installation_alea.sh
+            source ./script/installation_alea.sh
             dressrosa
             if [[ $joueur -ne 4 ]]; then
                 read
@@ -914,9 +914,9 @@ elif [[ $arc_zo -eq 1 ]]; then
     while [[ $exist -ne 1 ]]; do
         ran_a=$((RANDOM%compteur_zo+1))
         arc_actuel=22
-        source recherche_alea.sh
+        source ./script/recherche_alea.sh
         if [[ $exist -eq 1 ]]; then
-            source installation_alea.sh
+            source ./script/installation_alea.sh
             if [[ $joueur -ne 4 ]]; then
                 read
             fi
@@ -943,9 +943,9 @@ elif [[ $arc_wci -eq 1 ]]; then
     while [[ $exist -ne 1 ]]; do
         ran_a=$((RANDOM%compteur_wci+1))
         arc_actuel=23
-        source recherche_alea.sh
+        source ./script/recherche_alea.sh
         if [[ $exist -eq 1 ]]; then
-            source installation_alea.sh
+            source ./script/installation_alea.sh
             wci
             if [[ $joueur -ne 4 ]]; then
                 read
@@ -973,9 +973,9 @@ elif [[ $arc_wano -eq 1 ]]; then
     while [[ $exist -ne 1 ]]; do
         ran_a=$((RANDOM%compteur_wano+1))
         arc_actuel=24
-        source recherche_alea.sh
+        source ./script/recherche_alea.sh
         if [[ $exist -eq 1 ]]; then
-            source installation_alea.sh
+            source ./script/installation_alea.sh
             wano
             if [[ $joueur -ne 4 ]]; then
                 read
@@ -1000,5 +1000,5 @@ elif [[ $arc_wano -eq 1 ]]; then
 fi
 
 if [[ $quit -ne 1 ]]; then
-    source arc2_alea.sh
+    source ./script/arc2_alea.sh
 fi

@@ -62,4 +62,4 @@ nombre_zo=0
 nombre_wci=0
 nombre_wano=0
 
-source reinitialisation.sh
+source ./script/reinitialisation.sh

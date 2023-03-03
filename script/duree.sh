@@ -7,7 +7,7 @@ east() {
             raiponce=$reponse
             n=$((n+1))
         fi
-    done < east_blue.csv
+    done < ./csv/east_blue.csv
 }
 
 logue() {
@@ -19,7 +19,7 @@ logue() {
             raiponce=$reponse
             n=$((n+1))
         fi
-    done < logue_jumeaux.csv
+    done < ./csv/logue_jumeaux.csv
 }
 
 peak() {
@@ -31,7 +31,7 @@ peak() {
             raiponce=$reponse
             n=$((n+1))
         fi
-    done < whiskey_peak.csv
+    done < ./csv/whiskey_peak.csv
 }
 
 garden() {
@@ -43,7 +43,7 @@ garden() {
             raiponce=$reponse
             n=$((n+1))
         fi
-    done < little_garden.csv
+    done < ./csv/little_garden.csv
 }
 
 drum() {
@@ -55,7 +55,7 @@ drum() {
             raiponce=$reponse
             n=$((n+1))
         fi
-    done < drum.csv
+    done < ./csv/drum.csv
 }
 
 alabasta() {
@@ -66,7 +66,7 @@ alabasta() {
             raiponce=$reponse
             n=$((n+1))
         fi
-    done < alabasta.csv
+    done < ./csv/alabasta.csv
 }
 
 jaya() {
@@ -77,7 +77,7 @@ jaya() {
             raiponce=$reponse
             n=$((n+1))
         fi
-    done < jaya.csv
+    done < ./csv/jaya.csv
 }
 
 skypea() {
@@ -88,7 +88,7 @@ skypea() {
             raiponce=$reponse
             n=$((n+1))
         fi
-    done < skypea.csv
+    done < ./csv/skypea.csv
 }
 
 davy() {
@@ -99,7 +99,7 @@ davy() {
             raiponce=$reponse
             n=$((n+1))
         fi
-    done < davy_back_fight.csv
+    done < ./csv/davy_back_fight.csv
 }
 
 seven() {
@@ -110,7 +110,7 @@ seven() {
             raiponce=$reponse
             n=$((n+1))
         fi
-    done < water_seven.csv
+    done < ./csv/water_seven.csv
 }
 
 bark() {
@@ -121,7 +121,7 @@ bark() {
             raiponce=$reponse
             n=$((n+1))
         fi
-    done < thriller_bark.csv
+    done < ./csv/thriller_bark.csv
 }
 
 ohara() {
@@ -132,7 +132,7 @@ ohara() {
             raiponce=$reponse
             n=$((n+1))
         fi
-    done < ohara.csv
+    done < ./csv/ohara.csv
 }
 
 lobby() {
@@ -143,7 +143,7 @@ lobby() {
             raiponce=$reponse
             n=$((n+1))
         fi
-    done < enies_lobby.csv
+    done < ./csv/enies_lobby.csv
 }
 
 sabaody() {
@@ -154,7 +154,7 @@ sabaody() {
             raiponce=$reponse
             n=$((n+1))
         fi
-    done < sabaody.csv
+    done < ./csv/sabaody.csv
 }
 
 lily() {
@@ -165,7 +165,7 @@ lily() {
             raiponce=$reponse
             n=$((n+1))
         fi
-    done < amazone_lily.csv
+    done < ./csv/amazone_lily.csv
 }
 
 down() {
@@ -176,7 +176,7 @@ down() {
             raiponce=$reponse
             n=$((n+1))
         fi
-    done < impel_down.csv
+    done < ./csv/impel_down.csv
 }
 
 marineford() {
@@ -187,7 +187,7 @@ marineford() {
             raiponce=$reponse
             n=$((n+1))
         fi
-    done < marineford.csv
+    done < ./csv/marineford.csv
 }
 
 ellipse() {
@@ -198,7 +198,7 @@ ellipse() {
             raiponce=$reponse
             n=$((n+1))
         fi
-    done < ellipse.csv
+    done < ./csv/ellipse.csv
 }
 
 sabaody_r() {
@@ -209,7 +209,7 @@ sabaody_r() {
             raiponce=$reponse
             n=$((n+1))
         fi
-    done < sabaody_r.csv
+    done < ./csv/sabaody_r.csv
 }
 
 poisson() {
@@ -220,7 +220,7 @@ poisson() {
             raiponce=$reponse
             n=$((n+1))
         fi
-    done < homme_poisson.csv
+    done < ./csv/homme_poisson.csv
 }
 
 hazard() {
@@ -231,7 +231,7 @@ hazard() {
             raiponce=$reponse
             n=$((n+1))
         fi
-    done < drum.csv
+    done < ./csv/drum.csv
 }
 
 dressrosa() {
@@ -242,7 +242,7 @@ dressrosa() {
             raiponce=$reponse
             n=$((n+1))
         fi
-    done < dressrosa.csv
+    done < ./csv/dressrosa.csv
 }
 
 zo() {
@@ -253,7 +253,7 @@ zo() {
             raiponce=$reponse
             n=$((n+1))
         fi
-    done < zo.csv
+    done < ./csv/zo.csv
 }
 
 wano() {
@@ -264,7 +264,7 @@ wano() {
             raiponce=$reponse
             n=$((n+1))
         fi
-    done < wano.csv
+    done < ./csv/wano.csv
 }
 
 nombre_a=0
@@ -274,10 +274,10 @@ if [[ $arc_east -eq 1 ]]; then
         exist=0
         arc_actuel=1
         ran_a=$((RANDOM%compteur_east+1))
-        source recherche.sh
+        source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then
             east
-            source installation.sh
+            source ./script/installation.sh
             nombre_a=$((nombre_a+1))
         fi
     done
@@ -288,10 +288,10 @@ elif [[ $arc_logue -eq 1 ]]; then
         exist=0
         arc_actuel=2
         ran_a=$((RANDOM%compteur_logue+1))
-        source recherche.sh
+        source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then
             logue
-            source installation.sh
+            source ./script/installation.sh
             nombre_a=$((nombre_a+1))
         fi
     done
@@ -302,10 +302,10 @@ elif [[ $arc_peak -eq 1 ]]; then
         exist=0
         arc_actuel=3
         ran_a=$((RANDOM%compteur_peak+1))
-        source recherche.sh
+        source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then
             peak
-            source installation.sh
+            source ./script/installation.sh
             nombre_a=$((nombre_a+1))
         fi
     done
@@ -316,10 +316,10 @@ elif [[ $arc_garden -eq 1 ]]; then
         exist=0
         arc_actuel=4
         ran_a=$((RANDOM%compteur_garden+1))
-        source recherche.sh
+        source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then
             garden
-            source installation.sh
+            source ./script/installation.sh
             nombre_a=$((nombre_a+1))
         fi
     done
@@ -330,10 +330,10 @@ elif [[ $arc_drum -eq 1 ]]; then
         exist=0
         arc_actuel=5
         ran_a=$((RANDOM%compteur_drum+1))
-        source recherche.sh
+        source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then
             drum
-            source installation.sh
+            source ./script/installation.sh
             nombre_a=$((nombre_a+1))
         fi
     done
@@ -344,10 +344,10 @@ elif [[ $arc_alabasta -eq 1 ]]; then
         exist=0
         arc_actuel=6
         ran_a=$((RANDOM%compteur_alabasta+1))
-        source recherche.sh
+        source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then
             alabasta
-            source installation.sh
+            source ./script/installation.sh
             nombre_a=$((nombre_a+1))
         fi
     done
@@ -358,10 +358,10 @@ elif [[ $arc_jaya -eq 1 ]]; then
         exist=0
         arc_actuel=7
         ran_a=$((RANDOM%compteur_jaya+1))
-        source recherche.sh
+        source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then
             jaya
-            source installation.sh
+            source ./script/installation.sh
             nombre_a=$((nombre_a+1))
         fi
     done
@@ -372,10 +372,10 @@ elif [[ $arc_skypea -eq 1 ]]; then
         exist=0
         arc_actuel=8
         ran_a=$((RANDOM%compteur_skypea+1))
-        source recherche.sh
+        source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then
             skypea
-            source installation.sh
+            source ./script/installation.sh
             nombre_a=$((nombre_a+1))
         fi
     done
@@ -386,10 +386,10 @@ elif [[ $arc_davy -eq 1 ]]; then
         exist=0
         arc_actuel=9
         ran_a=$((RANDOM%compteur_davy+1))
-        source recherche.sh
+        source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then
             davy
-            source installation.sh
+            source ./script/installation.sh
             nombre_a=$((nombre_a+1))
         fi
     done
@@ -400,10 +400,10 @@ elif [[ $arc_seven -eq 1 ]]; then
         exist=0
         arc_actuel=10
         ran_a=$((RANDOM%compteur_seven+1))
-        source recherche.sh
+        source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then
             seven
-            source installation.sh
+            source ./script/installation.sh
             nombre_a=$((nombre_a+1))
         fi
     done
@@ -414,10 +414,10 @@ elif [[ $arc_lobby -eq 1 ]]; then
         exist=0
         arc_actuel=11
         ran_a=$((RANDOM%compteur_lobby+1))
-        source recherche.sh
+        source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then
             lobby
-            source installation.sh
+            source ./script/installation.sh
             nombre_a=$((nombre_a+1))
         fi
     done
@@ -428,10 +428,10 @@ elif [[ $arc_ohara -eq 1 ]]; then
         exist=0
         arc_actuel=12
         ran_a=$((RANDOM%compteur_ohara+1))
-        source recherche.sh
+        source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then
             ohara
-            source installation.sh
+            source ./script/installation.sh
             nombre_a=$((nombre_a+1))
         fi
     done
@@ -442,10 +442,10 @@ elif [[ $arc_bark -eq 1 ]]; then
         exist=0
         arc_actuel=13
         ran_a=$((RANDOM%compteur_bark+1))
-        source recherche.sh
+        source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then
             bark
-            source installation.sh
+            source ./script/installation.sh
             nombre_a=$((nombre_a+1))
         fi
     done
@@ -456,10 +456,10 @@ elif [[ $arc_sabaody -eq 1 ]]; then
         exist=0
         arc_actuel=14
         ran_a=$((RANDOM%compteur_sabaody+1))
-        source recherche.sh
+        source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then
             sabaody
-            source installation.sh
+            source ./script/installation.sh
             nombre_a=$((nombre_a+1))
         fi
     done
@@ -470,10 +470,10 @@ elif [[ $arc_lily -eq 1 ]]; then
         exist=0
         arc_actuel=15
         ran_a=$((RANDOM%compteur_lily+1))
-        source recherche.sh
+        source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then
             lily
-            source installation.sh
+            source ./script/installation.sh
             nombre_a=$((nombre_a+1))
         fi
     done
@@ -484,10 +484,10 @@ elif [[ $arc_down -eq 1 ]]; then
         exist=0
         arc_actuel=16
         ran_a=$((RANDOM%compteur_down+1))
-        source recherche.sh
+        source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then
             down
-            source installation.sh
+            source ./script/installation.sh
             nombre_a=$((nombre_a+1))
         fi
     done
@@ -498,10 +498,10 @@ elif [[ $arc_ford -eq 1 ]]; then
         exist=0
         arc_actuel=17
         ran_a=$((RANDOM%compteur_ford+1))
-        source recherche.sh
+        source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then
             marineford
-            source installation.sh
+            source ./script/installation.sh
             nombre_a=$((nombre_a+1))
         fi
     done
@@ -513,10 +513,10 @@ elif [[ $arc_ellipse -eq 1 ]]; then
         exist=0
         arc_actuel=18
         ran_a=$((RANDOM%compteur_ellipse+1))
-        source recherche.sh
+        source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then
             ellipse
-            source installation.sh
+            source ./script/installation.sh
             nombre_a=$((nombre_a+1))
         fi
     done
@@ -528,10 +528,10 @@ elif [[ $arc_sabaody_r -eq 1 ]]; then
         exist=0
         arc_actuel=19
         ran_a=$((RANDOM%compteur_sabaody_r+1))
-        source recherche.sh
+        source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then
             sabaody_r
-            source installation.sh
+            source ./script/installation.sh
             nombre_a=$((nombre_a+1))
         fi
     done
@@ -542,10 +542,10 @@ elif [[ $arc_poisson -eq 1 ]]; then
         exist=0
         arc_actuel=20
         ran_a=$((RANDOM%compteur_poisson+1))
-        source recherche.sh
+        source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then
             poisson
-            source installation.sh
+            source ./script/installation.sh
             nombre_a=$((nombre_a+1))
         fi
     done
@@ -556,10 +556,10 @@ elif [[ $arc_hazard -eq 1 ]]; then
         exist=0
         arc_actuel=21
         ran_a=$((RANDOM%compteur_hazard+1))
-        source recherche.sh
+        source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then
             hazard
-            source installation.sh
+            source ./script/installation.sh
             nombre_a=$((nombre_a+1))
         fi
     done
@@ -570,10 +570,10 @@ elif [[ $arc_dressrosa -eq 1 ]]; then
         exist=0
         arc_actuel=22
         ran_a=$((RANDOM%compteur_dressrosa+1))
-        source recherche.sh
+        source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then
             dressrosa
-            source installation.sh
+            source ./script/installation.sh
             nombre_a=$((nombre_a+1))
         fi
     done
@@ -584,10 +584,10 @@ elif [[ $arc_zo -eq 1 ]]; then
         exist=0
         arc_actuel=23
         ran_a=$((RANDOM%compteur_zo+1))
-        source recherche.sh
+        source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then
             zo
-            source installation.sh
+            source ./script/installation.sh
             nombre_a=$((nombre_a+1))
         fi
     done
@@ -598,10 +598,10 @@ elif [[ $arc_wci -eq 1 ]]; then
         exist=0
         arc_actuel=24
         ran_a=$((RANDOM%compteur_wci+1))
-        source recherche.sh
+        source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then
             wci
-            source installation.sh
+            source ./script/installation.sh
             nombre_a=$((nombre_a+1))
         fi
     done
@@ -612,10 +612,10 @@ elif [[ $arc_wano -eq 1 ]]; then
         exist=0
         arc_actuel=25
         ran_a=$((RANDOM%compteur_wano+1))
-        source recherche.sh
+        source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then
             wano
-            source installation.sh
+            source ./script/installation.sh
             nombre_a=$((nombre_a+1))
         fi
     done

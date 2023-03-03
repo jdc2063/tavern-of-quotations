@@ -3,7 +3,7 @@ east() {
     do
         declare -i ed
         echo "$ed $citation de $reponse"
-    done < east_blue.csv
+    done < ./csv/east_blue.csv
 }
 
 logue() {
@@ -11,7 +11,7 @@ logue() {
     do
         declare -i ed
         echo "$ed $citation de $reponse"
-    done < logue_jumeaux.csv
+    done < ./csv/logue_jumeaux.csv
 }
 
 peak() {
@@ -19,7 +19,7 @@ peak() {
     do
         declare -i ed
         echo "$ed $citation de $reponse"
-    done < whiskey_peak.csv
+    done < ./csv/whiskey_peak.csv
 }
 
 garden() {
@@ -27,7 +27,7 @@ garden() {
     do
         declare -i ed
         echo "$ed $citation de $reponse"
-    done < little_garden.csv
+    done < ./csv/little_garden.csv
 }
 
 drum() {
@@ -35,140 +35,140 @@ drum() {
     do
         declare -i ed
         echo "$ed $citation de $reponse"
-    done < drum.csv
+    done < ./csv/drum.csv
 }
 
 alabasta() {
     while IFS=';' read -r ed citation reponse coeur; do
         declare -i ed
         echo "$ed $citation de $reponse"
-    done < alabasta.csv
+    done < ./csv/alabasta.csv
 }
 
 jaya() {
     while IFS=';' read -r ed citation reponse coeur; do
         declare -i ed
         echo "$ed $citation de $reponse"
-    done < jaya.csv
+    done < ./csv/jaya.csv
 }
 
 skypea() {
     while IFS=';' read -r ed citation reponse coeur; do
         declare -i ed
         echo "$ed $citation de $reponse"
-    done < skypea.csv
+    done < ./csv/skypea.csv
 }
 
 davy() {
     while IFS=';' read -r ed citation reponse coeur; do
         declare -i ed
         echo "$ed $citation de $reponse"
-    done < davy_back_fight.csv
+    done < ./csv/davy_back_fight.csv
 }
 
 seven() {
     while IFS=';' read -r ed citation reponse coeur; do
         declare -i ed
         echo "$ed $citation de $reponse"
-    done < water_seven.csv
+    done < ./csv/water_seven.csv
 }
 
 bark() {
     while IFS=';' read -r ed citation reponse coeur; do
         declare -i ed
         echo "$ed $citation de $reponse"
-    done < bark.csv
+    done < ./csv/bark.csv
 }
 
 ohara() {
     while IFS=';' read -r ed citation reponse coeur; do
         declare -i ed
         echo "$ed $citation de $reponse"
-    done < ohara.csv
+    done < ./csv/ohara.csv
 }
 
 lobby() {
     while IFS=';' read -r ed citation reponse coeur; do
         declare -i ed
         echo "$ed $citation de $reponse"
-    done < enies_lobby.csv
+    done < ./csv/enies_lobby.csv
 }
 
 sabaody() {
     while IFS=';' read -r ed citation reponse coeur; do
         declare -i ed
         echo "$ed $citation de $reponse"
-    done < sabaody.csv
+    done < ./csv/sabaody.csv
 }
 
 lily() {
     while IFS=';' read -r ed citation reponse coeur; do
         declare -i ed
         echo "$ed $citation de $reponse"
-    done < amazone_lily.csv
+    done < ./csv/amazone_lily.csv
 }
 
 down() {
     while IFS=';' read -r ed citation reponse coeur; do
         declare -i ed
         echo "$ed $citation de $reponse"
-    done < impel_down.csv
+    done < ./csv/impel_down.csv
 }
 
 marineford() {
     while IFS=';' read -r ed citation reponse coeur; do
         declare -i ed
         echo "$ed $citation de $reponse"
-    done < marineford.csv
+    done < ./csv/marineford.csv
 }
 
 ellipse() {
     while IFS=';' read -r ed citation reponse coeur; do
         declare -i ed
         echo "$ed $citation de $reponse"
-    done < ellipse.csv
+    done < ./csv/ellipse.csv
 }
 
 sabaody_r() {
     while IFS=';' read -r ed citation reponse coeur; do
         declare -i ed
         echo "$ed $citation de $reponse"
-    done < sabaody_r.csv
+    done < ./csv/sabaody_r.csv
 }
 
 poisson() {
     while IFS=';' read -r ed citation reponse coeur; do
         declare -i ed
         echo "$ed $citation de $reponse"
-    done < homme_poisson.csv
+    done < ./csv/homme_poisson.csv
 }
 
 hazard() {
     while IFS=';' read -r ed citation reponse coeur; do
         declare -i ed
         echo "$ed $citation de $reponse"
-    done < drum.csv
+    done < ./csv/drum.csv
 }
 
 dressrosa() {
     while IFS=';' read -r ed citation reponse coeur; do
         declare -i ed
         echo "$ed $citation de $reponse"
-    done < dressrosa.csv
+    done < ./csv/dressrosa.csv
 }
 
 zo() {
     while IFS=';' read -r ed citation reponse coeur; do
         declare -i ed
         echo "$ed $citation de $reponse"
-    done < zo.csv
+    done < ./csv/zo.csv
 }
 
 wano() {
     while IFS=';' read -r ed citation reponse coeur; do
         declare -i ed
         echo "$ed $citation de $reponse"
-    done < wano.csv
+    done < ./csv/wano.csv
 }
 
 nombre_a=0

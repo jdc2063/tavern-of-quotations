@@ -5,7 +5,7 @@ east() {
             echo $citation
             raiponce=$reponse
         fi
-    done < east_blue.csv
+    done < ./csv/east_blue.csv
 }
 
 logue() {
@@ -15,7 +15,7 @@ logue() {
             echo $citation
             raiponce=$reponse
         fi
-    done < logue_jumeaux.csv
+    done < ./csv/logue_jumeaux.csv
 }
 
 peak() {
@@ -25,7 +25,7 @@ peak() {
             echo $citation
             raiponce=$reponse
         fi
-    done < whiskey_peak.csv
+    done < ./csv/whiskey_peak.csv
 }
 
 garden() {
@@ -35,7 +35,7 @@ garden() {
             echo $citation
             raiponce=$reponse
         fi
-    done < little_garden.csv
+    done < ./csv/little_garden.csv
 }
 drum() {
     while IFS=';' read -r ud citation reponse coeur; do
@@ -44,7 +44,7 @@ drum() {
             echo $citation
             raiponce=$reponse
         fi
-    done < drum.csv
+    done < ./csv/drum.csv
 }
 
 alabasta() {
@@ -54,7 +54,7 @@ alabasta() {
             echo $citation
             raiponce=$reponse
         fi
-    done < alabasta.csv
+    done < ./csv/alabasta.csv
 }
 
 jaya() {
@@ -64,7 +64,7 @@ jaya() {
             echo $citation
             raiponce=$reponse
         fi
-    done < jaya.csv
+    done < ./csv/jaya.csv
 }
 
 skypea() {
@@ -74,7 +74,7 @@ skypea() {
             echo $citation
             raiponce=$reponse
         fi
-    done < skypea.csv
+    done < ./csv/skypea.csv
 }
 
 davy() {
@@ -84,7 +84,7 @@ davy() {
             echo $citation
             raiponce=$reponse
         fi
-    done < davy_back_fight.csv
+    done < ./csv/davy_back_fight.csv
 }
 
 seven() {
@@ -94,7 +94,7 @@ seven() {
             echo $citation
             raiponce=$reponse
         fi
-    done < water_seven.csv
+    done < ./csv/water_seven.csv
 }
 
 bark() {
@@ -104,7 +104,7 @@ bark() {
             echo $citation
             raiponce=$reponse
         fi
-    done < thriller_bark.csv
+    done < ./csv/thriller_bark.csv
 }
 
 ohara() {
@@ -114,7 +114,7 @@ ohara() {
             echo $citation
             raiponce=$reponse
         fi
-    done < ohara.csv
+    done < ./csv/ohara.csv
 }
 
 lobby() {
@@ -124,7 +124,7 @@ lobby() {
             echo $citation
             raiponce=$reponse
         fi
-    done < enies_lobby.csv
+    done < ./csv/enies_lobby.csv
 }
 
 sabaody() {
@@ -134,7 +134,7 @@ sabaody() {
             echo $citation
             raiponce=$reponse
         fi
-    done < sabaody.csv
+    done < ./csv/sabaody.csv
 }
 
 lily() {
@@ -144,7 +144,7 @@ lily() {
             echo $citation
             raiponce=$reponse
         fi
-    done < amazone_lily.csv
+    done < ./csv/amazone_lily.csv
 }
 
 down() {
@@ -154,7 +154,7 @@ down() {
             echo $citation
             raiponce=$reponse
         fi
-    done < impel_down.csv
+    done < ./csv/impel_down.csv
 }
 
 marineford() {
@@ -164,7 +164,7 @@ marineford() {
             echo $citation
             raiponce=$reponse
         fi
-    done < marineford.csv
+    done < ./csv/marineford.csv
 }
 
 ellipse() {
@@ -174,7 +174,7 @@ ellipse() {
             echo $citation
             raiponce=$reponse
         fi
-    done < ellipse.csv
+    done < ./csv/ellipse.csv
 }
 
 sabaody_r() {
@@ -184,7 +184,7 @@ sabaody_r() {
             echo $citation
             raiponce=$reponse
         fi
-    done < sabaody_r.csv
+    done < ./csv/sabaody_r.csv
 }
 
 poisson() {
@@ -194,7 +194,7 @@ poisson() {
             echo $citation
             raiponce=$reponse
         fi
-    done < homme_poisson.csv
+    done < ./csv/homme_poisson.csv
 }
 
 hazard() {
@@ -204,7 +204,7 @@ hazard() {
             echo $citation
             raiponce=$reponse
         fi
-    done < punk_hazard.csv
+    done < ./csv/punk_hazard.csv
 }
 
 dressrosa() {
@@ -214,7 +214,7 @@ dressrosa() {
             echo $citation
             raiponce=$reponse
         fi
-    done < dressrosa.csv
+    done < ./csv/dressrosa.csv
 }
 
 zo() {
@@ -224,7 +224,7 @@ zo() {
             echo $citation
             raiponce=$reponse
         fi
-    done < zo.csv
+    done < ./csv/zo.csv
 }
 
 wci() {
@@ -234,7 +234,7 @@ wci() {
             echo $citation
             raiponce=$reponse
         fi
-    done < wci.csv
+    done < ./csv/wci.csv
 }
 wano() {
     while IFS=';' read -r ud citation reponse coeur; do
@@ -243,7 +243,7 @@ wano() {
             echo $citation
             raiponce=$reponse
         fi
-    done < wano.csv
+    done < ./csv/wano.csv
 }
 
 quit=0
@@ -253,9 +253,9 @@ if [[ $arc_east -eq 1 ]]; then
     while [[ $nombre_a -ne $nombre && $quit -ne 1 ]]; do
         exist=0
         ran_a=$((RANDOM%compteur_east+1))
-        source recherche.sh
+        source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then
-            source installation.sh
+            source ./script/installation.sh
             east
             if [[ $joueur -ne 4 ]]; then
                 read
@@ -280,9 +280,9 @@ if [[ $arc_east -eq 1 ]]; then
         echo "====="
         echo "changement d'arc"
         echo "====="
-        source reinitialisation.sh
+        source ./script/reinitialisation.sh
         arc_east=2
-        source arc2.sh
+        source ./script/arc2.sh
     fi
 
 elif [[ $arc_logue -eq 1 ]]; then
@@ -290,9 +290,9 @@ elif [[ $arc_logue -eq 1 ]]; then
     while [[ $nombre_a -ne $nombre && $quit -ne 1 ]]; do
         exist=0
         ran_a=$((RANDOM%compteur_logue+1))
-        source recherche.sh
+        source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then
-            source installation.sh
+            source ./script/installation.sh
             logue
             if [[ $joueur -ne 4 ]]; then
                 read
@@ -317,9 +317,9 @@ elif [[ $arc_logue -eq 1 ]]; then
         echo "======"
         echo "changement d'arc"
         echo "======"
-        source reinitialisation.sh
+        source ./script/reinitialisation.sh
         arc_logue=2
-        source arc2.sh
+        source ./script/arc2.sh
     fi
 
 elif [[ $arc_peak -eq 1 ]]; then
@@ -327,9 +327,9 @@ elif [[ $arc_peak -eq 1 ]]; then
     while [[ $nombre_a -ne $nombre && $quit -ne 1 ]]; do
         exist=0
         ran_a=$((RANDOM%compteur_peak+1))
-        source recherche.sh
+        source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then
-            source installation.sh
+            source ./script/installation.sh
             peak
             if [[ $joueur -ne 4 ]]; then
                 read
@@ -354,9 +354,9 @@ elif [[ $arc_peak -eq 1 ]]; then
         echo "========"
         echo "changement d'arc"
         echo "========"
-        source reinitialisation.sh
+        source ./script/reinitialisation.sh
         arc_peak=2
-        source arc2.sh
+        source ./script/arc2.sh
     fi
 
 elif [[ $arc_garden -eq 1 ]]; then
@@ -364,9 +364,9 @@ elif [[ $arc_garden -eq 1 ]]; then
     while [[ $nombre_a -ne $nombre && $quit -ne 1 ]]; do
         exist=0
         ran_a=$((RANDOM%compteur_garden+1))
-        source recherche.sh
+        source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then
-            source installation.sh
+            source ./script/installation.sh
             garden
             if [[ $joueur -ne 4 ]]; then
                 read
@@ -391,9 +391,9 @@ elif [[ $arc_garden -eq 1 ]]; then
         echo "======="
         echo "changement d'arc"
         echo "======="
-        source reinitialisation.sh
+        source ./script/reinitialisation.sh
         arc_garden=2
-        source arc2.sh
+        source ./script/arc2.sh
     fi
 
 elif [[ $arc_logue -eq 1 ]]; then
@@ -401,9 +401,9 @@ elif [[ $arc_logue -eq 1 ]]; then
     while [[ $nombre_a -ne $nombre && $quit -ne 1 ]]; do
         exist=0
         ran_a=$((RANDOM%compteur_garden+1))
-        source recherche.sh
+        source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then
-            source installation.sh
+            source ./script/installation.sh
             garden
             if [[ $joueur -ne 4 ]]; then
                 read
@@ -428,18 +428,18 @@ elif [[ $arc_logue -eq 1 ]]; then
         echo "========"
         echo "changement d'arc"
         echo "========"
-        source reinitialisation.sh
+        source ./script/reinitialisation.sh
         arc_garden=2
-        source arc2.sh
+        source ./script/arc2.sh
     fi
 elif [[ $arc_drum -eq 1 ]]; then
     nombre=$compteur_drum
     while [[ $nombre_a -ne $nombre && $quit -ne 1 ]]; do
         exist=0
         ran_a=$((RANDOM%compteur_drum+1))
-        source recherche.sh
+        source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then
-            source installation.sh
+            source ./script/installation.sh
             drum
             if [[ $joueur -ne 4 ]]; then
                 read
@@ -464,9 +464,9 @@ elif [[ $arc_drum -eq 1 ]]; then
         echo "========"
         echo "changement d'arc"
         echo "========"
-        source reinitialisation.sh
+        source ./script/reinitialisation.sh
         arc_drum=2
-        source arc2.sh
+        source ./script/arc2.sh
     fi
 
 elif [[ $arc_alabasta -eq 1 ]]; then
@@ -474,9 +474,9 @@ elif [[ $arc_alabasta -eq 1 ]]; then
     while [[ $nombre_a -ne $nombre && $quit -ne 1 ]]; do
         exist=0
         ran_a=$((RANDOM%compteur_alabasta+1))
-        source recherche.sh
+        source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then
-            source installation.sh
+            source ./script/installation.sh
             alabasta
             if [[ $joueur -ne 4 ]]; then
                 read
@@ -501,9 +501,9 @@ elif [[ $arc_alabasta -eq 1 ]]; then
         echo "========"
         echo "changement d'arc"
         echo "========"
-        source reinitialisation.sh
+        source ./script/reinitialisation.sh
         arc_alabasta=2
-        source arc2.sh
+        source ./script/arc2.sh
     fi
 
 elif [[ $arc_jaya -eq 1 ]]; then
@@ -511,9 +511,9 @@ elif [[ $arc_jaya -eq 1 ]]; then
     while [[ $nombre_a -ne $nombre && $quit -ne 1 ]]; do
         exist=0
         ran_a=$((RANDOM%compteur_jaya+1))
-        source recherche.sh
+        source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then
-            source installation.sh
+            source ./script/installation.sh
             jaya
             if [[ $joueur -ne 4 ]]; then
                 read
@@ -538,18 +538,18 @@ elif [[ $arc_jaya -eq 1 ]]; then
         echo "========"
         echo "changement d'arc"
         echo "========"
-        source reinitialisation.sh
+        source ./script/reinitialisation.sh
         arc_jaya=2
-        source arc2.sh
+        source ./script/arc2.sh
     fi
 elif [[ $arc_skypea -eq 1 ]]; then
     nombre=$compteur_skypea
     while [[ $nombre_a -ne $nombre && $quit -ne 1 ]]; do
         exist=0
         ran_a=$((RANDOM%compteur_skypea+1))
-        source recherche.sh
+        source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then
-            source installation.sh
+            source ./script/installation.sh
             skypea
             if [[ $joueur -ne 4 ]]; then
                 read
@@ -574,9 +574,9 @@ elif [[ $arc_skypea -eq 1 ]]; then
         echo "========"
         echo "changement d'arc"
         echo "========"
-        source reinitialisation.sh
+        source ./script/reinitialisation.sh
         arc_skypea=2
-        source arc2.sh
+        source ./script/arc2.sh
     fi
 
 elif [[ $arc_davy -eq 1 ]]; then
@@ -584,9 +584,9 @@ elif [[ $arc_davy -eq 1 ]]; then
     while [[ $nombre_a -ne $nombre && $quit -ne 1 ]]; do
         exist=0
         ran_a=$((RANDOM%compteur_davy+1))
-        source recherche.sh
+        source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then
-            source installation.sh
+            source ./script/installation.sh
             davy
             if [[ $joueur -ne 4 ]]; then
                 read
@@ -611,9 +611,9 @@ elif [[ $arc_davy -eq 1 ]]; then
         echo "========"
         echo "changement d'arc"
         echo "========"
-        source reinitialisation.sh
+        source ./script/reinitialisation.sh
         arc_davy=2
-        source arc2.sh
+        source ./script/arc2.sh
     fi
 
 elif [[ $arc_seven -eq 1 ]]; then
@@ -621,9 +621,9 @@ elif [[ $arc_seven -eq 1 ]]; then
     while [[ $nombre_a -ne $nombre && $quit -ne 1 ]]; do
         exist=0
         ran_a=$((RANDOM%compteur_seven+1))
-        source recherche.sh
+        source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then
-            source installation.sh
+            source ./script/installation.sh
             seven
             if [[ $joueur -ne 4 ]]; then
                 read
@@ -648,9 +648,9 @@ elif [[ $arc_seven -eq 1 ]]; then
         echo "========"
         echo "changement d'arc"
         echo "========"
-        source reinitialisation.sh
+        source ./script/reinitialisation.sh
         arc_seven=2
-        source arc2.sh
+        source ./script/arc2.sh
     fi
 
 elif [[ $arc_lobby -eq 1 ]]; then
@@ -658,9 +658,9 @@ elif [[ $arc_lobby -eq 1 ]]; then
     while [[ $nombre_a -ne $nombre && $quit -ne 1 ]]; do
         exist=0
         ran_a=$((RANDOM%compteur_lobby+1))
-        source recherche.sh
+        source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then
-            source installation.sh
+            source ./script/installation.sh
             lobby
             if [[ $joueur -ne 4 ]]; then
                 read
@@ -685,9 +685,9 @@ elif [[ $arc_lobby -eq 1 ]]; then
         echo "========"
         echo "changement d'arc"
         echo "========"
-        source reinitialisation.sh
+        source ./script/reinitialisation.sh
         arc_lobby=2
-        source arc2.sh
+        source ./script/arc2.sh
     fi
 
 elif [[ $arc_ohara -eq 1 ]]; then
@@ -695,9 +695,9 @@ elif [[ $arc_ohara -eq 1 ]]; then
     while [[ $nombre_a -ne $nombre && $quit -ne 1 ]]; do
         exist=0
         ran_a=$((RANDOM%compteur_ohara+1))
-        source recherche.sh
+        source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then
-            source installation.sh
+            source ./script/installation.sh
             ohara
             if [[ $joueur -ne 4 ]]; then
                 read
@@ -722,9 +722,9 @@ elif [[ $arc_ohara -eq 1 ]]; then
         echo "========"
         echo "changement d'arc"
         echo "========"
-        source reinitialisation.sh
+        source ./script/reinitialisation.sh
         arc_ohara=2
-        source arc2.sh
+        source ./script/arc2.sh
     fi
 
 elif [[ $arc_bark -eq 1 ]]; then
@@ -732,9 +732,9 @@ elif [[ $arc_bark -eq 1 ]]; then
     while [[ $nombre_a -ne $nombre && $quit -ne 1 ]]; do
         exist=0
         ran_a=$((RANDOM%compteur_bark+1))
-        source recherche.sh
+        source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then
-            source installation.sh
+            source ./script/installation.sh
             bark
             if [[ $joueur -ne 4 ]]; then
                 read
@@ -759,9 +759,9 @@ elif [[ $arc_bark -eq 1 ]]; then
         echo "========"
         echo "changement d'arc"
         echo "========"
-        source reinitialisation.sh
+        source ./script/reinitialisation.sh
         arc_bark=2
-        source arc2.sh
+        source ./script/arc2.sh
     fi
 
 elif [[ $arc_sabaody -eq 1 ]]; then
@@ -769,9 +769,9 @@ elif [[ $arc_sabaody -eq 1 ]]; then
     while [[ $nombre_a -ne $nombre && $quit -ne 1 ]]; do
         exist=0
         ran_a=$((RANDOM%compteur_sabaody+1))
-        source recherche.sh
+        source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then
-            source installation.sh
+            source ./script/installation.sh
             sabaody
             if [[ $joueur -ne 4 ]]; then
                 read
@@ -796,18 +796,18 @@ elif [[ $arc_sabaody -eq 1 ]]; then
         echo "========"
         echo "changement d'arc"
         echo "========"
-        source reinitialisation.sh
+        source ./script/reinitialisation.sh
         arc_sabaody=2
-        source arc2.sh
+        source ./script/arc2.sh
     fi
 elif [[ $arc_lily -eq 1 ]]; then
     nombre=$compteur_lily
     while [[ $nombre_a -ne $nombre && $quit -ne 1 ]]; do
         exist=0
         ran_a=$((RANDOM%compteur_lily+1))
-        source recherche.sh
+        source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then
-            source installation.sh
+            source ./script/installation.sh
             lily
             if [[ $joueur -ne 4 ]]; then
                 read
@@ -833,9 +833,9 @@ elif [[ $arc_lily -eq 1 ]]; then
         echo "changement d'arc"
         echo "========"
 
-        source reinitialisation.sh
+        source ./script/reinitialisation.sh
         arc_lily=2
-        source arc2.sh
+        source ./script/arc2.sh
     fi
 
 elif [[ $arc_down -eq 1 ]]; then
@@ -843,9 +843,9 @@ elif [[ $arc_down -eq 1 ]]; then
     while [[ $nombre_a -ne $nombre && $quit -ne 1 ]]; do
         exist=0
         ran_a=$((RANDOM%compteur_down+1))
-        source recherche.sh
+        source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then
-            source installation.sh
+            source ./script/installation.sh
             down
             if [[ $joueur -ne 4 ]]; then
                 read
@@ -870,9 +870,9 @@ elif [[ $arc_down -eq 1 ]]; then
         echo "========"
         echo "changement d'arc"
         echo "========"
-        source reinitialisation.sh
+        source ./script/reinitialisation.sh
         arc_down=2
-        source arc2.sh
+        source ./script/arc2.sh
     fi
 
 elif [[ $arc_ford -eq 1 ]]; then
@@ -880,9 +880,9 @@ elif [[ $arc_ford -eq 1 ]]; then
     while [[ $nombre_a -ne $nombre && $quit -ne 1 ]]; do
         exist=0
         ran_a=$((RANDOM%compteur_ford+1))
-        source recherche.sh
+        source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then
-            source installation.sh
+            source ./script/installation.sh
             marineford
             if [[ $joueur -ne 4 ]]; then
                 read
@@ -907,9 +907,9 @@ elif [[ $arc_ford -eq 1 ]]; then
         echo "========"
         echo "changement d'arc"
         echo "========"
-        source reinitialisation.sh
+        source ./script/reinitialisation.sh
         arc_ford=2
-        source arc2.sh
+        source ./script/arc2.sh
     fi
 
 elif [[ $arc_ellipse -eq 1 ]]; then
@@ -917,9 +917,9 @@ elif [[ $arc_ellipse -eq 1 ]]; then
     while [[ $nombre_a -ne $nombre && $quit -ne 1 ]]; do
         exist=0
         ran_a=$((RANDOM%compteur_ellipse+1))
-        source recherche.sh
+        source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then
-            source installation.sh
+            source ./script/installation.sh
             ellipse
             if [[ $joueur -ne 4 ]]; then
                 read
@@ -944,9 +944,9 @@ elif [[ $arc_ellipse -eq 1 ]]; then
         echo "========"
         echo "changement d'arc"
         echo "========"
-        source reinitialisation.sh
+        source ./script/reinitialisation.sh
         arc_ellipse=2
-        source arc2.sh
+        source ./script/arc2.sh
     fi
 
 elif [[ $arc_sabaody_r -eq 1 ]]; then
@@ -954,9 +954,9 @@ elif [[ $arc_sabaody_r -eq 1 ]]; then
     while [[ $nombre_a -ne $nombre && $quit -ne 1 ]]; do
         exist=0
         ran_a=$((RANDOM%compteur_sabaody_r+1))
-        source recherche.sh
+        source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then
-            source installation.sh
+            source ./script/installation.sh
             sabaody_r
             if [[ $joueur -ne 4 ]]; then
                 read
@@ -981,9 +981,9 @@ elif [[ $arc_sabaody_r -eq 1 ]]; then
         echo "========"
         echo "changement d'arc"
         echo "========"
-        source reinitialisation.sh
+        source ./script/reinitialisation.sh
         arc_sabaody_r=2
-        source arc2.sh
+        source ./script/arc2.sh
     fi
 
 elif [[ $arc_poisson -eq 1 ]]; then
@@ -991,9 +991,9 @@ elif [[ $arc_poisson -eq 1 ]]; then
     while [[ $nombre_a -ne $nombre && $quit -ne 1 ]]; do
         exist=0
         ran_a=$((RANDOM%compteur_poisson+1))
-        source recherche.sh
+        source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then
-            source installation.sh
+            source ./script/installation.sh
             poisson
             if [[ $joueur -ne 4 ]]; then
                 read
@@ -1018,9 +1018,9 @@ elif [[ $arc_poisson -eq 1 ]]; then
         echo "========"
         echo "changement d'arc"
         echo "========"
-        source reinitialisation.sh
+        source ./script/reinitialisation.sh
         arc_poisson=2
-        source arc2.sh
+        source ./script/arc2.sh
     fi
 
 elif [[ $arc_hazard -eq 1 ]]; then
@@ -1028,9 +1028,9 @@ elif [[ $arc_hazard -eq 1 ]]; then
     while [[ $nombre_a -ne $nombre && $quit -ne 1 ]]; do
         exist=0
         ran_a=$((RANDOM%compteur_hazard+1))
-        source recherche.sh
+        source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then
-            source installation.sh
+            source ./script/installation.sh
             hazard
             if [[ $joueur -ne 4 ]]; then
                 read
@@ -1055,9 +1055,9 @@ elif [[ $arc_hazard -eq 1 ]]; then
         echo "========"
         echo "changement d'arc"
         echo "========"
-        source reinitialisation.sh
+        source ./script/reinitialisation.sh
         arc_hazard=2
-        source arc2.sh
+        source ./script/arc2.sh
     fi
 
 elif [[ $arc_dressrosa -eq 1 ]]; then
@@ -1065,9 +1065,9 @@ elif [[ $arc_dressrosa -eq 1 ]]; then
     while [[ $nombre_a -ne $nombre && $quit -ne 1 ]]; do
         exist=0
         ran_a=$((RANDOM%compteur_dressrosa+1))
-        source recherche.sh
+        source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then
-            source installation.sh
+            source ./script/installation.sh
             dressrosa
             if [[ $joueur -ne 4 ]]; then
                 read
@@ -1092,9 +1092,9 @@ elif [[ $arc_dressrosa -eq 1 ]]; then
         echo "========"
         echo "changement d'arc"
         echo "========"
-        source reinitialisation.sh
+        source ./script/reinitialisation.sh
         arc_dressrosa=2
-        source arc2.sh
+        source ./script/arc2.sh
     fi
 
 elif [[ $arc_zo -eq 1 ]]; then
@@ -1102,9 +1102,9 @@ elif [[ $arc_zo -eq 1 ]]; then
     while [[ $nombre_a -ne $nombre && $quit -ne 1 ]]; do
         exist=0
         ran_a=$((RANDOM%compteur_zo+1))
-        source recherche.sh
+        source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then
-            source installation.sh
+            source ./script/installation.sh
             zo
             if [[ $joueur -ne 4 ]]; then
                 read
@@ -1129,9 +1129,9 @@ elif [[ $arc_zo -eq 1 ]]; then
         echo "========"
         echo "changement d'arc"
         echo "========"
-        source reinitialisation.sh
+        source ./script/reinitialisation.sh
         arc_zo=2
-        source arc2.sh
+        source ./script/arc2.sh
     fi
 
 elif [[ $arc_wci -eq 1 ]]; then
@@ -1139,9 +1139,9 @@ elif [[ $arc_wci -eq 1 ]]; then
     while [[ $nombre_a -ne $nombre && $quit -ne 1 ]]; do
         exist=0
         ran_a=$((RANDOM%compteur_wci+1))
-        source recherche.sh
+        source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then
-            source installation.sh
+            source ./script/installation.sh
             wci
             if [[ $joueur -ne 4 ]]; then
                 read
@@ -1166,9 +1166,9 @@ elif [[ $arc_wci -eq 1 ]]; then
         echo "========"
         echo "changement d'arc"
         echo "========"
-        source reinitialisation.sh
+        source ./script/reinitialisation.sh
         arc_wci=2
-        source arc2.sh
+        source ./script/arc2.sh
     fi
 
 elif [[ $arc_wano -eq 1 ]]; then
@@ -1176,9 +1176,9 @@ elif [[ $arc_wano -eq 1 ]]; then
     while [[ $nombre_a -ne $nombre && $quit -ne 1 ]]; do
         exist=0
         ran_a=$((RANDOM%compteur_wano+1))
-        source recherche.sh
+        source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then
-            source installation.sh
+            source ./script/installation.sh
             wano
             if [[ $joueur -ne 4 ]]; then
                 read
@@ -1204,8 +1204,8 @@ elif [[ $arc_wano -eq 1 ]]; then
         echo "changement d'arc"
         echo "========"
 
-        source reinitialisation.sh
+        source ./script/reinitialisation.sh
         arc_wano=2
-        source arc2.sh
+        source ./script/arc2.sh
     fi
 fi

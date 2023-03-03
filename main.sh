@@ -20,7 +20,7 @@ while [[ $salida -ne 1 ]]; do
         salida=1
     fi
     while [[ $finish -eq 0 ]]; do
-        source retour_menu.sh
+        source ./script/retour_menu.sh
         while [[ $choose -ne 1 && $choose -ne 2 && $choose -ne 3 && $choose -ne 4 && $finish -eq 0 ]]; do
             if [[ $choose -eq 0 ]]; then
                 if [[ $joueur -ne 4 ]]; then
@@ -50,7 +50,7 @@ while [[ $salida -ne 1 ]]; do
                     echo "Tu as donc choisi la liste, très bien. Alors prépare toi bien."
                     sleep 2
                 fi                
-                source choix_limite.sh
+                source ./script/choix_limite.sh
                 if [[ $limite -ne 26 ]]; then
                     if [[ $joueur -eq 1 ]]; then
                         echo "Je vois...Mais avant de commencer, tu devras choisir le nombre de citation que tu auras"
@@ -60,12 +60,12 @@ while [[ $salida -ne 1 ]]; do
                     while [[ $nombre -le 0 ]]; do
                         read nombre
                     done
-                    source choix_alea.sh
+                    source ./script/choix_alea.sh
                     if [[ $aleatoire -eq 1 ]]; then
-                        source compte.sh
-                        source compte_non_vide.sh
-                        source arc1.sh
-                        source duree.sh
+                        source ./script/compte.sh
+                        source ./script/compte_non_vide.sh
+                        source ./script/arc1.sh
+                        source ./script/duree.sh
                         if [[ $joueur -ne 4 && $nombre1 -ne 0 ]]; then
                             echo "Voulez vous voir les réponses?"
                             echo "1.Oui     2.Non"
@@ -74,13 +74,13 @@ while [[ $salida -ne 1 ]]; do
                             done
                         fi
                         if [[ $joueur -eq 4 || $decision -eq 1 ]]; then
-                            source appel.sh
+                            source ./script/appel.sh
                         fi
 
                     elif [[ $aleatoire -eq 2 ]]; then
-                        source compte.sh
-                        source compte_non_vide.sh
-                        source arc1_alea.sh
+                        source ./script/compte.sh
+                        source ./script/compte_non_vide.sh
+                        source ./script/arc1_alea.sh
                         if [[ $joueur -ne 4 && $nombre1 -ne 0 ]]; then
                             echo "Voulez vous voir les réponses?"
                             echo "1.Oui     2.Non"
@@ -89,14 +89,14 @@ while [[ $salida -ne 1 ]]; do
                             done
                         fi
                         if [[ $joueur -eq 4 || $decision -eq 1 ]]; then
-                                source appel_alea.sh
+                                source ./script/appel_alea.sh
                         fi
                     elif [[ $aleatoire -eq 3 ]]; then
-                        source compte.sh
-                        source compte_non_vide.sh
-                        source choix_arc.sh
+                        source ./script/compte.sh
+                        source ./script/compte_non_vide.sh
+                        source ./script/choix_arc.sh
                         if [[ $choix_arc -ne 26 ]]; then
-                            source duree.sh
+                            source ./script/duree.sh
                             if [[ $joueur -ne 4 && $nombre1 -ne 0 ]]; then
                                 echo "Voulez vous voir les réponses?"
                                 echo "1.Oui     2.Non"
@@ -105,7 +105,7 @@ while [[ $salida -ne 1 ]]; do
                                 done
                             fi
                             if [[ $joueur -eq 4 || $decision -eq 1 ]]; then
-                                source appel.sh
+                                source ./script/appel.sh
                             fi
                         fi
                     fi
@@ -121,33 +121,33 @@ while [[ $salida -ne 1 ]]; do
                     echo "Et si jamais tu souhaites arreter, tu auras juste à mettre 1 jsute après qu'on t'ais donné une réponse pour partir. Simple n'est ce pas?"
                     sleep 3
                 fi
-                source choix_limite.sh
+                source ./script/choix_limite.sh
                 if [[ $limite -ne 26 ]]; then
-                    source choix_alea.sh
+                    source ./script/choix_alea.sh
                     if [[ $aleatoire -eq 1 ]]; then
-                        source compte.sh
-                        source compte_non_vide.sh
-                        source arc2.sh
+                        source ./script/compte.sh
+                        source ./script/compte_non_vide.sh
+                        source ./script/arc2.sh
                     elif [[ $aleatoire -eq 2 ]]; then
-                        source compte.sh
-                        source compte_non_vide.sh
-                        source arc2_alea.sh
+                        source ./script/compte.sh
+                        source ./script/compte_non_vide.sh
+                        source ./script/arc2_alea.sh
                     elif [[ $aleatoire -eq 3 ]]; then
-                        source compte.sh
-                        source compte_non_vide.sh
-                        source choix_arc.sh
-                        source presence.sh
+                        source ./script/compte.sh
+                        source ./script/compte_non_vide.sh
+                        source ./script/choix_arc.sh
+                        source ./script/presence.sh
                     fi
                 fi
             fi
         elif [[ $choose -eq 2 ]]; then
             echo "=========="
-            source compte.sh
+            source ./script/compte.sh
         elif [[ $choose -eq 3 ]]; then
-            source love.sh
+            source ./script/love.sh
         elif [[ $choose -eq 4 && $joueur -eq 4 ]]; then
-            source choix_arc.sh
-            source lecture.sh
+            source ./script/choix_arc.sh
+            source ./script/lecture.sh
         fi  
     done
 done

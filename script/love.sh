@@ -9,10 +9,10 @@ while [[ $end -ne 1 ]]; do
         else
             if [[ $coeur > 1 ]]; then
                 if [[ $actif -eq 0 && $coeur > 1 ]]; then
-                    source recherche_love.sh
+                    source ./script/recherche_love.sh
                     if [[ $exist -eq 1 ]]; then
                         principale=$reponse
-                        source installation_love.sh
+                        source ./script/installation_love.sh
                         actif=1
                         echo -e "\t\t$principale"
                         echo "===================================="
@@ -23,7 +23,7 @@ while [[ $end -ne 1 ]]; do
                 fi
             fi
         fi
-    done < east_blue.csv
+    done < ./csv/east_blue.csv
 
     first_line=0
     compteur_logue=0
@@ -33,10 +33,10 @@ while [[ $end -ne 1 ]]; do
         else
             if [[ $coeur > 1 ]]; then
                 if [[ $actif -eq 0 && $coeur > 1 ]]; then
-                    source recherche_love.sh
+                    source ./script/recherche_love.sh
                     if [[ $exist -eq 1 ]]; then
                         principale=$reponse
-                        source installation_love.sh
+                        source ./script/installation_love.sh
                         actif=1
                         echo -e "\t\t$principale"
                         echo "===================================="
@@ -47,7 +47,7 @@ while [[ $end -ne 1 ]]; do
                 fi
             fi
         fi
-    done < logue_jumeaux.csv
+    done < ./csv/logue_jumeaux.csv
 
     first_line=0
     compteur_peak=0
@@ -57,10 +57,10 @@ while [[ $end -ne 1 ]]; do
         else
             if [[ $coeur > 1 ]]; then
                 if [[ $actif -eq 0 && $coeur > 1 ]]; then
-                    source recherche_love.sh
+                    source ./script/recherche_love.sh
                     if [[ $exist -eq 1 ]]; then
                         principale=$reponse
-                        source installation_love.sh
+                        source ./script/installation_love.sh
                         actif=1
                         echo -e "\t\t$principale"
                         echo "===================================="
@@ -71,7 +71,7 @@ while [[ $end -ne 1 ]]; do
                 fi
             fi
         fi
-    done < whiskey_peak.csv
+    done < ./csv/whiskey_peak.csv
 
     first_line=0
     compteur_garden=0
@@ -81,10 +81,10 @@ while [[ $end -ne 1 ]]; do
         else
             if [[ $coeur > 1 ]]; then
                 if [[ $actif -eq 0 && $coeur > 1 ]]; then
-                    source recherche_love.sh
+                    source ./script/recherche_love.sh
                     if [[ $exist -eq 1 ]]; then
                         principale=$reponse
-                        source installation_love.sh
+                        source ./script/installation_love.sh
                         actif=1
                         echo -e "\t\t$principale"
                         echo "===================================="
@@ -95,7 +95,7 @@ while [[ $end -ne 1 ]]; do
                 fi
             fi
         fi
-    done < little_garden.csv
+    done < ./csv/little_garden.csv
 
     first_line=0
     compteur_drum=0
@@ -105,10 +105,10 @@ while [[ $end -ne 1 ]]; do
         else
             if [[ $coeur > 1 ]]; then
                 if [[ $actif -eq 0 && $coeur > 1 ]]; then
-                    source recherche_love.sh
+                    source ./script/recherche_love.sh
                     if [[ $exist -eq 1 ]]; then
                         principale=$reponse
-                        source installation_love.sh
+                        source ./script/installation_love.sh
                         actif=1
                         echo -e "\t\t$principale"
                         echo "===================================="
@@ -119,7 +119,7 @@ while [[ $end -ne 1 ]]; do
                 fi
             fi
         fi
-    done < drum.csv
+    done < ./csv/drum.csv
 
     first_line=0
     compteur_alabasta=0
@@ -129,10 +129,10 @@ while [[ $end -ne 1 ]]; do
         else
             if [[ $coeur > 1 ]]; then
                 if [[ $actif -eq 0 && $coeur > 1 ]]; then
-                    source recherche_love.sh
+                    source ./script/recherche_love.sh
                     if [[ $exist -eq 1 ]]; then
                         principale=$reponse
-                        source installation_love.sh
+                        source ./script/installation_love.sh
                         actif=1
                         echo -e "\t\t$principale"
                         echo "===================================="
@@ -143,7 +143,7 @@ while [[ $end -ne 1 ]]; do
                 fi
             fi
         fi
-    done < alabasta.csv
+    done < ./csv/alabasta.csv
 
     first_line=0
     comtpeur_jaya=0
@@ -153,10 +153,10 @@ while [[ $end -ne 1 ]]; do
         else
             if [[ $coeur > 1 ]]; then
                 if [[ $actif -eq 0 && $coeur > 1 ]]; then
-                    source recherche_love.sh
+                    source ./script/recherche_love.sh
                     if [[ $exist -eq 1 ]]; then
                         principale=$reponse
-                        source installation_love.sh
+                        source ./script/installation_love.sh
                         actif=1
                         echo -e "\t\t$principale"
                         echo "===================================="
@@ -167,7 +167,7 @@ while [[ $end -ne 1 ]]; do
                 fi
             fi
         fi
-    done < jaya.csv
+    done < ./csv/jaya.csv
 
     first_line=0
     comtpeur_skypea=0
@@ -177,10 +177,10 @@ while [[ $end -ne 1 ]]; do
         else
             if [[ $coeur > 1 ]]; then
                 if [[ $actif -eq 0 && $coeur > 1 ]]; then
-                    source recherche_love.sh
+                    source ./script/recherche_love.sh
                     if [[ $exist -eq 1 ]]; then
                         principale=$reponse
-                        source installation_love.sh
+                        source ./script/installation_love.sh
                         actif=1
                         echo -e "\t\t$principale"
                         echo "===================================="
@@ -191,7 +191,7 @@ while [[ $end -ne 1 ]]; do
                 fi
             fi
         fi
-    done < skypea.csv
+    done < ./csv/skypea.csv
 
     first_line=0
     compteur_davy=0
@@ -201,10 +201,10 @@ while [[ $end -ne 1 ]]; do
         else
             if [[ $coeur > 1 ]]; then
                 if [[ $actif -eq 0 && $coeur > 1 ]]; then
-                    source recherche_love.sh
+                    source ./script/recherche_love.sh
                     if [[ $exist -eq 1 ]]; then
                         principale=$reponse
-                        source installation_love.sh
+                        source ./script/installation_love.sh
                         actif=1
                         echo -e "\t\t$principale"
                         echo "===================================="
@@ -215,7 +215,7 @@ while [[ $end -ne 1 ]]; do
                 fi
             fi
         fi
-    done < davy_back_fight.csv
+    done < ./csv/davy_back_fight.csv
 
     first_line=0
     compteur_seven=0
@@ -225,10 +225,10 @@ while [[ $end -ne 1 ]]; do
         else
             if [[ $coeur > 1 ]]; then
                 if [[ $actif -eq 0 && $coeur > 1 ]]; then
-                    source recherche_love.sh
+                    source ./script/recherche_love.sh
                     if [[ $exist -eq 1 ]]; then
                         principale=$reponse
-                        source installation_love.sh
+                        source ./script/installation_love.sh
                         actif=1
                         echo -e "\t\t$principale"
                         echo "===================================="
@@ -239,7 +239,7 @@ while [[ $end -ne 1 ]]; do
                 fi
             fi
         fi
-    done < water_seven.csv
+    done < ./csv/water_seven.csv
 
     first_line=0
     compteur_lobby=0
@@ -249,10 +249,10 @@ while [[ $end -ne 1 ]]; do
         else
             if [[ $coeur > 1 ]]; then
                 if [[ $actif -eq 0 && $coeur > 1 ]]; then
-                    source recherche_love.sh
+                    source ./script/recherche_love.sh
                     if [[ $exist -eq 1 ]]; then
                         principale=$reponse
-                        source installation_love.sh
+                        source ./script/installation_love.sh
                         actif=1
                         echo -e "\t\t$principale"
                         echo "===================================="
@@ -263,7 +263,7 @@ while [[ $end -ne 1 ]]; do
                 fi
             fi
         fi
-    done < enies_lobby.csv
+    done < ./csv/enies_lobby.csv
 
     first_line=0
     compteur_ohara=0
@@ -273,10 +273,10 @@ while [[ $end -ne 1 ]]; do
         else
             if [[ $coeur > 1 ]]; then
                 if [[ $actif -eq 0 && $coeur > 1 ]]; then
-                    source recherche_love.sh
+                    source ./script/recherche_love.sh
                     if [[ $exist -eq 1 ]]; then
                         principale=$reponse
-                        source installation_love.sh
+                        source ./script/installation_love.sh
                         actif=1
                         echo -e "\t\t$principale"
                         echo "===================================="
@@ -287,7 +287,7 @@ while [[ $end -ne 1 ]]; do
                 fi
             fi
         fi
-    done < ohara.csv
+    done < ./csv/ohara.csv
 
     first_line=0
     compteur_bark=0
@@ -297,10 +297,10 @@ while [[ $end -ne 1 ]]; do
         else
             if [[ $coeur > 1 ]]; then
                 if [[ $actif -eq 0 && $coeur > 1 ]]; then
-                    source recherche_love.sh
+                    source ./script/recherche_love.sh
                     if [[ $exist -eq 1 ]]; then
                         principale=$reponse
-                        source installation_love.sh
+                        source ./script/installation_love.sh
                         actif=1
                         echo -e "\t\t$principale"
                         echo "===================================="
@@ -311,7 +311,7 @@ while [[ $end -ne 1 ]]; do
                 fi
             fi
         fi
-    done < thriller_bark.csv
+    done < ./csv/thriller_bark.csv
 
     first_line=0
     compteur_sabaody=0
@@ -321,10 +321,10 @@ while [[ $end -ne 1 ]]; do
         else
             if [[ $coeur > 1 ]]; then
                 if [[ $actif -eq 0 && $coeur > 1 ]]; then
-                    source recherche_love.sh
+                    source ./script/recherche_love.sh
                     if [[ $exist -eq 1 ]]; then
                         principale=$reponse
-                        source installation_love.sh
+                        source ./script/installation_love.sh
                         actif=1
                         echo -e "\t\t$principale"
                         echo "===================================="
@@ -335,7 +335,7 @@ while [[ $end -ne 1 ]]; do
                 fi
             fi
         fi
-    done < sabaody.csv
+    done < ./csv/sabaody.csv
 
     first_line=0
     compteur_lily=0;
@@ -345,10 +345,10 @@ while [[ $end -ne 1 ]]; do
         else
             if [[ $coeur > 1 ]]; then
                 if [[ $actif -eq 0 && $coeur > 1 ]]; then
-                    source recherche_love.sh
+                    source ./script/recherche_love.sh
                     if [[ $exist -eq 1 ]]; then
                         principale=$reponse
-                        source installation_love.sh
+                        source ./script/installation_love.sh
                         actif=1
                         echo -e "\t\t$principale"
                         echo "===================================="
@@ -359,7 +359,7 @@ while [[ $end -ne 1 ]]; do
                 fi
             fi
         fi
-    done < amazone_lily.csv
+    done < ./csv/amazone_lily.csv
 
     first_line=0
     compteur_down=0
@@ -369,10 +369,10 @@ while [[ $end -ne 1 ]]; do
         else
             if [[ $coeur > 1 ]]; then
                 if [[ $actif -eq 0 && $coeur > 1 ]]; then
-                    source recherche_love.sh
+                    source ./script/recherche_love.sh
                     if [[ $exist -eq 1 ]]; then
                         principale=$reponse
-                        source installation_love.sh
+                        source ./script/installation_love.sh
                         actif=1
                         echo -e "\t\t$principale"
                         echo "===================================="
@@ -383,7 +383,7 @@ while [[ $end -ne 1 ]]; do
                 fi
             fi
         fi
-    done < impel_down.csv
+    done < ./csv/impel_down.csv
 
     first_line=0
     compteur_ford=0
@@ -393,10 +393,10 @@ while [[ $end -ne 1 ]]; do
         else
             if [[ $coeur > 1 ]]; then
                 if [[ $actif -eq 0 && $coeur > 1 ]]; then
-                    source recherche_love.sh
+                    source ./script/recherche_love.sh
                     if [[ $exist -eq 1 ]]; then
                         principale=$reponse
-                        source installation_love.sh
+                        source ./script/installation_love.sh
                         actif=1
                         echo -e "\t\t$principale"
                         echo "===================================="
@@ -407,7 +407,7 @@ while [[ $end -ne 1 ]]; do
                 fi
             fi
         fi
-    done < marineford.csv
+    done < ./csv/marineford.csv
 
     first_line=0
     compteur_sabaody_r=0
@@ -417,10 +417,10 @@ while [[ $end -ne 1 ]]; do
         else
             if [[ $coeur > 1 ]]; then
                 if [[ $actif -eq 0 && $coeur > 1 ]]; then
-                    source recherche_love.sh
+                    source ./script/recherche_love.sh
                     if [[ $exist -eq 1 ]]; then
                         principale=$reponse
-                        source installation_love.sh
+                        source ./script/installation_love.sh
                         actif=1
                         echo -e "\t\t$principale"
                         echo "===================================="
@@ -431,7 +431,7 @@ while [[ $end -ne 1 ]]; do
                 fi
             fi
         fi
-    done < sabaody_r.csv
+    done < ./csv/sabaody_r.csv
 
     first_line=0
     compteur_poisson=0
@@ -441,10 +441,10 @@ while [[ $end -ne 1 ]]; do
         else
             if [[ $coeur > 1 ]]; then
                 if [[ $actif -eq 0 && $coeur > 1 ]]; then
-                    source recherche_love.sh
+                    source ./script/recherche_love.sh
                     if [[ $exist -eq 1 ]]; then
                         principale=$reponse
-                        source installation_love.sh
+                        source ./script/installation_love.sh
                         actif=1
                         echo -e "\t\t$principale"
                         echo "===================================="
@@ -455,7 +455,7 @@ while [[ $end -ne 1 ]]; do
                 fi
             fi
         fi
-    done < homme_poisson.csv
+    done < ./csv/homme_poisson.csv
 
     first_line=0
     compteur_hazard=0
@@ -465,10 +465,10 @@ while [[ $end -ne 1 ]]; do
         else
             if [[ $coeur > 1 ]]; then
                 if [[ $actif -eq 0 && $coeur > 1 ]]; then
-                    source recherche_love.sh
+                    source ./script/recherche_love.sh
                     if [[ $exist -eq 1 ]]; then
                         principale=$reponse
-                        source installation_love.sh
+                        source ./script/installation_love.sh
                         actif=1
                         echo -e "\t\t$principale"
                         echo "===================================="
@@ -479,7 +479,7 @@ while [[ $end -ne 1 ]]; do
                 fi
             fi
         fi
-    done < punk_hazard.csv
+    done < ./csv/punk_hazard.csv
 
     first_line=0
     compteur_dressrosa=0
@@ -489,10 +489,10 @@ while [[ $end -ne 1 ]]; do
         else
             if [[ $coeur > 1 ]]; then
                 if [[ $actif -eq 0 && $coeur > 1 ]]; then
-                    source recherche_love.sh
+                    source ./script/recherche_love.sh
                     if [[ $exist -eq 1 ]]; then
                         principale=$reponse
-                        source installation_love.sh
+                        source ./script/installation_love.sh
                         actif=1
                         echo -e "\t\t$principale"
                         echo "===================================="
@@ -503,7 +503,7 @@ while [[ $end -ne 1 ]]; do
                 fi
             fi
         fi
-    done < dressrosa.csv
+    done < ./csv/dressrosa.csv
 
     first_line=0
     compteur_zo=0
@@ -513,10 +513,10 @@ while [[ $end -ne 1 ]]; do
         else
             if [[ $coeur > 1 ]]; then
                 if [[ $actif -eq 0 && $coeur > 1 ]]; then
-                    source recherche_love.sh
+                    source ./script/recherche_love.sh
                     if [[ $exist -eq 1 ]]; then
                         principale=$reponse
-                        source installation_love.sh
+                        source ./script/installation_love.sh
                         actif=1
                         echo -e "\t\t$principale"
                         echo "===================================="
@@ -527,7 +527,7 @@ while [[ $end -ne 1 ]]; do
                 fi
             fi
         fi
-    done < zo.csv
+    done < ./csv/zo.csv
 
     first_line=0
     compteur_wci=0
@@ -537,10 +537,10 @@ while [[ $end -ne 1 ]]; do
         else
             if [[ $coeur > 1 ]]; then
                 if [[ $actif -eq 0 && $coeur > 1 ]]; then
-                    source recherche_love.sh
+                    source ./script/recherche_love.sh
                     if [[ $exist -eq 1 ]]; then
                         principale=$reponse
-                        source installation_love.sh
+                        source ./script/installation_love.sh
                         actif=1
                         echo -e "\t\t$principale"
                         echo "===================================="
@@ -551,7 +551,7 @@ while [[ $end -ne 1 ]]; do
                 fi
             fi
         fi
-    done < wci.csv
+    done < ./csv/wci.csv
 
     first_line=0
     compteur_wano=0
@@ -561,10 +561,10 @@ while [[ $end -ne 1 ]]; do
         else
             if [[ $coeur > 1 ]]; then
                 if [[ $actif -eq 0 && $coeur > 1 ]]; then
-                    source recherche_love.sh
+                    source ./script/recherche_love.sh
                     if [[ $exist -eq 1 ]]; then
                         principale=$reponse
-                        source installation_love.sh
+                        source ./script/installation_love.sh
                         actif=1
                         echo -e "\t\t$principale"
                         echo "===================================="
@@ -575,7 +575,7 @@ while [[ $end -ne 1 ]]; do
                 fi
             fi
         fi
-    done < wano.csv
+    done < ./csv/wano.csv
     if [[ $actif -eq 0 ]]; then
         end=1
     else
