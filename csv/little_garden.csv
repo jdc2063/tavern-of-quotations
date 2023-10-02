@@ -1,21 +1,21 @@
-id;citation;reponse;coeur;chapitre;page
-1;-"Cette heureuse nouvelle le laisse sans voix";Nami;0;115;12
-2;-"Je te ramènerai un monstre énorme, du genre que tu serais incapable de choper toi-même";Zoro;0;115;14
-3;-"Lorsque "la montagne du milieu" gronde c'est l'heure d'aller combattre";Dorry;0;116;17
-4;-"Il n'y a rien de plus inutile qu'un individu doté des pouvoirs d'un fruit du démon mais qui ne sait pas servir efficacement de ces derniers";Mr 3;0;117;5
-5;-"C'est comme ça que se battent les hommes, les vrais";Usopp;0;117;8
-6;-"La fierté considérée comme un trésor! c'est merveilleux";Usopp;0;117;15
-7;-"Et si je cesse d'être un guerrier alors je ne suis plus rien";Dorry;0;119;5
-8;-"Vous connaissez ma devise: "Pour le crime, tous les procédés sont permis"";Mr3;0;119;11
-9;-"Beuhh, parle à mes fesses";Luffy;0;121;4
-10;-"Je commence à comprendre quel effet ça doit faire d'être une bougie plantée dans un gateau";Zoro;0;121;14
-11;-"Quel affront ç'aurait été que d'éprouver de la pitié pour un si noble guerrier";Brogy;0;121;17
-12;-"Ca laisse un arrière gout désagréable tu n'utilises pas une poudre de très bonne qualité";Mr 5;0;123;14
-13;-"Son esprit est si simple qu'il se laisse prendre à chaque fois";Zoro;0;124;6
-14;-"J'ai oublié de vous préciser que j'avais l'haleine.... explosive";Mr 5;0;124;18
-15;-"GWOOOHH!! ÇAA ARRAAAAACHEEE!!";Mr 5;0;126;8
-16;-"Allô? Ici le resto. J'écoute. C'est pour une réservation?";Sanji;0;126;19
-17;-"Ce papier"? Tes poches étaient vides, pauvre cloche!";Smoker;0;128;4
-18;-"Personne ne t'en veux pour quoi que ce soit";Nami;0;128;7
-19;-"Mais puisque c'est pour aider ces petits hommes il n'y a pas d'hésitation à avoir";Brogy;0;128;13
-20;-"Nous ne laisserons rien ni personne porter atteinte au fier drapeau pirate de nos amis";Dorry;0;128;17
+id;citation;reponse;coeur;chapitre;page;fin
+1;-"Cette heureuse nouvelle le laisse sans voix";Nami;0;115;12;fin
+2;-"Je te ramènerai un monstre énorme, du genre que tu serais incapable de choper toi-même";Zoro;0;115;14;fin
+3;-"Lorsque "la montagne du milieu" gronde c'est l'heure d'aller combattre";Dorry;0;116;17;fin
+4;-"Il n'y a rien de plus inutile qu'un individu doté des pouvoirs d'un fruit du démon mais qui ne sait pas servir efficacement de ces derniers";Mr 3;0;117;5;fin
+5;-"C'est comme ça que se battent les hommes, les vrais";Usopp;0;117;8;fin
+6;-"La fierté considérée comme un trésor! c'est merveilleux";Usopp;0;117;15;fin
+7;-"Et si je cesse d'être un guerrier alors je ne suis plus rien";Dorry;0;119;5;fin
+8;-"Vous connaissez ma devise: "Pour le crime, tous les procédés sont permis"";Mr3;0;119;11;fin
+9;-"Beuhh, parle à mes fesses";Luffy;0;121;4;fin
+10;-"Je commence à comprendre quel effet ça doit faire d'être une bougie plantée dans un gateau";Zoro;0;121;14;fin
+11;-"Quel affront ç'aurait été que d'éprouver de la pitié pour un si noble guerrier";Brogy;0;121;17;fin
+12;-"Ca laisse un arrière gout désagréable tu n'utilises pas une poudre de très bonne qualité";Mr 5;0;123;14;fin
+13;-"Son esprit est si simple qu'il se laisse prendre à chaque fois";Zoro;0;124;6;fin
+14;-"J'ai oublié de vous préciser que j'avais l'haleine.... explosive";Mr 5;0;124;18;fin
+15;-"GWOOOHH!! ÇAA ARRAAAAACHEEE!!";Mr 5;0;126;8;fin
+16;-"Allô? Ici le resto. J'écoute. C'est pour une réservation?";Sanji;0;126;19;fin
+17;-"Ce papier"? Tes poches étaient vides, pauvre cloche!";Smoker;0;128;4;fin
+18;-"Personne ne t'en veux pour quoi que ce soit";Nami;0;128;7;fin
+19;-"Mais puisque c'est pour aider ces petits hommes il n'y a pas d'hésitation à avoir";Brogy;0;128;13;fin
+20;-"Nous ne laisserons rien ni personne porter atteinte au fier drapeau pirate de nos amis";Dorry;0;128;17;fin

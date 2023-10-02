@@ -1,46 +1,46 @@
-id;citation;reponse;coeur;chapitre;page
-1;-"Vient-il de dire "je t'aime"?";Hancock;0;526;11
-2;-"Donc, tu es là parce que tu es faible, c'est ça?";Luffy;0;527;11
-3;-"Tant qu'il y a du sol, j'me marre";Baggy;0;527;16
-4;-"Ah, quels surbordonnés sans-coeur m'a-t-on attribués..."Haaaaaaaaa"";Magellan;0;528;7
-5;-"J'apprécierai énormément que vous m'ameniez rapidement au prisonnier";Hancock;0;528;9
-6;-"Je suis un homme qui adore payer ses dettes";Mr 3;0;528;15
-7;-"Suis-je donc personne en voulant éviter l'affrontement?";Jinbei;0;528;16
-8;-"Si malheureusement, cet homme venait à mourir, qu'adviendrait-il de la mer?";Jinbei;0;529;4
-9;-"Fundoshi! Fundoshi! Des sous-vêtements avec des fraises";Manticore;0;529;9
-10;-"Je ne crois pas qu'à ce niveau la vie d'un vieil homme comme moi soit suffisante en guise d'expiation";Garp;0;530;6
-11;-"Mmmmmmm! Je n'ai toujours pas assez de cris";Sadi;0;531;4
-12;-"J'aimerai tellement prendre la place du chef warden";Hannyabal;0;531;7
-13;-"Que vos piètres vies n'oublient pas que j'ai l'autorité et le pouvoir d'exécuter chacun d'entre vous si j'en vois la nécessité";Magellan;0;531;11
-14;-"A propos, il était inquiet que tu lui en veuilles";Hancock;0;531;12
-15;-"Alors je préfère sacrifier ces mains et te foutre la branlé de ta vie";Luffy;0;534;17
-16;-"24 heures d'agonie, pour ensuite connaître ce qu'est le véritable enfer";Magellan;0;535;12
-17;-"Parce que nous sommes amis!! Et je n'ai besoin d'aucune autre raison";Bonclay;0;535;20
-18;-"L'excitation est trop forte..mon anémi est...est...est";Ivankov;0;537;9
-19;-"Deux mère, une fille. C'est quoi le problème?";Ivankov;0;537;14
-20;-"Un homme, une femme, un travesti, suis la voie qui te convient. Le sexe n'est qu'une barrière";Ivankov;0;537;15
-21;-"Dans cette situation, seul un démon serait resté sans rien faire";Ivankov;0;537;17
-22;-"A compter de cet instant, survivre ou mourir ne dépendra que de la force de ta volonté";Ivankov;0;538;4
-23;-"Seuls ceux qui n'abandonnent jamais peuvent prétendre aux miracles";Ivankov;1;538;8
-24;-"Je suis un ingénieur du corps humain";Ivankov;0;538;9
-25;-"A MANGEEEEEEEEEEEEEEEEEEER";Luffy;0;538;13
-26;-"Les décisions sont toujours prises soudainement";Ivankov;0;539;13
-27;-"Etre déterminé est une chose, mais je ne vois personne sortir d'ici";Inazuma;0;540;13
-28;-"J'ai l'intention de quitter cet endroit, mais du renfort ne serait pas de refus. Alors? Ca te dit de m'accompagner?";Crocodile;0;541;16
-29;-"Hey, ça vous dit de revenir à la salle de surveillance pour casser la croûte?";Hannyabal;0;542;8
-30;-"Je suis d'humeur féminine aujourd'hui";Ivankov;0;543;7
-31;-"Pour protéger le futur d'innocentes personnes, je te condamne à la peine de mort";Hannyabal;0;543;8
-32;-"Si elle venait à s'effondrer, le monde risque d'être submergé par la peur";Hannyabal;0;543;13
-33;-"T'auras beau chercher toute ta vie, tu ne trouveras aucune réponse, espèce d'abruti";Barbe Noire;1;543;13-14
-34;-"Dans quelques heures, nous vous offrirons un spectacle qui fera trembler le monde";Barbe Noire;0;544;16
-35;-"Tu es la seule personne digne de me succéder";Magellan;1;544;20
-36;-"On dirait que ton optimiste de merde devient contagieux";Mr 3;0;545;18
-37;-"Les portes de la justice ne s'ouvriront jamais devant des pirates de votre espèce";Marine;0;548;6
-38;-"Un adieu à la okama doit se faire dans le silence";Bonclay;0;548;12
-39;-"Pourquoi? Pourquoi tu finis toujours par me sauver?";Luffy;0;548;14
-40;-"Surtout, sois sur de sauver ton frère";Bonclay;0;548;16
-41;-"Les vrais perdants sont ceux qui redoutent la mort";Barbe Noire;0;549;4
-42;-"Je suppose que parmi ta race de barbares, tu es l'exception qui confirme la règle";Crocodile;0;549;7
-43;-"Laisse tomber, pas de notre faute si t'es con et lent à la détente";Crocodile;0;549;9
-44;-"...Tin, ça me rend nostalgique tout ça. Ce bon vieux vice capitaine. Où as-tu bien pu..?";Baggy;0;549;14
-45;-"Si vous êtes des hommes, ça vous dit de m'accompagner et de rêver aux hautes strates?";Baggy;1;549;17
+id;citation;reponse;coeur;chapitre;page;fin
+1;-"Vient-il de dire "je t'aime"?";Hancock;0;526;11;fin
+2;-"Donc, tu es là parce que tu es faible, c'est ça?";Luffy;0;527;11;fin
+3;-"Tant qu'il y a du sol, j'me marre";Baggy;0;527;16;fin
+4;-"Ah, quels surbordonnés sans-coeur m'a-t-on attribués..."Haaaaaaaaa"";Magellan;0;528;7;fin
+5;-"J'apprécierai énormément que vous m'ameniez rapidement au prisonnier";Hancock;0;528;9;fin
+6;-"Je suis un homme qui adore payer ses dettes";Mr 3;0;528;15;fin
+7;-"Suis-je donc personne en voulant éviter l'affrontement?";Jinbei;0;528;16;fin
+8;-"Si malheureusement, cet homme venait à mourir, qu'adviendrait-il de la mer?";Jinbei;0;529;4;fin
+9;-"Fundoshi! Fundoshi! Des sous-vêtements avec des fraises";Manticore;0;529;9;fin
+10;-"Je ne crois pas qu'à ce niveau la vie d'un vieil homme comme moi soit suffisante en guise d'expiation";Garp;0;530;6;fin
+11;-"Mmmmmmm! Je n'ai toujours pas assez de cris";Sadi;0;531;4;fin
+12;-"J'aimerai tellement prendre la place du chef warden";Hannyabal;0;531;7;fin
+13;-"Que vos piètres vies n'oublient pas que j'ai l'autorité et le pouvoir d'exécuter chacun d'entre vous si j'en vois la nécessité";Magellan;0;531;11;fin
+14;-"A propos, il était inquiet que tu lui en veuilles";Hancock;0;531;12;fin
+15;-"Alors je préfère sacrifier ces mains et te foutre la branlé de ta vie";Luffy;0;534;17;fin
+16;-"24 heures d'agonie, pour ensuite connaître ce qu'est le véritable enfer";Magellan;0;535;12;fin
+17;-"Parce que nous sommes amis!! Et je n'ai besoin d'aucune autre raison";Bonclay;0;535;20;fin
+18;-"L'excitation est trop forte..mon anémi est...est...est";Ivankov;0;537;9;fin
+19;-"Deux mère, une fille. C'est quoi le problème?";Ivankov;0;537;14;fin
+20;-"Un homme, une femme, un travesti, suis la voie qui te convient. Le sexe n'est qu'une barrière";Ivankov;0;537;15;fin
+21;-"Dans cette situation, seul un démon serait resté sans rien faire";Ivankov;0;537;17;fin
+22;-"A compter de cet instant, survivre ou mourir ne dépendra que de la force de ta volonté";Ivankov;0;538;4;fin
+23;-"Seuls ceux qui n'abandonnent jamais peuvent prétendre aux miracles";Ivankov;1;538;8;fin
+24;-"Je suis un ingénieur du corps humain";Ivankov;0;538;9;fin
+25;-"A MANGEEEEEEEEEEEEEEEEEEER";Luffy;0;538;13;fin
+26;-"Les décisions sont toujours prises soudainement";Ivankov;0;539;13;fin
+27;-"Etre déterminé est une chose, mais je ne vois personne sortir d'ici";Inazuma;0;540;13;fin
+28;-"J'ai l'intention de quitter cet endroit, mais du renfort ne serait pas de refus. Alors? Ca te dit de m'accompagner?";Crocodile;0;541;16;fin
+29;-"Hey, ça vous dit de revenir à la salle de surveillance pour casser la croûte?";Hannyabal;0;542;8;fin
+30;-"Je suis d'humeur féminine aujourd'hui";Ivankov;0;543;7;fin
+31;-"Pour protéger le futur d'innocentes personnes, je te condamne à la peine de mort";Hannyabal;0;543;8;fin
+32;-"Si elle venait à s'effondrer, le monde risque d'être submergé par la peur";Hannyabal;0;543;13;fin
+33;-"153 tu ne trouveras aucune réponse, espèce d'abruti";Barbe Noire;1;543;14;fin
+34;-"Dans quelques heures, nous vous offrirons un spectacle qui fera trembler le monde";Barbe Noire;0;544;16;fin
+35;-"Tu es la seule personne digne de me succéder";Magellan;1;544;20;fin
+36;-"On dirait que ton optimiste de merde devient contagieux";Mr 3;0;545;18;fin
+37;-"Les portes de la justice ne s'ouvriront jamais devant des pirates de votre espèce";Marine;0;548;6;fin
+38;-"Un adieu à la okama doit se faire dans le silence";Bonclay;0;548;12;fin
+39;-"Pourquoi? Pourquoi tu finis toujours par me sauver?";Luffy;0;548;14;fin
+40;-"Surtout, sois sur de sauver ton frère";Bonclay;0;548;16;fin
+41;-"Les vrais perdants sont ceux qui redoutent la mort";Barbe Noire;0;549;4;fin
+42;-"Je suppose que parmi ta race de barbares, tu es l'exception qui confirme la règle";Crocodile;0;549;7;fin
+43;-"Laisse tomber, pas de notre faute si t'es con et lent à la détente";Crocodile;0;549;9;fin
+44;-"...Tin, ça me rend nostalgique tout ça. Ce bon vieux vice capitaine. Où as-tu bien pu..?";Baggy;0;549;14;fin
+45;-"Si vous êtes des hommes, ça vous dit de m'accompagner et de rêver aux hautes strates?";Baggy;1;549;17;fin

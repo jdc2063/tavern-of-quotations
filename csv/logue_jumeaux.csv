@@ -1,19 +1,19 @@
-id;citation;reponse;coeur;chapitre;page
-1;-"Je n'ai nullement l'intention de régler son compte à un manchot dans ton genre";Mihawk;0;96;16
-2;-"Son rêve ou bien son destin?";Hoop Slap;0;96;18
-3;-"Leurs sabres ne méritent pas ça";Tashigi;0;97;10
-4;-"Ca bouquine un peu sur la question et ça croit tout connaitre";Ippon Matsu;0;97;14
-5;-"On dit que ce sont les sabres qui choisissent leur propriétaire";Ippon Matsu;0;97;17
-6;-"Quel mal y a-t-il à ce qu'un homme confie ses rêves à un autre?"";Ippon Matsu;1;97;18
-7;-"Qui est la plus belle de tous les océans?";Alvida;1;98;7
-8;-"Mon pantalon a mangé toute ta glace";Smoker;0;98;16
-9;-"Répond moi franchement, est ce que j'ai déjà laissé s'echapper des pirates?";Smoker;0;99;6
-10;-"Désolé, je suis mort";Luffy;0;99;13
-11;-"Mon sabre n'est pas fait décorer mais pour me battre";Tashigi;0;100;21
-12;-"Le monde entier attend notre réponse";Dragon;1;100;26
-13;-"Parce que rien ni personne ne peux empecher un homme de prendre la mer";Dragon;1;100;28
-14;-"Si vous les avez au bout du fil...dites leur que je ne recois d'ordre de personne";Smoker;0;100;30
-15;-"Rien de tel que de passer par l'entrée pour bien commencer la journée";Luffy;0;101;5
-16;-"Inutile de t'exciter, gamin. Il risquerait d'y avoir des morts...";Crocus;0;103;3
-17;-"Malheureusement la réalité est parfois plus cruelle qu'on ne l'imagine";Crocus;1;104;6
-18;-"Les vagues se moquent de toi, jeune fille";Mr 9;0;106;6
+id;citation;reponse;coeur;chapitre;page;fin
+1;-"Je n'ai nullement l'intention de régler son compte à un manchot dans ton genre";Mihawk;0;96;16;fin
+2;-"Son rêve ou bien son destin?";Hoop Slap;0;96;18;fin
+3;-"Leurs sabres ne méritent pas ça";Tashigi;0;97;10;fin
+4;-"Ca bouquine un peu sur la question et ça croit tout connaitre";Ippon Matsu;0;97;14;fin
+5;-"On dit que ce sont les sabres qui choisissent leur propriétaire";Ippon Matsu;0;97;17;fin
+6;-"Quel mal y a-t-il à ce qu'un homme confie ses rêves à un autre?"";Ippon Matsu;1;97;18;fin
+7;-"Qui est la plus belle de tous les océans?";Alvida;1;98;7;fin
+8;-"Mon pantalon a mangé toute ta glace";Smoker;0;98;16;fin
+9;-"Répond moi franchement, est ce que j'ai déjà laissé s'echapper des pirates?";Smoker;0;99;6;fin
+10;-"Désolé, je suis mort";Luffy;0;99;13;fin
+11;-"Mon sabre n'est pas fait décorer mais pour me battre";Tashigi;0;100;21;fin
+12;-"Le monde entier attend notre réponse";Dragon;1;100;26;fin
+13;-"Parce que rien ni personne ne peux empecher un homme de prendre la mer";Dragon;1;100;28;fin
+14;-"Si vous les avez au bout du fil...dites leur que je ne recois d'ordre de personne";Smoker;0;100;30;fin
+15;-"Rien de tel que de passer par l'entrée pour bien commencer la journée";Luffy;0;101;5;fin
+16;-"Inutile de t'exciter, gamin. Il risquerait d'y avoir des morts...";Crocus;0;103;3;fin
+17;-"Malheureusement la réalité est parfois plus cruelle qu'on ne l'imagine";Crocus;1;104;6;fin
+18;-"Les vagues se moquent de toi, jeune fille";Mr 9;0;106;6;fin
