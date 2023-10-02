@@ -116,9 +116,9 @@ while [[ $salida -ne 1 ]]; do
                     sleep 2
                     echo "Voila comme cela va se dérouler. Je vais te donner une citation. A toi de reflechir pour trouver la réponse et de compter tes points."
                     sleep 3
-                    echo "Cependant tu vas devoir appuier sur n'importe quel touche pour continuer"
+                    echo "Cependant tu vas devoir appuyer sur n'importe quelle touche pour continuer"
                     sleep 2
-                    echo "Et si jamais tu souhaites arreter, tu auras juste à mettre 1 jsute après qu'on t'ais donné une réponse pour partir. Simple n'est ce pas?"
+                    echo "Et si jamais tu souhaites arreter, tu auras juste à mettre 1 juste après qu'on t'ais donné une réponse pour partir. Simple n'est ce pas?"
                     sleep 3
                 fi
                 source ./script/choix_limite.sh
