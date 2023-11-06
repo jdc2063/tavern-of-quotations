@@ -61,29 +61,30 @@ while IFS=";" read -r id citation reponse coeur; do
 done < ../csv/drum.csv
 
 
-# first_line=0
-# while IFS=";" read -r id citation reponse coeur; do
-#     base_dossier="alabasta/"
-#     if [[ $first_line -eq 0 ]]; then
-#         first_line=1
-#     else
-#         if [[ ! -f "${base}${base_dossier}${id}.jpg" && ! -f "${base}${base_dossier}${id},1.jpg" ]]; then
-#             echo "${id} Alabasta image manquante" >> "${log}"
-#         fi
-#     fi
-# done < ../csv/alabasta.csv
+first_line=0
+while IFS=";" read -r id citation reponse coeur; do
+    base_dossier="alabasta/"
+    if [[ $first_line -eq 0 ]]; then
+        first_line=1
+    else
+        if [[ ! -f "${base}${base_dossier}${id}.jpg" && ! -f "${base}${base_dossier}${id},1.jpg" ]]; then
+            echo "${id} Alabasta image manquante" >> "${log}"
+        fi
+    fi
+done < ../csv/alabasta.csv
 
-# first_line=0
-# while IFS=";" read -r id citation reponse coeur; do
-#     base_dossier="jaya/"
-#     if [[ $first_line -eq 0 ]]; then
-#         first_line=1
-#     else
-#         if [[ ! -f "${base}${base_dossier}${id}.jpg" && ! -f "${base}${base_dossier}${id},1.jpg" ]]; then
-#             echo "${id} Jaya image manquante" >> "${log}"
-#         fi
-#     fi
-# done < ../csv/jaya.csv
+first_line=0
+while IFS=";" read -r id citation reponse coeur; do
+    base_dossier="jaya/"
+    if [[ $first_line -eq 0 ]]; then
+        first_line=1
+    else
+        if [[ ! -f "${base}${base_dossier}${id}.jpg" && ! -f "${base}${base_dossier}${id},1.jpg" ]]; then
+            echo "${id} Jaya image manquante" >> "${log}"
+            echo "${base}${base_dossier}${id}.jpg" >> "${log}"
+        fi
+    fi
+done < ../csv/jaya.csv
 
 # first_line=0
 # while IFS=";" read -r id citation reponse coeur; do

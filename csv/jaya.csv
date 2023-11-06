@@ -1,33 +1,39 @@
 id;citation;reponse;coeur
-1;-"C'est vrai qu'il vole bien";Shôjô;0
-2;-"Parce que tout le monde connaissait son irréprochable honnêteté";Cricket;0
-3;-"Je vous offre mon hospitalité pour cette nuit, mes amis";Cricket;0
-4;-"T'es encore plus stupide qu'un oiseau";Luffy;0
-5;-"Un dégonflard qu'à même pas le courage de lancer le défi à ses propres rêves me semble mal placé pour parler de piraterie";Cricket;1
-6;-"Tu m'as demandé si j'avais déjà frappé quelqu'un, c'est ça?";Luffy;0
-7;-"Quelle que soit la situation, jamais, au grand jamais on ne touche aux hommes de barbe blanche";Baggy;0
-8;-"Sois gentil. Arrête ces enfantillages";Tsuru;0
-9;-"La marine et les sept puissants corsaires, que peut-on attendre d'une table ronde avec deux groupes en conflit?";Mihawk;0
-10;-"Y en aura toujours pour se moquer de nous. Mais on s'en tape! Parce que c'est ça la vrai aventure";Cricket;0
-11;-"Il ne faut jamais douter de ce qu'indique le logue pose. C'est la règle d'or.";Robin;0
-12;-"L'époque où les pirates pouvaient naviguer avec juste des rêves en tête est révolue!";Bellamy;0
-13;-"Désolé de te décevoir, mais j'ai mieux a faire que de trainer avec une bande de cloporte de votre espèce";Nami;0
-14;-"Il y a des batailles qui ne se gagnent pas avec les poings";Teach;1
-15;-"Je livre simplement un duel avec celui qui a ruiné ma vie";Cricket;0
-16;-"Tu as déjà frappé quelqu'un? Je parie que non";Bellamy;0
-17;-"les hommes ne cesseront jamais d'avoir des rêves";Teach;1
-18;-"Il a tiré au hasard, et ces pauvres mouettes n'ont pas eu de chance, c'est tout";Usopp;0
-19;-"T'aurais du faire un peu de muscu avant de te frotter à moi";Burguess;0
-20;-"Tu veux continuer à jouer en pariant ton caleçon?";Roshio;0
-21;-"T'as une veine de tous les diables";Doc Q;0
-22;-"T'as les papilles gustatives endommagés ou quoi?";Teach;0
-23;-"Je rencontre plein de grandes perches, aujourd'hui";Luffy;0
-24;-"On doit servir que de la bibine, ici! Et pas une table de libre, en plus";Narquiss;0
-25;-"Surtout ne cède pas à la provocation";Luffy;0
-26;-"Pour moi, c'est juste du colmatage";Sanji;0
-27;-"Sache avorton, que lorsque ma fureur éclate il ne reste qu'une mer de sang";Shôjô;0
-28;-"T'es bête, quand ya plein de nuages, on dit que c'est "couvert"";Luffy;0
-29;-"Parler d'un phénomène nature aussi grandiose avec des mots ou théorie c'est ridicule";Cricket;0
-30;-"Je serais de retour dans la matinée";Luffy;0
-31;-"Un combat où seul reste la pitié après coup c'est vraiment chiant";Zoro;0
-32;-"Je ne parle pas aux morveux écervelés";Barbe Blanche;0
+1;-"Non mais on n'est pas en train de prendre de photos tu sais?";Nami;0;220;14;
+2;-"Il a tiré au hasard, et ces pauvres mouettes n'ont pas eu de chance, c'est tout";Usopp;0;222;9;
+3;-"Il faut faire de la muscu, mon gars";Burguess;0;222;13;
+4;-"Tu peux toujours miser ton futal";Roshio;0;222;14;
+5;-"T'as une veine de tous les diables";Doc Q;0;223;7;
+6;-"T'as les papilles gustatives endommagés ou quoi?";Teach;0;223;17;
+7;-"Eh ben! Je rencontre que des géants, moi, aujourd'hui";Luffy;0;224;4;
+8;-"On doit servir que de la bibine, ici! Et pas une table de libre, en plus";Narquiss;0;224;5;
+9;-"Le temps où les pirates pouvaient rêver de tout et n'importe quoi est révolu";Bellamy;0;224;15;
+10;-"Surtout ne rentre pas dans leur jeu";Luffy;0;224;18;
+11;-"Désolée, mais dans un équipage de minables comme la vôtre mes talents seront gâchés";Nami;0;225;8;
+12;-"les hommes ne cesseront jamais d'avoir des rêves";Teach;1;225;12;
+13;-"Il est des combats qu'on ne gagne pas avec les poings";Teach;1;225;14;
+14;-"Pour moi, c'est juste du colmatage";Sanji;0;225;18;
+15;-"Sache avorton, que lorsque ma fureur éclate il ne reste qu'une mer de sang";Shôjô;0;226;14;
+16;-"Ah oui! Il vole bien en plus";Shôjô;0;228;5;
+17;-"C'était le grand-père du grand-père du grand-père du... Enfin, c'est un très lointain ancêtre";Cricket;0;228;8;
+18;-"Parce que tout le monde connaissait son irréprochable honnêteté";Cricket;0;228;8;
+19;-"Je veux juste régler mes comptes avec celui qui a ruiné ma vie";Cricket;0;228;13;
+20;-"Tu dis n'importe quoi! Il fait "gris" quand il y a des nuages, pas noir";Luffy;0;229;4;
+21;-"Un phénomène naturel d'une telle ampleur ne saurait se résumer à des mots et à des théories";Cricket;0;229;9;
+22;-"Je suis heureux d'avoir pu faire la connaissance de types aussi timbrés que vous";Cricket;0;229;15;
+23;-"Je vous offre mon hospitalité pour cette nuit, mes amis";Cricket;0;229;15;
+24;-"J'ai vu de l'or dans l'oeil droit de la tête de mort";Norland/Cricket;0;229;17;
+25;-"Ça veut dire que tu es encore plus stupide qu'un pigeon";Luffy;0;230;8;
+26;-"Waouh, ça c'est un cri bizarre";Luffy, Zoro, Sanji, Chopper, Usopp;0;230;10;
+27;-"Je n'ai aucune leçon de piraterie à recevoir d'un jeune morveux qui n'a même pas le cran d'affronter ses rêves";Cricket;1;231;14;
+28;-"Je serai de retour avant le lever du jour";Luffy;0;231;19;
+29;-"Tu sais donner un coup de poing? HA HA HA";Bellamy;0;232;13;
+30;-"Tu m'as demandé si j'avais déjà frappé quelqu'un, c'est ça?";Luffy;0;232;17;
+31;-"Un combat où seul reste la pitié après coup c'est vraiment chiant";Zoro;0;233;6;
+32;-"Quelle que soit la situation, jamais, au grand jamais on ne touche aux hommes de barbe blanche";Baggy;0;233;13;
+33;-"Sois gentil. Arrête ces enfantillages";Tsuru;0;234;2;
+34;-"La marine et les sept puissants corsaires, que peut-on attendre d'une table ronde avec deux groupes en conflit?";Mihawk;0;234;7;
+35;-"Qu'y a-t-il de mal à boire quand on en a envie?";Barbe Blanche;0;234;11;
+36;-"Je ne parle pas aux morveux écervelés";Barbe Blanche;0;234;12;
+37;-"Y en aura toujours pour se moquer de nous. Mais on s'en tape! Parce que c'est ça la vrai aventure";Cricket;0;235;8;
+38;-"Puisque nous sommes face à un courant marin et qu'il y a du vent, il suffit de "naviguer"";Nami;0;236;16;
