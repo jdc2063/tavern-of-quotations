@@ -1,107 +1,128 @@
-id;citation;reponse;coeur
-1;-"Vous croyez que cette mer a un fond?";Robin;0
-2;-"Voilà donc ce qu'est l'aventure. Je n'avais jamais touvé ça excitant jusqu'à présent";Robin;0
-3;-"Usopp est un gros blaireau!! He pourquoi moi?! Hi hi... Et maintenant...";Tone dial; 0
-4;-"Mon sang n'a fait qu'un tour quand j'ai entendu cette somme exorbitante";Nami;0
-5;-"OH NOOOOOON!! Elle a mis un T-shirt";Sanji;0
-6;-"Pourquoi ne voulez-vous pas fuir?";Conis;0
-7;-"Tu n'avais pas le choix, pas vrai? Alors il fallait pas nous le dire";Conis;0
-8;-"Tu sais ce qu'on dit: "Quand on est perdu, il faut rester où on est";Zoro;0
-9;-"Désolé, mais je n'ai jamais vénéré de dieu";Zoro;1
-10;-"Le mantra est l'émanation du principe divin";Satori;0
-11;-"Songez que celui qui est un héros à une époque donnée peut être considéré comme un malfaiteur en d'autre temps";Gan Forr;1
-12;-"Tant de petits caprices me mettent hors de moi";Shura;0
-13;-"Un mort n'a pas besoin de réponse";Shura;0
-14;-"Mon vieux merry, si seulement tu pouvais parler";Usopp;0
-15;-"Laver ses crimes ne se fait pas sans sacrifices";Wiper;0
-16;-"Toutes les choses que les hommes jugent pratiques ont un revers";Gan Forr;0
-17;-"Il faut croire que dieu n'était pas son côté";Ener;0
-18;-"Je vais voir quoi? Tu me veux quelque chose?";Robin;0
-19;-"Ces six sens de l'être humain sons tantôt bon, tantôt maléfiques, tantôt ordinaires";Zoro;0
-20;-"Tu veux te battre? Je t'explose avec un impact, moi";Nami;0
-21;-"Réponse typique d'un demeuré";Robin;0
-22;-"Et c'est lui le capitaine? Décidément, la fin est proche";Gan Forr;0
-23;-"C'est toi qui va disparaître";Gan Forr, Robin, Wiper et Zoro;0
-24;-"C'est une femme";Zoro;0
-25;-"L'existence de ce pays dans les nuages va tout bonnement à l'encontre de la nature";Ener;0
-26;-"Ayez au moins le courage d'admettre qu'il n'y a jamais eu aucun dieu dans ce pays";Conis;0
-27;-"Les membres d'équipage du futur seigneur des pirates ne doivent jamais céder à la panique";Luffy;0
-28;-"Pensais-tu vraiment que j'épargnerais une femme? Pas de discrimination";Ener;0
-29;-"Qu'est-ce qui est le plus important pour toi: L'aventure ou la vie?";Luffy;0
-30;-"Vos chances de survie dans la foret de l'errance est de 10%";Satori;0
-31;-"Vous savez ce qu'on dit, "si vous êtes perdu ne bougez plus"";Zoro;0
-32;-"C'est le devoir du citoyens";Conis;0
-33;-"Pourquoi tu n'as pas arreté de trembler depuis que nous sommes sorti de chez toi?";Luffy;0
-34;-"Il faut bien que je vive quand meme";Gan Forr;0
-35;-"Toi, pauvre créature misérable, tu m'exaspères vraiment";Shura;0
-36;-"Pour que quelqu'un vive, quelqu'un d'autre doit mourir. C'est ce qui fait ce monde";Shura;0
-37;-"Etes vous prêts à laissez ceux qui tomberont en chemin?";Wiper;0
-38;-"Quelle blague!! Je croyais que c'était une chèvre";Luffy;0
-39;-"Désolé de ne pas t'avoir pris au sérieux, homme des mers bleues";Braham;0
-40;-"Je suis un pirate!!! Tu vois!!!";Chopper;0
-41;-"Aucune excuse ne pourras plus te sauver";Robin;0
-42;-"L'histoire se répète peut être, mais les hommes ne peuvent pas revenir dans le passé";Robin;0
-43;-"Moins il y a d'idiots, mieux le monde se porte";Ohm;0
-44;-"J'ai besoin de calme car maintenant je pleure la fragilité des hommes";Ohm;0
-45;-"C'est quoi son problème à cette maudite grotte?";Luffy;0
-46;-"Je n'ai jamais aimé me battre pour ce genre de raison. Je suis seulement un peu plus énervé qu'avant";Zoro;0
-47;-"Vous n'êtes pas capables de vous défendre vous-même....Pitoyable";Ohm;0
-48;-"Il veux dire que tu ferais mieux de ne pas t'y frotter";Wiper;0
-49;-"Aussi longtemps que je vivrai, je ne prierai jamais aucun dieu";Zoro;0
-50;-"Gardez la bouche scellée et la vérité à l'esprit";Robin ou les anciens shandias;0
-51;-"C'est sans doute trop long pour pouvoir reconnaitre la défaite";Gan Forr;0
-52;-"Nul dieu n'existe sur cette terre des hommes";Gan Forr;0
-53;-"Ma puissance est écrasante...Laisse-moi plutôt t'apprendre ce qu'est le désespoir";Ener;0
-54;-"Il n'y a rien que les humains craignent plus que la mort";Ener;0
-55;-"Ce n'est pas dieu que les hommes craignent...C'est la peur que celui-ci incarne";Ener;1
-56;-"Je me relève....pour mes ancêtres";Wiper;0
-57;-"Ca ne sert à rien d'attendre un hypothétique miracle";Conis;0
-58;-"Tu ne me feras pas croire que tu peux démultiplier tes mains";Ener;0
-59;-"Je t'interdis de prendre cet air de chien battu";Luffy;0
-60;-"Et il ne faut jamais s'interposer dans un combat entre guerriers";Aisa;0
-61;-"Viens prendre part au bal";Ener;0
-62;-"En témoignage de mon respect pour le courageux combat que tu as mené laisse moi t'offrir cette petite pépite d'or";Ener;0
-63;-"Si c'est pour abandonner mes amis et partir seule avec vous, alors je préfère ne rien avoir";Nami;0
-64;-"Comme si j'avais besoin d'une troisième boule";Luffy;0
-65;-"Ouille...J'ai mal rien qu'a t'entendre";Nami;0
-66;-"Tu ne veux tout de même pas fouler au pieds la détermination d'un homme";Usopp;0
-67;-"J'avais justement besoin de feu";Sanji;1
-68;-"L'ile céleste, tu crois qu'elle va vraiment disparaitre?";Aisa;0
-69;-"Rien de tel qu'un peu d'exercice de temps en temps pour se dérouiller les muscles";Norland;0
-70;-"C'est fini, maintenant!! Plus personne ne mourra";Norland;0
-71;-"C'est parce que vous éliminez tout ce qui vous dérange que vous êtes coincés dans cet immobilisme";Norland;0
-72;-"Vos rituels sont une insulte envers nous";Norland;0
-73;-"Est-ce vraiment rendre hommage à vos dieux que de leur sacrifier des vies qu'ils sont censés protéger?";Norland;0
-74;-"Je sais reconnaitre des paroles sages quand j'en entends";chef des shandias;0
-75;-"Tu m'amuses, essaie donc de te dégager";Kalgara;0
-76;-"Les guerriers de shandora que j'admire tant sont des hommes d'honneur";Seto;0
-77;-"Aussi grands que soient vos dieux, ils ne sont pas plus importants que des vies humaines";Norland;0
-78;-"Dis moi, toi qui es si malin, mourrai je d'une sentence ou d'un accident";Norland;0
-79;-"Ce sont vos règles désuètes qui attirent le malheur sur vous";Norland;0
-80;-"Réponds-moi...Dis-moi...Ce que je viens de tuer";Kalgara;0
-81;-"J'espère que tu ne m'as pas menti!! Peut-tu vraiment sauver mon peuple?";Kalgara;0
-82;-"Non. Elle a perdu son sens";Kargara;0
-83;-"Vos études et votre ignorance ne justifient rien à leur yeux";Mousse;0
-84;-"Un botaniste ne coupe jamais des arbres sans raison";Un homme de l'équipage de Norland;0
-85;-"Bien sur que je reviendrais, tu peux en être certain! Nous nous reverrons!! Je te donne ma parole";Norland;0
-86;-"Es-tu en vie? je suis si inquiet pour toi";Norland;0
-87;-"Est-ce que la cloche peut encore sonner?";Wiper;0
-88;-"Le paradis n'est pas si loin d'ici";chef des shandias;0
-89;-"Rien ni personne ne m'empêchera de la faire retentir";Luffy;0
-90;-"Alors, folie ou pas il faut tenter le coup";Zoro;0
-91;-"Après tout je suis un homme, moi aussi....Je fais ce que la nature me dicte";McKinley;0
-92;-"Parce que la terre ne s'avoue jamais vaincue";Wiper;0
-93;-"C'est la seule chose que peut faire un humain qui se trouve entre la vie et la mort";McKinley;0
-94;-"Place au beau temps";Luffy;0
-95;-"Je suis venu te sonner les cloches";Luffy;0
-96;-"Un dieu, c'est fait pour sauver les gens, pas pour tout détruire autour de lui";Luffy;0
-97;-"Pardon de t'avoir fait attendre si longtemps";Wiper;0
-98;-"Si vous saviez comme je suis content qu'ils soient tous sains et saufs";Cricket;0
-99;-"La vearth, elle ne rejette personne";chef shandias;0
-100;-"Moi qui pensais parvenir enfin à les oublier";Robin;0
-101;-"Ma route m'a conduit ici et je porterai ce texte jusqu'au bout du monde";Robin ou Roger;0
-102;-"Alors dans ce cas, nous n'avons plus besoin de nous battre?";chef shandias;0
-103;-"Ah, moi qui pensais enfin me consacrer à mes citrouilles..";Gan Forr;0
-104;-"Que l'île céleste existe ou pas. Que la cité d'or relève ou pas du registre de l'imaginaire. Peu m'importe la réponse à ces questions";Doflamingo;0
-105;-"Merci à tous d'avoir accompagné mon rêve durant toutes ces années";Cricket;0
-106;-"Il est temps de se tourner vers de nouvelles aventures";Cricket;0
+id;citation;reponse;coeur;chapitre;page;
+1;-"Vous croyez que cette mer a un fond?";Robin;0;237;12;
+2;-"C'est que j'ai des factures à payer moi";Gan Forr;0;238;5;
+3;-"Voir la navigation et le débarquement qui s'ensuit comme une aventure à part entière, je n'y avais jamais pensé";Robin;0;239;8;
+4;-"Je reconnais qu'il y a un petit coup de main à prendre. C'est bien trop sensible pour toi";Nami;0;240;5;
+5;-"Bois la tasse";Luffy;0;240;6;
+6;-"Usopp est un gros blaireau!! He pourquoi moi?! Hi hi... Et maintenant...";Tone dial;0;240;10;
+7;-"Je ne me doutais pas qu'elle serait aussi forte, je ne sens même plus ma langue";Sanji;0;240;15;
+8;-"Mon sang n'a fait qu'un tour quand j'ai entendu cette somme exorbitante";Nami;0;242;8;
+9;-"Qu'est-ce qui a le plus d'importance pour toi, L'aventure ou la vie?";Luffy;0;243;3;
+10;-"Pourquoi a-t-elle mis un T-shirt?";Sanji;0;243;10;
+11;-"Pourquoi est-ce que tu n'arrêtes de trembler depuis notre départ?";Luffy;0;244;8;
+12;-"S'il vous plaît, vous ne voudriez pas vous enfuir?";Conis;0;244;12;
+13;-"C'est notre devoir en tant que citoyens de ce pays";Conis;0;244;13;
+14;-"Tu n'avais pas le choix, mais pourquoi est-ce que tu nous raconte tout ça?";Luffy, Sanji et Usopp;0;244;14;
+15;-"Tu sais ce que dit le proverbe? "Si tu es perdu, restes où tu es"";Zoro;0;245;13;
+16;-"Ne m'en veux pas mais dans ma vie je n'ai jamais prié dieu";Zoro;1;245;14;
+17;-"Donc celui qui est le plus en danger, c'est moi";Chopper;0;245;17;
+18;-"Il n'y a pas de bon choix pour les criminels";Sanji;0;246;8;
+19;-"Le mantra est l'émanation du principe divin";Satori;0;246;15;
+20;-"Vos chances de survie dans la foret de l'errance est de 10%";Satori;0;246;18;
+21;-"Se disputer pour savoir qui est le plus faible, intéressant";Robin;0;247;22;
+22;-"Ceux que nous considérons aujourd'hui comme des héros de guerre n'auraient peut-être été considéré comme des meurtriers à une autre époque";Gan Forr;1;248;4;
+23;-"Tant de petits caprices me mettent hors de moi";Shura;0;248;11;
+24;-"Les petites bestioles égoïstes dans son genre ont le don de m'exaspérer";Shura;0;248;11;
+25;-"Pour que qu'un être vive, il faut qu'un autre meure. Telle est la loi qui régit ce monde";Shura;0;248;13;
+26;-"Les morts en sursis n'ont pas besoin de réponses";Shura;0;249;17;
+27;-"Il s'agit de l'ordalie de l'amour";Sanji;1;250;16;
+28;-"Stop! Aïe! J'ai déjà mal!";Satori;0;250;17;
+29;-"Mon vieux merry, si seulement tu pouvais parler";Usopp;0;254;14;
+30;-"Il se charge personnellement d'engendrer des brebis égarées à même d'être dominées";Gan Forr;0;255;12;
+31;-"Laver ses crimes ne se fait pas sans sacrifices";Wiper;0;256;10;
+32;-"Que seuls ceux qui se sentent prêts à enjamber les corps sans vie de leurs camarades me suivent";Wiper;0;256;14;
+33;-"Merci, mais je me souviens encore de mon nom. Pas la peine de le hurler comme ça";Shura;0;256;20;
+34;-"Toutes les choses que les hommes jugent pratiques ont un revers";Gan Forr;0;257;6;
+35;-"Il faut croire que dieu n'était pas son côté";Ener;0;257;8;
+36;-"Le soleil des îles du suuud, tape sur la têêête, on se sent tout bêêête";Luffy;0;257;17;
+37;-"Je me faisais une joie de rencontrer une chèvre";Luffy;0;257;18;
+38;-"Désolé de ne pas t'avoir sous-estimé, habitant de la mer bleue";Braham;0;258;19;
+39;-"Les six sens de l'être humain peuvent être bons, mauvais ou neutre";Zoro;0;259;12;
+40;-"Ça y est, moi aussi je suis un vrai piraaate";Chopper;0;263;2;
+41;-"Les voix que j'entends s'éteignent les unes après les autres";Aisa;0;264;2;
+42;-"Tu veux te battre? Je t'explose avec un impact, moi";Nami;0;264;6;
+43;-"Réponse typique d'un demeuré";Robin;0;264;10;
+44;-"Tu parles exactement comme tous ces imbéciles";Robin;0;264;10;
+45;-"Aucune excuse ne pourras plus te sauver";Robin;0;265;10;
+46;-"Même si l'on dit souvent que l'histoire se répète sans cesse, sache que les hommes ne peuvent jamais retourner dans le passé";Robin;0;265;15;
+47;-"Moins il y a d'idiots, mieux le monde se porte";Ohm;0;266;8;
+48;-"J'ai besoin de calme car maintenant je pleure la fragilité des hommes";Ohm;0;266;10;
+49;-"C'est quoi son problème à cette maudite grotte?";Luffy;0;267;16;
+50;-"Je n'ai jamais aimé me battre pour ce genre de raison. Je suis seulement un peu plus énervé qu'avant";Zoro;0;268;14;
+51;-"Pardonnez à notre île céleste d'être ce qu'elle est";Pagaya;0;269;3;
+52;-"Vous n'êtes pas capables de vous défendre vous-même....Pitoyable";Ohm;0;269;19;
+53;-"Il veux dire que tu ferais mieux de ne pas t'y frotter";Wiper;0;270;7;
+54;-"Pensais-tu vraiment que j'épargnerais une femme? Pas de discrimination";Ener;0;270;13;
+55;-"Dire que ce jeune homme est votre capitaine, la fin du monde est proche";Gan Forr;0;271;2;
+56;-"Aussi longtemps que je vivrai, je ne prierai jamais aucun dieu";Zoro;0;271;17;
+57;-"Gardez la bouche scellée et la vérité à l'esprit";Robin ou les anciens shandias;0;272;3;
+58;-"Le brillant de ce métal me sied parfaitement";Ener;0;272;7;
+59;-"Cogne-toi la tête et tombe dans les pommes";Zoro;0;272;15;
+60;-"C'est toi qui vas nous faire le plaisir de disparaître";Gan Forr, Robin, Wiper et Zoro;0;273;18;
+61;-"C'est sans doute trop long pour pouvoir reconnaitre la défaite";Gan Forr;0;274;3;
+62;-"L'existence de ce pays qui prend ses racines dans les nuages va à l'encontre de l'ordre naturel";Ener;0;274;10;
+63;-"Nul dieu n'existe sur cette terre des hommes";Gan Forr;0;274;11;
+64;-"C'est une femme";Zoro;0;275;3;
+65;-"Ma puissance est écrasante...Laisse-moi plutôt t'apprendre ce qu'est le désespoir";Ener;0;275;9;
+66;-"Il n'y a rien que les humains craignent plus que la mort";Ener;0;275;10;
+67;-"Ce n'est pas dieu que les hommes craignent...C'est la peur que celui-ci incarne";Ener;1;275;19;
+68;-"Je me relève....pour mes ancêtres";Wiper;0;276;16;
+69;-"Ça ne sert à rien d'attendre un hypothétique miracle";Conis;0;278;13;
+70;-"Ayez au moins le courage d'admettre qu'il n'y a jamais eu aucun dieu dans ce pays";Conis;0;278;14;
+71;-"Il y a sur cette île de gens qui ignorent comment s'évader et ce sont mes amis";Conis;0;279;6;
+72;-"Tu ne me feras pas croire que tu peux démultiplier tes mains";Ener;0;280;14;
+73;-"Les membres d'équipage du futur seigneur des pirates ne doivent jamais céder à la panique";Luffy;0;280;17;
+74;-"Je t'interdis de prendre cet air de chien battu";Luffy;0;280;17;
+75;-"Et il ne faut jamais s'interposer dans un combat entre guerriers";Aisa;0;281;4;
+76;-"Viens prendre part au bal";Ener;0;281;10;
+77;-"En témoignage de mon respect pour le courageux combat que tu as mené laisse moi t'offrir cette petite pépite d'or";Ener;0;282;10;
+78;-"Si c'est pour abandonner mes amis et partir seule avec vous, alors je préfère ne rien avoir";Nami;0;282;17;
+79;-"Comme si j'avais besoin d'une troisième boule";Luffy;0;283;16;
+80;-"Ouille...J'ai mal rien qu'a t'entendre";Nami;0;284;7;
+81;-""Fuir", une action pourtant si simple se révèle une tâche ardue lorsqu'on est face à moi";Ener;0;284;10;
+82;-"Tu ne veux tout de même pas fouler au pieds la détermination d'un homme";Usopp;0;284;13;
+83;-"J'avais justement besoin de feu";Sanji;1;284;15;
+84;-"L'ile céleste, tu crois qu'elle va vraiment disparaitre?";Aisa;0;285;8;
+85;-"Rien de tel qu'un peu d'exercice de temps en temps pour se dérouiller les muscles";Norland;0;286;19;
+86;-"C'est fini, maintenant!! Plus personne ne mourra";Norland;0;287;18;
+87;-"C'est parce que vous éliminez tout ce qui vous dérange que vous êtes coincés dans cet immobilisme";Norland;0;288;4;
+88;-"Vos rituels sont une insulte envers nous";Norland;0;288;7;
+89;-"Est-ce vraiment rendre hommage à vos dieux que de leur sacrifier des vies qu'ils sont censés protéger?";Norland;0;288;8;
+90;-"Je sais reconnaitre des paroles sages quand j'en entends";chef des shandias;0;288;13;
+91;-"Que signifie le mot "progrès"";Sett;0;288;14;
+92;-"Tu m'amuses, essaie donc de te dégager";Kalgara;0;288;19;
+93;-"Les guerriers de shandora que j'admire tant sont des hommes d'honneur";Seto;0;289;5;
+94;-"Aussi grands que soient vos dieux, ils ne sont pas plus importants que des vies humaines";Norland;0;289;10;
+95;-"Dis moi, toi qui es si malin, mourrai-je d'une sentence ou d'un accident?";Norland;0;289;15;
+96;-"Ce sont vos règles désuètes qui attirent le malheur sur vous";Norland;0;289;16;
+97;-"Réponds-moi...Dis-moi...Ce que je viens de tuer";Kalgara;0;289;17;
+98;-"J'espère que tu ne m'as pas menti!! Peut-tu vraiment sauver mon peuple?";Kalgara;0;289;18;
+99;-"Non. Elle a perdu son sens";Kargara;0;291;4;
+100;-"Vos études et votre ignorance ne justifient rien à leur yeux";Mousse;0;291;8;
+101;-"Un botaniste ne coupe jamais des arbres sans raison";Un homme de l'équipage de Norland;0;291;13;
+102;-"Bien sur que je reviendrais, tu peux en être certain! Nous nous reverrons!! Je te donne ma parole";Norland;0;291;18;
+103;-"Es-tu en vie? je suis si inquiet pour toi";Norland;0;292;10;
+104;-"Est-ce que la cloche peut encore sonner?";Wiper;0;293;4;
+105;-"Le paradis n'est pas si loin d'ici";chef des shandias;0;293;5;
+106;-"Rien ni personne ne m'empêchera de la faire retentir";Luffy;0;294;18;
+107;-"Alors, folie ou pas il faut tenter le coup";Zoro;0;295;15;
+108;-"Après tout je suis un homme, moi aussi....Je fais ce que la nature me dicte";McKinley;0;296;15;
+109;-"Parce que la terre ne s'avoue jamais vaincue";Wiper;0;297;4;
+110;-"C'est la seule chose que peut faire un humain qui se trouve entre la vie et la mort";McKinley;0;297;14;
+111;-"Place au beau temps";Luffy;0;297;16;
+112;-"Je suis venu te sonner les cloches";Luffy;0;298;4;
+113;-"Un dieu, c'est fait pour sauver les gens, pas pour tout détruire autour de lui";Luffy;0;298;6;
+114;-"Pardon de t'avoir fait attendre si longtemps";Wiper;0;299;7;
+115;-"Si vous saviez comme je suis content qu'ils soient tous sains et saufs";Cricket;0;299;12;
+116;-"Nous sommes là";Narrateur ou les anciens shandias;0;299;16;
+117;-"Désolé d'être en vie";Pagaya;0;300;8;
+118;-"La vearth, elle ne rejette personne";chef shandias;0;300;14;
+119;-"Moi qui pensais parvenir enfin à les oublier";Robin;0;301;4;
+120;-"Ma route m'a conduit ici et je porterai ce texte jusqu'au bout du monde";Robin ou Roger;0;301;12;
+121;-"Alors dans ce cas, nous n'avons plus besoin de nous battre?";chef shandias;0;301;14;
+122;-"Ah, moi qui pensais enfin me consacrer à mes citrouilles..";Gan Forr;0;302;7;
+123;-"Merci à tous d'avoir accompagné mon rêve durant toutes ces années";Cricket;0;303;2;
+124;-"Il est temps de se tourner vers de nouvelles aventures";Cricket;0;303;3;
+125;-"Que l'île céleste existe ou pas. Que la cité d'or relève ou pas du registre de l'imaginaire. Peu m'importe la réponse à ces questions";Doflamingo;0;303;6;
+126;-"Seuls les vrais pirates pourront survivre dans le nouveau monde qui s'annonce";Doflamingo;0;303;9;
+127;-"Si on oublie de le remercier pour tous ces services rendus, cela risque un jour de se retourner contre nous";Usopp;0;303;17;
