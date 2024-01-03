@@ -1,106 +1,116 @@
-id;citation;reponse;coeur
-1;-"Pourquoi je vous appelle, en fait? Ah ben je sais plus! Hic!";Kokoro;0
-2;-"Il me faut un gars monté comme une armoire à glace";Luffy;0
-3;-"Si je tombe sur un mec comme ça, je prend mes jambes à mon cou";Usopp;0
-4;-"Cet homme est d'une franchise effrayante";Usopp;0
-5;-"ça veut dire qu'il ne reste plus que nous deux sur ce bateau? Mon dieu, quel ennui";Sanji;0
-6;-"Je croyais pouvoir te surprendre dans ton sommeil";Un membre de la franky family;0
-7;-"Votre "jour de chance"? Tu voulais dire "malchance", j'imagine";Zoro;0
-8;-"Vous y allez un peu fort, quand même...Me confisquer ma valise, comme ça...";Luffy;0
-9;-"Pas en bois, si c'est ce que tu veux savoir";Kaku;0
-10;-"J'ai pas envie";Icebarg;0
-11;-"Car quand elle se met en colère elle a tendance à frapper tout ce qui bouge";Icebarg;0
-12;-"C'est la trace de lèvres qui m'incommodait";Icebarg;0
-13;-"C'est parce qu'il ne peut pas te frapper lui-même qu'il a demandé à ce type de le faire à se place";Luffy;0
-14;-"Un professionnel ne ment jamais";Kaku;0
-15;-"Même avec tout notre talent il n'y a rien que nous puissions faire";Kaku;0
-16;-"C'est vrai, ce qu'il dit? Tu ne peux plus naviguer?";Zoro;0
-17;-"Tout bateau est unique";Hattori;0
-18;-"J'ai l'impression de parler à un mur et malgré ça, tu te prétends capitaine?";Icebarg;0
-19;-"Tiens, ça sent le pirate par ici";Corgi;0
-20;-"Voler des pirates est un acte innommable";Nami;0
-21;-"Toi et les autres, je n'oserai plus jamais vous regarder en face";Usopp;0
-22;-"Un homme devient plus fort à mesure qu'il affronte les vagues mais n'en va pas de même pour un navire";Zoro;0
-23;-"Le temps de défoncer leur baraque de tarés";Luffy;0
-24;-"Quand ce combat sera terminé, il ne restera plus rien de vous";Luffy;0
-25;-"Le "Vogue Merry" est irréparable";Luffy;0
-26;-"Et toi, tu voudrais qu'on l'abandonne ici?";Usopp;0
-27;-"Il ne suffit pas de prendre ses grands airs de capitaine pour faire le bon choix";Usopp;0
-28;-"Ce n'est pas le genre de paroles qu'on peut prononcer à la légère";Sanji;0
-29;-""Toi et moi, on n'est plus amis, retourne au bateau"";Chopper;0
-30;-"Je suis on en peut plus sérieux! Ce combat, C'est le mien";Usopp;0
-31;-"Tu savais pourtant très bien que tu n'avais aucune chance contre moi";Luffy;0
-32;-"Imagine à quel point un homme peut se sentir misérable si on s'apitoie sur son sort alors qu'il vient de perdre un combat";Sanji;0
-33;-"Dis-toi bien qu'une attention déplacée peut être terriblement douloureuse pour quelqu'un qui a subi une défaite";Sanji;0
-34;-"Si tu devais te montrer hésitant, en qui devrions-nous croire?";Zoro;1
-35;-"Qui a osé faire ça? Cet homme ne mérite aucune pitié";Pauly;0
-36;-"He ben, ils y sont allés un peu fort";Mozu;0
-37;-"Je suis le super mâle de cette île";Franky;0
-38;-"Je suis celui que tu cherches";Luffy;0
-39;-"C'est quoi ton problème? Tu vis mal ta puberté?";Franky;0
-40;-""Mort ou vif". C'est ce qui est écrit sur ton avis de recherche";Kaku;0
-41;-"Tous les membres de votre équipage vont passez à la moulinette";Pauly;0
-42;-"Trouvons-les tous et pendons-les";Un habitant de Water Seven;0
-43;-"J'aime pas trop qu'on vienne me faucher ma proie juste sous mon nez";Franky;0
-44;-"Vous allez vous prendre un vent, mais pas n'importe lequel";Franky;0
-45;-"J'espérais apprendre la vérité. Mais je me faisais des illusions";Icebarg;0
-46;-"ça bibiche?";Franky;0
-47;-"Les pirates? Mwahahaha! Et toi aussi, tu es de cet avis?";Kokoro;0
-48;-"La neutralité est la meilleur position";Zoro;0
-49;-"Alors ça, il faudrait être dans sa cervelle de moineau pour savoir ce qui l'a traversée";Kokoro;0
-50;-"Mieux vaut que vous restiez dans l'ignorance. Cette fille est un démon";Icebarg;0
-51;-"On a intérêt à la jouer fine si on veut éviter les ennuis";Luffy;0
-52;-"Ces armes ne peuvent pas apporter la paix";Icebarg;0
-53;-"Permets-moi de te rétorquer que c'est vous qui êtes tombés dans un piège";Icebarg;0
-54;-"Je vais pas le laisser se faire assassiner par une bande de type sortis d'on ne sait où";Pauly;0
-55;-"Disons simplement que je suis conscient de ce qu'est la nature humaine, gamin";Icebarg;1
-56;-"Qui plus est, vos pulsations nous indiquent sans contestation que nous avons vu juste";Lucci;0
-57;-"Tu as toujours su parler!! Tu t'es bien payé ma tête";Pauly;0
-58;-"Pas besoin de balle pour trouer le cuir d'un adversaire";Kaku;0
-59;-"Je croyais pourtant qu'on avait été amis pendant tout ce temps";Pauly;0
-60;-"Mon dieu que de haine";Kokoro;0
-61;-"Mais les mauvais pressentiment s'avèrent souvent juste";Kokoro;0
-62;-"T'es d'accord, on oublie tout? Allez, marché toncul";Franky;0
-63;-"Un bateau qui est dans l'impossibilité d'assurer ce genre de voyage n'est plus un bateau";Franky;1
-64;-"Des bateaux qui ont vécu aussi heureux que lui, il ne doit pas y en avoir des masses";Franky;0
-65;-"Dis-toi que si ça devait arriver, il ne pourrait jamais reposer en paix";Franky;0
-66;-"Un homme doit être fier des navires qu'il a construits";Tom;1
-67;-"Bien que la vie ait fait de lui un petit dur, il a su rester honnête et droit dans ses bottes";Tom;0
-68;-"Le principal c'est que les gens aient retrouvé l'envie de vivre";Tom;0
-69;-"En tant qu'agent du gouvernement j'ai donc tous les droits sur ta personne";Spandam;0
-70;-"Elles peuvent blesser des gens sans aucune distinction";Icebarg;0
-71;-"En rendant service à water seven.... j'ai vu mon rêve....se mettre en marche....";Tom;0
-72;-"Où est-ce que tu emmène celui qui t'a mis au monde?";Franky;0
-73;-"Je suis décidé à transformé cette ville";Icebarg;0
-74;-"Si ça t'est à ce point insupportable de les leur filer, tu n'as qu'a les brûles sous leurs yeux";Franky;0
-75;-"Si tu savais comme je suis content de te savoir en vie";Icebarg;0
-76;-"Quand ils savent qu'ils ont quelqu'un à sauver, leur puissance est sans limite";Nami;0
-77;-"Les mensonges des femmes, c'est aux hommes de les pardonner";Sanji;1
-78;-"Vous allez filer un coup de main à cette jeune demoiselle";Pauly;0
-79;-"Vas-tu arrêter de m'enfumer, oui?";Jerry;0
-80;-"Comment est-ce que tu peux jouer à cache-cache dans un moment pareil?";Nami;0
-81;-"Je le sens...Ce sabre à une âme";Zoro;0
-82;-"Je ne pouvais pas rêver allié plus puissant";Spandam;0
-83;-"Ce serait plutôt à moi de te poser la question. Au fait, c'est déjà ton nom? Toi, le long nez";Sanji;0
-84;-"Je ne pouvais pas abandonner cette belle brochette d'idiots à son triste sort";Icebarg;0
-85;-"Pardon, j'aurai pas dû te crier dessus";Luffy;0
-86;-"Afin de ne vous en tirer qu'avec de légère blessures, veuillez vous cramponner fermement";Kokoro;0
-87;-"Il ne sait que foncer à toute berzingue. Personne ne peut l'arrêter";Kokoro;0
-88;-"Quand mes hommes saignent...C'est moi qui souffre";T. Bone;0
-89;-"Faisons tout pour qu'aujourd'hui soit un jour de paix dans un monde de tendresse"; T. Bone;0
-90;-"Vas-y, tu peux t'en donner à coeur joie";Luffy;0
-91;-"Même si le capitaine m'en donnait l'ordre, il serait hors de question que je reste sans rien faire";Sanji;0
-92;-"Super fort, même! Qu'est-ce que t'as l'air de croire, abruti?";Franky;0
-93;-"Dévergondée mais sacrément sexy";Zambai, Lulu et Tilestone;0
-94;-"Même si j'ai la tête qui tourne à cause de tes drôles de sourcils en vrille";Wanze;0
-95;-"Avant de te lancer dans des calculs hasardeux, tu aurais d'abord dû leur parler";Usopp;0
-96;-"En guise d'excuse, laisse-moi te montrer comment un cuistot de première class se sert de ses instruments";Sanji;0
-97;-"Il est temps de briser les ego de ce monde dévasté";Zoro;0
-98;-"Il est encore possible d'apporter un peu de justice dans ce monde inique";T. Bone;0
-99;-"Je dois protéger la vie des citoyen innocents";T. Bone;0
-100;-"La cause que tu défends est probablement juste mais nous avons nous aussi un lourd fardeau à porter";Zoro;0
-101;-"Tu t'es trompé de sens, imbécile";Nero;0
-102;-"Oeil, nez, joue, bouche, dents, menton";Sanji;0
-103;-"Tu dois juste comprendre que sans l'autorisation de son capitaine, un pirate ne peut pas quitter son équipage";Usopp;0
-104;-"Vous n'avez donc aucune humanité?";Sanji;0
-105;-"Vivre n'est pas un crime";Franky;1
+id;citation;reponse;coeur;chapitre;page;
+1;-"Pourquoi je vous appelle, en fait? Ah ben je sais plus! Hic!";Kokoro;0;322;14;
+2;-"Il me faut un gars monté comme une armoire à glace";Luffy;0;323;4;
+3;-"Si je tombe sur un mec comme ça, je prends mes jambes à mon cou";Usopp;0;323;5;
+4;-"Sur un chantier naval, ce ne sont pas les pirates qui font la loi";Pauly;0;323;17;
+5;-"Cet homme est d'une franchise effrayante";Usopp;0;324;7;
+6;-"Ça veut dire qu'il ne reste plus que nous deux sur ce bateau? Mon dieu, quel ennui";Sanji;0;324;15;
+7;-"Mais bon, l'issue ne faisait aucun doute. Ils se sont fait rosser par les artisans";Un habitant de Water Seven;0;324;17;
+8;-"Je croyais pouvoir te surprendre dans ton sommeil";Un membre de la franky family;0;324;18;
+9;-"Votre "jour de chance"? Tu voulais dire "malchance", j'imagine";Zoro;0;325;4;
+10;-"Vous y allez un peu fort, quand même...Me confisquer ma valise, comme ça...";Luffy;0;325;13;
+11;-"Pas en bois, si c'est ce que tu veux savoir";Kaku;0;325;16;
+12;-"J'ai pas envie";Icebarg;0;326;9;
+13;-"Car quand elle se met en colère elle a tendance à frapper tout ce qui bouge";Icebarg;0;326;11;
+14;-"C'est la trace de lèvres qui m'incommodait";Icebarg;0;326;12;
+15;-"C'est parce qu'il ne peut pas te frapper lui-même qu'il a demandé à ce type de le faire à se place";Luffy;0;327;9;
+16;-"Un professionnel ne ment jamais";Kaku;0;327;17;
+17;-"Même avec tout notre talent il n'y a rien que nous puissions faire";Kaku;0;327;18;
+18;-"C'est vrai, ce qu'il dit? Tu ne peux plus naviguer?";Zoro;0;327;19;
+19;-"Dis-moi, petite devergondée. Tu sais ce que c'est, une quille?";Pauly;0;328;9;
+20;-"Tout bateau est unique";Hattori;0;328;11;
+21;-"J'ai l'impression de parler à un mur et malgré ça, tu te prétends capitaine?";Icebarg;0;328;14;
+22;-"Tiens, ça sent le pirate par ici";Corgi;0;328;16;
+23;-"Voler des pirates est un acte innommable";Nami;0;328;20;
+24;-"Toi et les autres, je n'oserai plus jamais vous regarder en face";Usopp;0;328;23;
+25;-"Un homme devient plus fort à mesure qu'il affronte les vagues mais n'en va pas de même pour un navire";Zoro;0;329;5;
+26;-"Le temps de défoncer leur baraque de tarés";Luffy;0;329;18;
+27;-"Quand ce combat sera terminé, il ne restera plus rien de vous";Luffy;0;330;13;
+28;-"Le "Vogue Merry" est irréparable";Luffy;0;331;7;
+29;-"Et toi, tu voudrais qu'on l'abandonne ici?";Usopp;0;331;10;
+30;-"Il ne suffit pas de prendre ses grands airs de capitaine pour faire le bon choix";Usopp;0;331;12;
+31;-"Ce n'est pas le genre de paroles qu'on peut prononcer à la légère";Sanji;0;331;15;
+32;-""Toi et moi, on n'est plus amis, retourne au bateau"";Chopper;0;332;6;
+33;-"Je suis on en peut plus sérieux! Ce combat, C'est le mien";Usopp;0;332;12;
+34;-"Tu savais pourtant très bien que tu n'avais aucune chance contre moi";Luffy;0;333;13;
+35;-"Imagine à quel point un homme peut se sentir misérable si on s'apitoie sur son sort alors qu'il vient de perdre un combat";Sanji;0;333;16;
+36;-"Dis-toi bien qu'une attention déplacée peut être terriblement douloureuse pour quelqu'un qui a subi une défaite";Sanji;0;333;17;
+37;-"Si tu devais te montrer hésitant, en qui devrions-nous croire?";Zoro;1;333;18;
+38;-"Qui a osé faire ça? Cet homme ne mérite aucune pitié";Pauly;0;334;11;
+39;-"He ben, ils y sont allés un peu fort";Mozu;0;334;19;
+40;-"Je suis le super mâle de cette île";Franky;0;335;13;
+41;-"Je suis celui que tu cherches";Luffy;0;335;15;
+42;-"Vous n'avez jamais vu quelqu'un cracher du feu?";Franky;0;336;6;
+43;-"C'est quoi ton problème? Tu vis mal ta puberté?";Franky;0;337;9;
+44;-""Mort ou vif". C'est ce qui est écrit sur ton avis de recherche";Kaku;0;337;20;
+45;-"Tous les membres de votre équipage vont passez à la moulinette";Pauly;0;337;23;
+46;-"Trouvons-les tous et pendons-les";Un habitant de Water Seven;0;337;23;
+47;-"J'aime pas trop qu'on vienne me faucher ma proie juste sous mon nez";Franky;0;338;11;
+48;-"Vous allez vous prendre un vent, mais pas n'importe lequel";Franky;0;338;13;
+49;-"J'espérais apprendre la vérité. Mais je me faisais des illusions";Icebarg;0;339;10;
+50;-"Ça bibiche?";Franky;0;339;12;
+51;-"Les pirates? Mwahahaha! Et toi aussi, tu es de cet avis?";Kokoro;0;339;16;
+52;-"La neutralité est la meilleur position";Zoro;0;341;4;
+53;-"Alors ça, il faudrait être dans sa cervelle de moineau pour savoir ce qui l'a traversée";Kokoro;0;341;13;
+54;-"Mieux vaut que vous restiez dans l'ignorance. Cette fille est un démon";Icebarg;0;341;18;
+55;-"On a intérêt à la jouer fine si on veut éviter les ennuis";Luffy;0;342;6;
+56;-"Ces armes ne peuvent pas apporter la paix";Icebarg;0;344;12;
+57;-"Permets-moi de te rétorquer que c'est vous qui êtes tombés dans un piège";Icebarg;0;344;17;
+58;-"Je vais pas le laisser se faire assassiner par une bande de type sortis d'on ne sait où";Pauly;0;345;12;
+59;-"Disons simplement que je suis conscient de ce qu'est la nature humaine, gamin";Icebarg;1;346;7;
+60;-"Qui plus est, vos pulsations nous indiquent sans contestation que nous avons vu juste";Lucci;0;346;15;
+61;-"Tu as toujours su parler!! Tu t'es bien payé ma tête";Pauly;0;347;5;
+62;-"Pas besoin de balle pour trouer le cuir d'un adversaire";Kaku;0;348;13;
+63;-"Je croyais pourtant qu'on avait été amis pendant tout ce temps";Pauly;0;349;9;
+64;-"Un simple citoyen comme vous ne peux pas s'opposer au gouvernement mondial";Lucci;0;349;16;
+65;-"Mon dieu que de haine";Kokoro;0;350;3;
+66;-"Mais les mauvais pressentiment s'avèrent souvent juste";Kokoro;0;350;3;
+67;-"T'es d'accord, on oublie tout? Allez, marché toncul";Franky;0;350;11;
+68;-"Un bateau qui est dans l'impossibilité d'assurer ce genre de voyage n'est plus un bateau";Franky;1;351;4;
+69;-"Ne vous en faites, je pourrais vous emmener encore un peu plus loin";Merry;0;351;15;
+70;-"Des bateaux qui ont vécu aussi heureux que lui, il ne doit pas y en avoir des masses";Franky;0;351;18;
+71;-"Dis-toi que si ça devait arriver, il ne pourrait jamais reposer en paix";Franky;0;352;5;
+72;-"Bien que la vie ait fait de lui un petit dur, il a su rester honnête et droit dans ses bottes";Tom;0;354;11;
+73;-"Le principal c'est que les gens aient retrouvé l'envie de vivre";Tom;0;355;3;
+74;-"En tant qu'agent du gouvernement j'ai donc tous les droits sur ta personne";Spandam;0;355;8;
+75;-"Elles peuvent blesser des gens sans aucune distinction";Icebarg;0;356;9;
+76;-"Un homme doit être fier des navires qu'il a construits";Tom;1;356;18;
+77;-"Aujourd'hui encore je suis fier d'avoir aidé cet homme nommé "Roger"";Tom;0;357;8;
+78;-"En rendant service à water seven.... j'ai vu mon rêve....se mettre en marche....";Tom;0;357;10;
+79;-"Où est-ce que tu emmène celui qui t'a mis au monde?";Franky;0;357;17;
+80;-"Je suis décidé à transformé cette ville";Icebarg;0;358;6;
+81;-"Si ça t'est à ce point insupportable de les leur filer, tu n'as qu'a les brûles sous leurs yeux";Franky;0;358;13;
+82;-"Si tu savais comme je suis content de te savoir en vie";Icebarg;0;358;14;
+83;-"Dire que cette femme a préféré choisir vos six vies plutôt que l'humanité toute entière";Icebarg;0;359;15;
+84;-"Quand ils savent qu'ils ont quelqu'un à sauver, leur puissance est sans limite";Nami;0;359;17;
+85;-"Les mensonges des femmes, c'est aux hommes de les pardonner";Sanji;1;359;18;
+86;-"Vous allez filer un coup de main à cette jeune demoiselle";Pauly;0;360;9;
+87;-"On est déjà deux à souffrir d'avoir été trahis. C'est amplement suffisant, non?";Pauly;0;360;12;
+88;-"Vas-tu arrêter de m'enfumer, oui?";Jerry;0;362;4;
+89;-"Comment est-ce que tu peux jouer à cache-cache dans un moment pareil?";Nami;0;363;7;
+90;-"Je le sens...Ce sabre à une âme";Zoro;0;363;11;
+91;-"Je ne pouvais pas rêver allié plus puissant";Spandam;0;365;2;
+92;-"Ce serait plutôt à moi de te poser la question. Au fait, c'est déjà ton nom? Toi, le long nez";Sanji;0;365;6;
+93;-"Je ne pouvais pas abandonner cette belle brochette d'idiots à son triste sort";Icebarg;0;365;11;
+94;-"Pardon, j'aurai pas dû te crier dessus";Luffy;0;365;13;
+95;-"Afin de ne vous en tirer qu'avec de légère blessures, veuillez vous cramponner fermement";Kokoro;0;366;5;
+96;-"Il ne sait que foncer à toute berzingue. Personne ne peut l'arrêter";Kokoro;0;366;12;
+97;-"Quand mes hommes saignent...C'est moi qui souffre";T. Bone;1;366;15;
+98;-"Faisons tout pour qu'aujourd'hui soit un jour de paix dans un monde de tendresse";T. Bone;0;366;16;
+99;-"Vas-y, tu peux t'en donner à coeur joie";Luffy;0;367;11;
+100;-"Même si le capitaine m'en donnait l'ordre, il serait hors de question que je reste sans rien faire";Sanji;0;367;12;
+101;-"Super fort, même! Qu'est-ce que t'as l'air de croire, abruti?";Franky;0;368;4;
+102;-"Dévergondée mais sacrément sexy";Zambai, Lulu et Tilestone;0;368;5;
+103;-"Même si j'ai la tête qui tourne à cause de tes drôles de sourcils en vrille";Wanze;0;369;13;
+104;-"Avant de te lancer dans des calculs hasardeux, tu aurais d'abord dû leur parler";Usopp;0;370;4;
+105;-"En guise d'excuse, laisse-moi te montrer comment un cuistot de première class se sert de ses instruments";Sanji;0;370;15;
+106;-"Il est temps de briser les ego de ce monde dévasté";Zoro;0;371;8;
+107;-"Il est encore possible d'apporter un peu de justice dans ce monde inique";T. Bone;0;371;11;
+108;-"Je dois protéger la vie des citoyen innocents";T. Bone;0;371;12;
+109;-"La cause que tu défends est probablement juste mais nous avons nous aussi un lourd fardeau à porter";Zoro;0;371;17;
+110;-"Tu t'es trompé de sens, imbécile";Nero;0;372;9;
+111;-"Oeil, nez, joue, bouche, dents, menton";Sanji;0;372;13;
+112;-"C'est vrai que tu ne connais pas encore la puissance destructrice de mon poing";Franky;0;373;5;
+113;-"Tu dois juste comprendre que sans l'autorisation de son capitaine, un pirate ne peut pas quitter son équipage";Usopp;0;374;15;
+114;-"Vous n'avez donc aucune humanité?";Sanji;0;374;18;
+115;-"Vivre n'est pas un crime";Franky;1;375;4;
