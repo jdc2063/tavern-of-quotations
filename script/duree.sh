@@ -124,17 +124,6 @@ bark() {
     done < ./csv/thriller_bark.csv
 }
 
-ohara() {
-    while IFS=';' read -r ed citation reponse coeur; do
-        declare -i ed
-        if [[ $ed -eq $ran_a ]]; then
-            echo $n $citation
-            raiponce=$reponse
-            n=$((n+1))
-        fi
-    done < ./csv/ohara.csv
-}
-
 lobby() {
     while IFS=';' read -r ed citation reponse coeur; do
         declare -i ed
@@ -423,24 +412,10 @@ elif [[ $arc_lobby -eq 1 ]]; then
     done
     arc_lobby=2
 
-elif [[ $arc_ohara -eq 1 ]]; then
-    while [[ $nombre_a -ne $nombre ]]; do
-        exist=0
-        arc_actuel=12
-        ran_a=$((RANDOM%compteur_ohara+1))
-        source ./script/recherche.sh
-        if [[ $exist -eq 1 ]]; then
-            ohara
-            source ./script/installation.sh
-            nombre_a=$((nombre_a+1))
-        fi
-    done
-    arc_ohara=2
-
 elif [[ $arc_bark -eq 1 ]]; then
     while [[ $nombre_a -ne $nombre ]]; do
         exist=0
-        arc_actuel=13
+        arc_actuel=12
         ran_a=$((RANDOM%compteur_bark+1))
         source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then
@@ -454,7 +429,7 @@ elif [[ $arc_bark -eq 1 ]]; then
 elif [[ $arc_sabaody -eq 1 ]]; then
     while [[ $nombre_a -ne $nombre ]]; do
         exist=0
-        arc_actuel=14
+        arc_actuel=13
         ran_a=$((RANDOM%compteur_sabaody+1))
         source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then
@@ -468,7 +443,7 @@ elif [[ $arc_sabaody -eq 1 ]]; then
 elif [[ $arc_lily -eq 1 ]]; then
     while [[ $nombre_a -ne $nombre ]]; do
         exist=0
-        arc_actuel=15
+        arc_actuel=14
         ran_a=$((RANDOM%compteur_lily+1))
         source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then
@@ -482,7 +457,7 @@ elif [[ $arc_lily -eq 1 ]]; then
 elif [[ $arc_down -eq 1 ]]; then
     while [[ $nombre_a -ne $nombre ]]; do
         exist=0
-        arc_actuel=16
+        arc_actuel=15
         ran_a=$((RANDOM%compteur_down+1))
         source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then
@@ -496,7 +471,7 @@ elif [[ $arc_down -eq 1 ]]; then
 elif [[ $arc_ford -eq 1 ]]; then
     while [[ $nombre_a -ne $nombre ]]; do
         exist=0
-        arc_actuel=17
+        arc_actuel=16
         ran_a=$((RANDOM%compteur_ford+1))
         source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then
@@ -511,7 +486,7 @@ elif [[ $arc_ford -eq 1 ]]; then
 elif [[ $arc_ellipse -eq 1 ]]; then
     while [[ $nombre_a -ne $nombre ]]; do
         exist=0
-        arc_actuel=18
+        arc_actuel=17
         ran_a=$((RANDOM%compteur_ellipse+1))
         source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then
@@ -526,7 +501,7 @@ elif [[ $arc_ellipse -eq 1 ]]; then
 elif [[ $arc_sabaody_r -eq 1 ]]; then
     while [[ $nombre_a -ne $nombre ]]; do
         exist=0
-        arc_actuel=19
+        arc_actuel=18
         ran_a=$((RANDOM%compteur_sabaody_r+1))
         source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then
@@ -540,7 +515,7 @@ elif [[ $arc_sabaody_r -eq 1 ]]; then
 elif [[ $arc_poisson -eq 1 ]]; then
     while [[ $nombre_a -ne $nombre ]]; do
         exist=0
-        arc_actuel=20
+        arc_actuel=19
         ran_a=$((RANDOM%compteur_poisson+1))
         source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then
@@ -554,7 +529,7 @@ elif [[ $arc_poisson -eq 1 ]]; then
 elif [[ $arc_hazard -eq 1 ]]; then
     while [[ $nombre_a -ne $nombre ]]; do
         exist=0
-        arc_actuel=21
+        arc_actuel=20
         ran_a=$((RANDOM%compteur_hazard+1))
         source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then
@@ -568,7 +543,7 @@ elif [[ $arc_hazard -eq 1 ]]; then
 elif [[ $arc_dressrosa -eq 1 ]]; then
     while [[ $nombre_a -ne $nombre ]]; do
         exist=0
-        arc_actuel=22
+        arc_actuel=21
         ran_a=$((RANDOM%compteur_dressrosa+1))
         source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then
@@ -582,7 +557,7 @@ elif [[ $arc_dressrosa -eq 1 ]]; then
 elif [[ $arc_zo -eq 1 ]]; then
     while [[ $nombre_a -ne $nombre ]]; do
         exist=0
-        arc_actuel=23
+        arc_actuel=22
         ran_a=$((RANDOM%compteur_zo+1))
         source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then
@@ -596,7 +571,7 @@ elif [[ $arc_zo -eq 1 ]]; then
 elif [[ $arc_wci -eq 1 ]]; then
     while [[ $nombre_a -ne $nombre ]]; do
         exist=0
-        arc_actuel=24
+        arc_actuel=23
         ran_a=$((RANDOM%compteur_wci+1))
         source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then
@@ -610,7 +585,7 @@ elif [[ $arc_wci -eq 1 ]]; then
 elif [[ $arc_wano -eq 1 ]]; then
     while [[ $nombre_a -ne $nombre ]]; do
         exist=0
-        arc_actuel=25
+        arc_actuel=24
         ran_a=$((RANDOM%compteur_wano+1))
         source ./script/recherche.sh
         if [[ $exist -eq 1 ]]; then

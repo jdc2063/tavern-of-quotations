@@ -159,19 +159,6 @@ while [[ $arc -eq 0 && $quit1 -ne 1 ]]; do
         fi
     fi
 
-    if [[ $arc_ohara -eq 0 && $arc -ne 1 ]]; then
-        if [[ $non_null -eq $ran_arc ]]; then
-            if [[ $joueur -eq 4 ]]; then
-                echo "Ohara choisi"
-            fi
-            arc=1
-            arc_ohara=1
-            non_vide=$((non_vide-1))
-        else
-            non_null=$((non_null+1))
-        fi
-    fi
-
     if [[ $arc_bark -eq 0 && $arc -ne 1 ]]; then
         if [[ $non_null -eq $ran_arc ]]; then
             if [[ $joueur -eq 4 ]]; then

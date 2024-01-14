@@ -113,17 +113,6 @@ seven() {
     done < ./csv/water_seven.csv
 }
 
-ohara() {
-    while IFS=';' read -r ad citation reponse coeur; do
-        declare -i ad
-        if [[ $ad -eq $ran_a ]]; then
-            raiponce=$reponse
-            echo $n $citation
-            n=$((n+1))
-        fi
-    done < ./csv/ohara.csv
-}
-
 lobby() {
     while IFS=';' read -r ad citation reponse coeur; do
         declare -i ad
@@ -477,29 +466,10 @@ elif [[ $arc_lobby -eq 1 ]]; then
         arc_lobby=0
     fi
 
-elif [[ $arc_ohara -eq 1 ]]; then
-    while [[ $exist -ne 1 ]]; do
-        ran_a=$((RANDOM%compteur_ohara+1))
-        arc_actuel=12
-        source ./script/recherche_alea.sh
-        if [[ $exist -eq 1 ]]; then
-            ohara
-            source ./script/installation_alea.sh
-            nombre_a=$((nombre_a+1))
-            nombre_ohara=$((nombre_ohara+1))
-        fi
-    done
-    if [[ $nombre_ohara -eq $compteur_ohara ]]; then
-        arc_ohara=2
-        non_vide=$((non_vide-1))
-    else
-        arc_ohara=0
-    fi
-
 elif [[ $arc_bark -eq 1 ]]; then
     while [[ $exist -ne 1 ]]; do
         ran_a=$((RANDOM%compteur_bark+1))
-        arc_actuel=13
+        arc_actuel=12
         source ./script/recherche_alea.sh
         if [[ $exist -eq 1 ]]; then
             bark
@@ -518,7 +488,7 @@ elif [[ $arc_bark -eq 1 ]]; then
 elif [[ $arc_sabaody -eq 1 ]]; then
     while [[ $exist -ne 1 ]]; do
         ran_a=$((RANDOM%compteur_sabaody+1))
-        arc_actuel=14
+        arc_actuel=13
         source ./script/recherche_alea.sh
         if [[ $exist -eq 1 ]]; then
             sabaody
@@ -537,7 +507,7 @@ elif [[ $arc_sabaody -eq 1 ]]; then
 elif [[ $arc_lily -eq 1 ]]; then
     while [[ $exist -ne 1 ]]; do
         ran_a=$((RANDOM%compteur_lily+1))
-        arc_actuel=15
+        arc_actuel=14
         source ./script/recherche_alea.sh
         if [[ $exist -eq 1 ]]; then
             lily
@@ -556,7 +526,7 @@ elif [[ $arc_lily -eq 1 ]]; then
 elif [[ $arc_down -eq 1 ]]; then
     while [[ $exist -ne 1 ]]; do
         ran_a=$((RANDOM%compteur_down+1))
-        arc_actuel=16
+        arc_actuel=15
         source ./script/recherche_alea.sh
         if [[ $exist -eq 1 ]]; then
             down
@@ -575,7 +545,7 @@ elif [[ $arc_down -eq 1 ]]; then
 elif [[ $arc_ford -eq 1 ]]; then
     while [[ $exist -ne 1 ]]; do
         ran_a=$((RANDOM%compteur_ford+1))
-        arc_actuel=17
+        arc_actuel=16
         source ./script/recherche_alea.sh
         if [[ $exist -eq 1 ]]; then
             ford
@@ -594,7 +564,7 @@ elif [[ $arc_ford -eq 1 ]]; then
 elif [[ $arc_ellipse -eq 1 ]]; then
     while [[ $exist -ne 1 ]]; do
         ran_a=$((RANDOM%compteur_ellipse+1))
-        arc_actuel=18
+        arc_actuel=17
         source ./script/recherche_alea.sh
         if [[ $exist -eq 1 ]]; then
             ellipse
@@ -613,7 +583,7 @@ elif [[ $arc_ellipse -eq 1 ]]; then
 elif [[ $arc_sabaody_r -eq 1 ]]; then
     while [[ $exist -ne 1 ]]; do
         ran_a=$((RANDOM%compteur_sabaody_r+1))
-        arc_actuel=17
+        arc_actuel=18
         source ./script/recherche_alea.sh
         if [[ $exist -eq 1 ]]; then
             sabaody_r
@@ -632,7 +602,7 @@ elif [[ $arc_sabaody_r -eq 1 ]]; then
 elif [[ $arc_poisson -eq 1 ]]; then
     while [[ $exist -ne 1 ]]; do
         ran_a=$((RANDOM%compteur_poisson+1))
-        arc_actuel=18
+        arc_actuel=19
         source ./script/recherche_alea.sh
         if [[ $exist -eq 1 ]]; then
             poisson
@@ -651,7 +621,7 @@ elif [[ $arc_poisson -eq 1 ]]; then
 elif [[ $arc_hazard -eq 1 ]]; then
     while [[ $exist -ne 1 ]]; do
         ran_a=$((RANDOM%compteur_hazard+1))
-        arc_actuel=hazard
+        arc_actuel=20
         source ./script/recherche_alea.sh
         if [[ $exist -eq 1 ]]; then
             hazard
@@ -670,7 +640,7 @@ elif [[ $arc_hazard -eq 1 ]]; then
 elif [[ $arc_dressrosa -eq 1 ]]; then
     while [[ $exist -ne 1 ]]; do
         ran_a=$((RANDOM%compteur_dressrosa+1))
-        arc_actuel=dressrosa
+        arc_actuel=21
         source ./script/recherche_alea.sh
         if [[ $exist -eq 1 ]]; then
             dressrosa
@@ -689,7 +659,7 @@ elif [[ $arc_dressrosa -eq 1 ]]; then
 elif [[ $arc_zo -eq 1 ]]; then
     while [[ $exist -ne 1 ]]; do
         ran_a=$((RANDOM%compteur_zo+1))
-        arc_actuel=zo
+        arc_actuel=22
         source ./script/recherche_alea.sh
         if [[ $exist -eq 1 ]]; then
             zo
@@ -708,7 +678,7 @@ elif [[ $arc_zo -eq 1 ]]; then
 elif [[ $arc_wci -eq 1 ]]; then
     while [[ $exist -ne 1 ]]; do
         ran_a=$((RANDOM%compteur_wci+1))
-        arc_actuel=wci
+        arc_actuel=23
         source ./script/recherche_alea.sh
         if [[ $exist -eq 1 ]]; then
             wci
@@ -727,7 +697,7 @@ elif [[ $arc_wci -eq 1 ]]; then
 elif [[ $arc_wano -eq 1 ]]; then
     while [[ $exist -ne 1 ]]; do
         ran_a=$((RANDOM%compteur_wano+1))
-        arc_actuel=wano
+        arc_actuel=24
         source ./script/recherche_alea.sh
         if [[ $exist -eq 1 ]]; then
             wano

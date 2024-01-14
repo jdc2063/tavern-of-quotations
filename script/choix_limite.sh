@@ -7,10 +7,10 @@ fi
 echo "Choisis la limite d'arc du jeu"
 echo "1.East Blue    2.LogueTown/Cap Jumeaux    3.Whiskey Peak     4.Little Garden    5.Drum"
 echo "6.Alabasta    7.Jaya   8.Skypea    9.Davy Back Fight   10.Water Seven"
-echo "11.Enies Lobby     12.Ohara    13.Thriller Bark   14.Sabaody    15.Amazone Lily"
-echo "16.Impel Down        17.Marineford     18.Ellipse      19.Sabaody post-ellipse"
-echo "20.Ile des Hommes poissons     21.Punk Hazard    22.Dressrosa      23.Zo"
-echo "24.Whole Cake Island     25. Wano    26.retour menu"
-while [[ $limite -lt 1 || $limite -gt 26 ]]; do
+echo "11.Enies Lobby    12.Thriller Bark   13.Sabaody    14.Amazone Lily"
+echo "15.Impel Down        16.Marineford     17.Ellipse      18.Sabaody post-ellipse"
+echo "19.Ile des Hommes poissons     20.Punk Hazard    21.Dressrosa      22.Zo"
+echo "23.Whole Cake Island     24. Wano    25.retour menu"
+while [[ $limite -lt 1 || $limite -gt 25 ]]; do
     read limite
 done

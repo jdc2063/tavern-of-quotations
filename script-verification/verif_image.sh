@@ -136,18 +136,6 @@ done < ../csv/water_seven.csv
 
 # first_line=0
 # while IFS=";" read -r id citation reponse coeur; do
-#     base_dossier="ohora/"
-#     if [[ $first_line -eq 0 ]]; then
-#         first_line=1
-#     else
-#         if [[ ! -f "${base}${base_dossier}${id}.jpg" && ! -f "${base}${base_dossier}${id},1.jpg" ]]; then
-#             echo "${id} Ohara image manquante" >> "${log}"
-#         fi
-#     fi
-# done < ../csv/ohara.csv
-
-# first_line=0
-# while IFS=";" read -r id citation reponse coeur; do
 #     base_dossier="thriller_bark/"
 #     if [[ $first_line -eq 0 ]]; then
 #         first_line=1

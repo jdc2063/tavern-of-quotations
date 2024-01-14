@@ -108,16 +108,6 @@ bark() {
     done < ./csv/thriller_bark.csv
 }
 
-ohara() {
-    while IFS=';' read -r od citation reponse coeur; do
-        declare -i od
-        if [[ $od -eq $ran_a ]]; then
-            echo $citation
-            raiponce=$reponse
-        fi
-    done < ./csv/ohara.csv
-}
-
 lobby() {
     while IFS=';' read -r od citation reponse coeur; do
         declare -i od
@@ -579,41 +569,11 @@ elif [[ $arc_lobby -eq 1 ]]; then
         arc_lobby=0
     fi
 
-elif [[ $arc_ohara -eq 1 ]]; then
-    nombre=$compteur_ohara
-    while [[ $exist -ne 1 ]]; do
-        ran_a=$((RANDOM%compteur_ohara+1))
-        arc_actuel=12
-        source ./script/recherche_alea.sh
-        if [[ $exist -eq 1 ]]; then
-            source ./script/installation_alea.sh
-            ohara
-            if [[ $joueur -ne 4 ]]; then
-                read
-            fi
-            echo "réponse: $raiponce dans la catégorie Ohara"
-            nombre_ohara=$((nombre_ohara+1))
-            read next
-            if [[ $next -eq 1 ]]; then
-                quit=1
-                echo "====="
-                echo "fin du jeu"
-                echo "====="
-            fi
-        fi
-    done
-    if [[ $nombre_ohara -eq $compteur_ohara ]]; then
-        arc_ohara=2
-        non_vide=$((non_vide-1))
-    else
-        arc_ohara=0
-    fi
-
 elif [[ $arc_bark -eq 1 ]]; then
     nombre=$compteur_bark
     while [[ $exist -ne 1 ]]; do
         ran_a=$((RANDOM%compteur_bark+1))
-        arc_actuel=13
+        arc_actuel=12
         source ./script/recherche_alea.sh
         if [[ $exist -eq 1 ]]; then
             source ./script/installation_alea.sh
@@ -643,7 +603,7 @@ elif [[ $arc_sabaody -eq 1 ]]; then
     nombre=$compteur_sabaody
     while [[ $exist -ne 1 ]]; do
         ran_a=$((RANDOM%compteur_sabaody+1))
-        arc_actuel=14
+        arc_actuel=13
         source ./script/recherche_alea.sh
         if [[ $exist -eq 1 ]]; then
             source ./script/installation_alea.sh
@@ -673,7 +633,7 @@ elif [[ $arc_lily -eq 1 ]]; then
     nombre=$compteur_lily
     while [[ $exist -ne 1 ]]; do
         ran_a=$((RANDOM%compteur_lily+1))
-        arc_actuel=15
+        arc_actuel=14
         source ./script/recherche_alea.sh
         if [[ $exist -eq 1 ]]; then
             source ./script/installation_alea.sh
@@ -703,7 +663,7 @@ elif [[ $arc_down -eq 1 ]]; then
     nombre=$compteur_lily
     while [[ $exist -ne 1 ]]; do
         ran_a=$((RANDOM%compteur_down+1))
-        arc_actuel=16
+        arc_actuel=15
         source ./script/recherche_alea.sh
         if [[ $exist -eq 1 ]]; then
             source ./script/installation_alea.sh
@@ -733,7 +693,7 @@ elif [[ $arc_ford -eq 1 ]]; then
     nombre=$compteur_ford
     while [[ $exist -ne 1 ]]; do
         ran_a=$((RANDOM%compteur_ford+1))
-        arc_actuel=17
+        arc_actuel=16
         source ./script/recherche_alea.sh
         if [[ $exist -eq 1 ]]; then
             source ./script/installation_alea.sh

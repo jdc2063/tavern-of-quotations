@@ -279,33 +279,6 @@ while IFS=";" read -r id citation reponse coeur chap page fin; do
     fi
 done < ../csv/enies_lobby.csv
 
-
-first_line=0
-last_id=0
-while IFS=";" read -r id citation reponse coeur chap page fin; do
-    if [[ $first_line -eq 0 ]]; then
-        first_line=1
-    else
-        if [[ ! $id -eq $(($last_id + 1)) ]]; then
-            echo "${id} faux par rapport à ${last_id} sur Ohara" >> ${log_id}
-        fi
-
-        if [[ $chap == '' || $page == '' ]];then
-            echo "${id} chapitre ou page non rempli à Ohara" >> ${log_absent}
-        elif [[ $chap -lt $last_chapitre || ($chap -eq $last_chapitre && $page -lt $last_page) ]];then
-            echo "${id} mauvais chapitre par rapport au suivant sur Ohara" >> ${log_chap}
-        fi
-
-        if [[ $chap != '' && $page != '' ]];then
-            last_chapitre=$chap
-            last_page=$page
-        fi
-
-        last_id=$id
-    fi
-done < ../csv/ohara.csv
-
-
 first_line=0
 last_id=0
 while IFS=";" read -r id citation reponse coeur chap page fin; do

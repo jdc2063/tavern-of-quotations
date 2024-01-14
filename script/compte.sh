@@ -222,26 +222,6 @@ if [[ $choose -eq 2 ]]; then
 fi
 
 first_line=0
-compteur_ohara=0
-while IFS=";" read -r id citation reponse coeur; do
-    if [[ $first_line -eq 0 ]]; then
-        first_line=1
-    else
-        compteur_ohara=$((compteur_ohara+1))
-        compteur_t=$((compteur_t+1))
-    fi
-done < ./csv/ohara.csv
-if [[ $choose -eq 2 ]]; then
-    if [[ $compteur_ohara -eq 0 ]]; then
-        echo "Ohara ne possède pas de citations!"
-        echo "========="
-    else
-        echo "Ohara possède $compteur_ohara citations!"
-        echo "========="
-    fi
-fi
-
-first_line=0
 compteur_bark=0
 while IFS=";" read -r id citation reponse coeur; do
     if [[ $first_line -eq 0 ]]; then

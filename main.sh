@@ -51,7 +51,7 @@ while [[ $salida -ne 1 ]]; do
                     sleep 2
                 fi                
                 source ./script/choix_limite.sh
-                if [[ $limite -ne 26 ]]; then
+                if [[ $limite -ne 25 ]]; then
                     if [[ $joueur -eq 1 ]]; then
                         echo "Je vois...Mais avant de commencer, tu devras choisir le nombre de citation que tu auras"
                         sleep 2
@@ -122,7 +122,7 @@ while [[ $salida -ne 1 ]]; do
                     sleep 3
                 fi
                 source ./script/choix_limite.sh
-                if [[ $limite -ne 26 ]]; then
+                if [[ $limite -ne 25 ]]; then
                     source ./script/choix_alea.sh
                     if [[ $aleatoire -eq 1 ]]; then
                         source ./script/compte.sh

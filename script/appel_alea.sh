@@ -22,32 +22,30 @@ arc() {
     elif [[ $arc_actuel -eq 11 ]]; then
         echo -e "\t\tEnies Lobby"
     elif [[ $arc_actuel -eq 12 ]]; then
-        echo -e "\t\tOhara"
-    elif [[ $arc_actuel -eq 13 ]]; then
         echo -e "\t\tThriller Bark"
-    elif [[ $arc_actuel -eq 14 ]]; then
+    elif [[ $arc_actuel -eq 13 ]]; then
         echo -e "\t\tSabaody"
-    elif [[ $arc_actuel -eq 15 ]]; then
+    elif [[ $arc_actuel -eq 14 ]]; then
         echo -e "\t\tAmazone Lily"
-    elif [[ $arc_actuel -eq 16 ]]; then
+    elif [[ $arc_actuel -eq 15 ]]; then
         echo -e "\t\tImpel Down"
-    elif [[ $arc_actuel -eq 17 ]]; then
+    elif [[ $arc_actuel -eq 16 ]]; then
         echo -e "\t\tMarineford"
-    elif [[ $arc_actuel -eq 18 ]]; then
+    elif [[ $arc_actuel -eq 17 ]]; then
         echo -e "\t\tEllipse"
-    elif [[ $arc_actuel -eq 19 ]]; then
+    elif [[ $arc_actuel -eq 18 ]]; then
         echo -e "\t\tSabaody post-ellipse"
-    elif [[ $arc_actuel -eq 20 ]]; then
+    elif [[ $arc_actuel -eq 19 ]]; then
         echo -e "\t\tIle des Hommes poissons"
-    elif [[ $arc_actuel -eq 21 ]]; then
+    elif [[ $arc_actuel -eq 20 ]]; then
         echo -e "\t\tPunk Hazard"
-    elif [[ $arc_actuel -eq 22 ]]; then
+    elif [[ $arc_actuel -eq 21 ]]; then
         echo -e "\t\tDressrosa"
-    elif [[ $arc_actuel -eq 23 ]]; then
+    elif [[ $arc_actuel -eq 22 ]]; then
         echo -e "\t\tZo"
-    elif [[ $arc_actuel -eq 24 ]]; then
+    elif [[ $arc_actuel -eq 23 ]]; then
         echo -e "\t\tWhole Cake Island"
-    elif [[ $arc_actuel -eq 25 ]]; then
+    elif [[ $arc_actuel -eq 24 ]]; then
         echo -e "\t\tWano"
     fi
 }

@@ -80,13 +80,6 @@ bark() {
     done < ./csv/bark.csv
 }
 
-ohara() {
-    while IFS=';' read -r ed citation reponse coeur; do
-        declare -i ed
-        echo "$ed $citation de $reponse"
-    done < ./csv/ohara.csv
-}
-
 lobby() {
     while IFS=';' read -r ed citation reponse coeur; do
         declare -i ed
@@ -216,10 +209,6 @@ elif [[ $arc_seven -eq 1 ]]; then
 elif [[ $arc_lobby -eq 1 ]]; then
     lobby
     arc_lobby=2
-
-elif [[ $arc_ohara -eq 1 ]]; then
-    ohara
-    arc_ohara=2
 
 elif [[ $arc_bark -eq 1 ]]; then
     bark

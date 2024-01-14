@@ -266,30 +266,6 @@ while [[ $end -ne 1 ]]; do
     done < ./csv/enies_lobby.csv
 
     first_line=0
-    compteur_ohara=0
-    while IFS=";" read -r id citation reponse coeur; do
-        if [[ $first_line -eq 0 ]]; then
-            first_line=1
-        else
-            if [[ $coeur > 1 ]]; then
-                if [[ $actif -eq 0 && $coeur > 1 ]]; then
-                    source ./script/recherche_love.sh
-                    if [[ $exist -eq 1 ]]; then
-                        principale=$reponse
-                        source ./script/installation_love.sh
-                        actif=1
-                        echo -e "\t\t$principale"
-                        echo "===================================="
-                    fi
-                fi
-                if [[ $actif -eq 1 && "$principale" == "$reponse" && $coeur > 1 ]]; then
-                    echo "$citation dans l'arc Ohara"
-                fi
-            fi
-        fi
-    done < ./csv/ohara.csv
-
-    first_line=0
     compteur_bark=0
     while IFS=";" read -r id citation reponse coeur; do
         if [[ $first_line -eq 0 ]]; then

@@ -22,32 +22,30 @@ arc() {
     elif [[ $arc_actuel -eq 11 ]]; then
         echo "C'était l'arc Enies Lobby"
     elif [[ $arc_actuel -eq 12 ]]; then
-        echo "C'était l'arc Ohara"
-    elif [[ $arc_actuel -eq 13 ]]; then
         echo "C'était l'arc Thriller Bark"
-    elif [[ $arc_actuel -eq 14 ]]; then
+    elif [[ $arc_actuel -eq 13 ]]; then
         echo "C'était l'arc Sabaody"
-    elif [[ $arc_actuel -eq 15 ]]; then
+    elif [[ $arc_actuel -eq 14 ]]; then
         echo "C'était l'arc Amazone Lily"
-    elif [[ $arc_actuel -eq 16 ]]; then
+    elif [[ $arc_actuel -eq 15 ]]; then
         echo "C'était l'arc Impel Down"
-    elif [[ $arc_actuel -eq 17 ]]; then
+    elif [[ $arc_actuel -eq 16 ]]; then
         echo "C'était l'arc Marineford"
-    elif [[ $arc_actuel -eq 18 ]]; then
+    elif [[ $arc_actuel -eq 17 ]]; then
         echo "C'était l'arc Ellipse"
-    elif [[ $arc_actuel -eq 19 ]]; then
+    elif [[ $arc_actuel -eq 18 ]]; then
         echo "C'était l'arc Sabaody post-ellipse"
-    elif [[ $arc_actuel -eq 20 ]]; then
+    elif [[ $arc_actuel -eq 19 ]]; then
         echo "C'était l'arc Ile des Hommes poissons"
-    elif [[ $arc_actuel -eq 21 ]]; then
+    elif [[ $arc_actuel -eq 20 ]]; then
         echo "C'était l'arc Punk Hazard"
-    elif [[ $arc_actuel -eq 22 ]]; then
+    elif [[ $arc_actuel -eq 21 ]]; then
         echo "C'était l'arc Dressrosa"
-    elif [[ $arc_actuel -eq 23 ]]; then
+    elif [[ $arc_actuel -eq 22 ]]; then
         echo "C'était l'arc Zo"
-    elif [[ $arc_actuel -eq 24 ]]; then
+    elif [[ $arc_actuel -eq 23 ]]; then
         echo "C'était l'arc Whole Cake Island"
-    elif [[ $arc_actuel -eq 25 ]]; then
+    elif [[ $arc_actuel -eq 24 ]]; then
         echo "C'était l'arc Wano"
     fi
 }
@@ -936,7 +934,6 @@ appel10() {
 appel5() {
     if [[ $nombre1 -ne 0 ]]; then
         echo -n $n
-        arc_actuel=$arc1
         n=$((n+1))
         if [[ $joueur -eq 4 ]]; then
             echo -n -e "\t$nombre1"

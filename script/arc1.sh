@@ -235,26 +235,6 @@ while [[ $arc -ne 1 && $quit1 -ne 1 ]]; do
         fi
     fi
 
-    if [[ $arc_ohara -eq 0 && $arc -eq 0 ]]; then
-        if [[ $non_null -eq $ran_arc ]]; then
-            if [[ $joueur -eq '' ]]; then
-                echo "Ohara choisi"
-            fi
-            if [[ $nombre -gt $compteur_ohara ]]; then
-                echo "Mais pas assez de citation"
-                arc_ohara=2
-                non_vide=$((non_vide-1))
-                arc=2
-            else
-                arc=1
-                arc_ohara=1
-                non_vide=$((non_vide-1))
-            fi
-        else
-            non_null=$((non_null+1))
-        fi
-    fi
-
     if [[ $arc_bark -eq 0 && $arc -eq 0 ]]; then
         if [[ $non_null -eq $ran_arc ]]; then
             if [[ $joueur -eq '' ]]; then
