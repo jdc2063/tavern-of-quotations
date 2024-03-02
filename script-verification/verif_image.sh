@@ -122,170 +122,170 @@ while IFS=";" read -r id citation reponse coeur; do
     fi
 done < ../csv/water_seven.csv
 
-# first_line=0
-# while IFS=";" read -r id citation reponse coeur; do
-#     base_dossier="enies_lobby/"
-#     if [[ $first_line -eq 0 ]]; then
-#         first_line=1
-#     else
-#         if [[ ! -f "${base}${base_dossier}${id}.jpg" && ! -f "${base}${base_dossier}${id},1.jpg" ]]; then
-#             echo "${id} Enies Lobby image manquante" >> "${log}"
-#         fi
-#     fi
-# done < ../csv/enies_lobby.csv
+first_line=0
+while IFS=";" read -r id citation reponse coeur; do
+    base_dossier="enies_lobby/"
+    if [[ $first_line -eq 0 ]]; then
+        first_line=1
+    else
+        if [[ ! -f "${base}${base_dossier}${id}.jpg" && ! -f "${base}${base_dossier}${id},1.jpg" ]]; then
+            echo "${id} Enies Lobby image manquante" >> "${log}"
+        fi
+    fi
+done < ../csv/enies_lobby.csv
 
-# first_line=0
-# while IFS=";" read -r id citation reponse coeur; do
-#     base_dossier="thriller_bark/"
-#     if [[ $first_line -eq 0 ]]; then
-#         first_line=1
-#     else
-#         if [[ ! -f "${base}${base_dossier}${id}.jpg" && ! -f "${base}${base_dossier}${id},1.jpg" ]]; then
-#             echo "${id} Thriller bark image manquante" >> "${log}"
-#         fi
-#     fi
-# done < ../csv/thriller_bark.csv
+first_line=0
+while IFS=";" read -r id citation reponse coeur; do
+    base_dossier="thriller_bark/"
+    if [[ $first_line -eq 0 ]]; then
+        first_line=1
+    else
+        if [[ ! -f "${base}${base_dossier}${id}.jpg" && ! -f "${base}${base_dossier}${id},1.jpg" ]]; then
+            echo "${id} Thriller bark image manquante" >> "${log}"
+        fi
+    fi
+done < ../csv/thriller_bark.csv
 
-# first_line=0
-# while IFS=";" read -r id citation reponse coeur; do
-#     base_dossier="sabaody/"
-#     if [[ $first_line -eq 0 ]]; then
-#         first_line=1
-#     else
-#         if [[ ! -f "${base}${base_dossier}${id}.jpg" && ! -f "${base}${base_dossier}${id},1.jpg" ]]; then
-#             echo "${id} Sabaody image manquante" >> "${log}"
-#         fi
-#     fi
-# done < ../csv/sabaody.csv
+first_line=0
+while IFS=";" read -r id citation reponse coeur; do
+    base_dossier="sabaody/"
+    if [[ $first_line -eq 0 ]]; then
+        first_line=1
+    else
+        if [[ ! -f "${base}${base_dossier}${id}.jpg" && ! -f "${base}${base_dossier}${id},1.jpg" ]]; then
+            echo "${id} Sabaody image manquante" >> "${log}"
+        fi
+    fi
+done < ../csv/sabaody.csv
 
-# first_line=0
-# while IFS=";" read -r id citation reponse coeur; do
-#     base_dossier="amazone_lily/"
-#     if [[ $first_line -eq 0 ]]; then
-#         first_line=1
-#     else
-#         if [[ ! -f "${base}${base_dossier}${id}.jpg" && ! -f "${base}${base_dossier}${id},1.jpg" ]]; then
-#             echo "${id} Amazone Lily image manquante" >> "${log}"
-#         fi
-#     fi
-# done < ../csv/amazone_lily.csv
+first_line=0
+while IFS=";" read -r id citation reponse coeur; do
+    base_dossier="amazone_lily/"
+    if [[ $first_line -eq 0 ]]; then
+        first_line=1
+    else
+        if [[ ! -f "${base}${base_dossier}${id}.jpg" && ! -f "${base}${base_dossier}${id},1.jpg" ]]; then
+            echo "${id} Amazone Lily image manquante" >> "${log}"
+        fi
+    fi
+done < ../csv/amazone_lily.csv
 
-# first_line=0
-# while IFS=";" read -r id citation reponse coeur; do
-#     base_dossier="impel_down/"
-#     if [[ $first_line -eq 0 ]]; then
-#         first_line=1
-#     else
-#         if [[ ! -f "${base}${base_dossier}${id}.jpg" && ! -f "${base}${base_dossier}${id},1.jpg" ]]; then
-#             echo "${id} Impel down image manquante" >> "${log}"
-#         fi
-#     fi
-# done < ../csv/impel_down.csv
+first_line=0
+while IFS=";" read -r id citation reponse coeur; do
+    base_dossier="impel_down/"
+    if [[ $first_line -eq 0 ]]; then
+        first_line=1
+    else
+        if [[ ! -f "${base}${base_dossier}${id}.jpg" && ! -f "${base}${base_dossier}${id},1.jpg" ]]; then
+            echo "${id} Impel down image manquante" >> "${log}"
+        fi
+    fi
+done < ../csv/impel_down.csv
 
-# first_line=0
-# while IFS=";" read -r id citation reponse coeur; do
-#         base_dossier="marineford/"
-#     if [[ $first_line -eq 0 ]]; then
-#         first_line=1
-#     else
-#         if [[ ! -f "${base}${base_dossier}${id}.jpg" && ! -f "${base}${base_dossier}${id},1.jpg" ]]; then
-#             echo "${id} Marineford image manquante" >> "${log}"
-#         fi
-#     fi
-# done < ../csv/marineford.csv
+first_line=0
+while IFS=";" read -r id citation reponse coeur; do
+        base_dossier="marineford/"
+    if [[ $first_line -eq 0 ]]; then
+        first_line=1
+    else
+        if [[ ! -f "${base}${base_dossier}${id}.jpg" && ! -f "${base}${base_dossier}${id},1.jpg" ]]; then
+            echo "${id} Marineford image manquante" >> "${log}"
+        fi
+    fi
+done < ../csv/marineford.csv
 
-# first_line=0
-# while IFS=";" read -r id citation reponse coeur; do
-#     base_dossier="ellipse/"
-#     if [[ $first_line -eq 0 ]]; then
-#         first_line=1
-#     else
-#         if [[ ! -f "${base}${base_dossier}${id}.jpg" && ! -f "${base}${base_dossier}${id},1.jpg" ]]; then
-#             echo "${id} Ellipse image manquante" >> "${log}"
-#         fi
-#     fi
-# done < ../csv/ellipse.csv
+first_line=0
+while IFS=";" read -r id citation reponse coeur; do
+    base_dossier="ellipse/"
+    if [[ $first_line -eq 0 ]]; then
+        first_line=1
+    else
+        if [[ ! -f "${base}${base_dossier}${id}.jpg" && ! -f "${base}${base_dossier}${id},1.jpg" ]]; then
+            echo "${id} Ellipse image manquante" >> "${log}"
+        fi
+    fi
+done < ../csv/ellipse.csv
 
-# first_line=0
-# while IFS=";" read -r id citation reponse coeur; do
-#         base_dossier="sabaody_r/"
-#     if [[ $first_line -eq 0 ]]; then
-#         first_line=1
-#     else
-#         if [[ ! -f "${base}${base_dossier}${id}.jpg" && ! -f "${base}${base_dossier}${id},1.jpg" ]]; then
-#             echo "${id} Retour Sabaody image manquante" >> "${log}"
-#         fi
-#     fi
-# done < ../csv/sabaody_r.csv
+first_line=0
+while IFS=";" read -r id citation reponse coeur; do
+        base_dossier="sabaody_r/"
+    if [[ $first_line -eq 0 ]]; then
+        first_line=1
+    else
+        if [[ ! -f "${base}${base_dossier}${id}.jpg" && ! -f "${base}${base_dossier}${id},1.jpg" ]]; then
+            echo "${id} Retour Sabaody image manquante" >> "${log}"
+        fi
+    fi
+done < ../csv/sabaody_r.csv
 
-# first_line=0
-# while IFS=";" read -r id citation reponse coeur; do
-#     base_dossier="homme_poisson/"
-#     if [[ $first_line -eq 0 ]]; then
-#         first_line=1
-#     else
-#         if [[ ! -f "${base}${base_dossier}${id}.jpg" && ! -f "${base}${base_dossier}${id},1.jpg" ]]; then
-#             echo "${id} Ile homme poisson image manquante" >> "${log}"
-#         fi
-#     fi
-# done < ../csv/homme_poisson.csv
+first_line=0
+while IFS=";" read -r id citation reponse coeur; do
+    base_dossier="homme_poisson/"
+    if [[ $first_line -eq 0 ]]; then
+        first_line=1
+    else
+        if [[ ! -f "${base}${base_dossier}${id}.jpg" && ! -f "${base}${base_dossier}${id},1.jpg" ]]; then
+            echo "${id} Ile homme poisson image manquante" >> "${log}"
+        fi
+    fi
+done < ../csv/homme_poisson.csv
 
-# first_line=0
-# while IFS=";" read -r id citation reponse coeur; do
-#     base_dossier="punk_hazard/"
-#     if [[ $first_line -eq 0 ]]; then
-#         first_line=1
-#     else
-#         if [[ ! -f "${base}${base_dossier}${id}.jpg" && ! -f "${base}${base_dossier}${id},1.jpg" ]]; then
-#             echo "${id} Punk hazard image manquante" >> "${log}"
-#         fi
-#     fi
-# done < ../csv/punk_hazard.csv
+first_line=0
+while IFS=";" read -r id citation reponse coeur; do
+    base_dossier="punk_hazard/"
+    if [[ $first_line -eq 0 ]]; then
+        first_line=1
+    else
+        if [[ ! -f "${base}${base_dossier}${id}.jpg" && ! -f "${base}${base_dossier}${id},1.jpg" ]]; then
+            echo "${id} Punk hazard image manquante" >> "${log}"
+        fi
+    fi
+done < ../csv/punk_hazard.csv
 
-# first_line=0
-# while IFS=";" read -r id citation reponse coeur; do
-#     base_dossier="dressrosa/"
-#     if [[ $first_line -eq 0 ]]; then
-#         first_line=1
-#     else
-#         if [[ ! -f "${base}${base_dossier}${id}.jpg" && ! -f "${base}${base_dossier}${id},1.jpg" ]]; then
-#             echo "${id} Dressrosa image manquante" >> "${log}"
-#         fi
-#     fi
-# done < ../csv/dressrosa.csv
+first_line=0
+while IFS=";" read -r id citation reponse coeur; do
+    base_dossier="dressrosa/"
+    if [[ $first_line -eq 0 ]]; then
+        first_line=1
+    else
+        if [[ ! -f "${base}${base_dossier}${id}.jpg" && ! -f "${base}${base_dossier}${id},1.jpg" ]]; then
+            echo "${id} Dressrosa image manquante" >> "${log}"
+        fi
+    fi
+done < ../csv/dressrosa.csv
 
-# first_line=0
-# while IFS=";" read -r id citation reponse coeur; do
-#     base_dossier="zo/"
-#     if [[ $first_line -eq 0 ]]; then
-#         first_line=1
-#     else
-#         if [[ ! -f "${base}${base_dossier}${id}.jpg" && ! -f "${base}${base_dossier}${id},1.jpg" ]]; then
-#             echo "${id} Zo image manquante" >> "${log}"
-#         fi
-#     fi
-# done < ../csv/zo.csv
+first_line=0
+while IFS=";" read -r id citation reponse coeur; do
+    base_dossier="zo/"
+    if [[ $first_line -eq 0 ]]; then
+        first_line=1
+    else
+        if [[ ! -f "${base}${base_dossier}${id}.jpg" && ! -f "${base}${base_dossier}${id},1.jpg" ]]; then
+            echo "${id} Zo image manquante" >> "${log}"
+        fi
+    fi
+done < ../csv/zo.csv
 
-# first_line=0
-# while IFS=";" read -r id citation reponse coeur; do
-#     base_dossier="wci/"
-#     if [[ $first_line -eq 0 ]]; then
-#         first_line=1
-#     else
-#         if [[ ! -f "${base}${base_dossier}${id}.jpg" && ! -f "${base}${base_dossier}${id},1.jpg" ]]; then
-#             echo "${id} Whole cake island image manquante" >> "${log}"
-#         fi
-#     fi
-# done < ../csv/wci.csv
+first_line=0
+while IFS=";" read -r id citation reponse coeur; do
+    base_dossier="wci/"
+    if [[ $first_line -eq 0 ]]; then
+        first_line=1
+    else
+        if [[ ! -f "${base}${base_dossier}${id}.jpg" && ! -f "${base}${base_dossier}${id},1.jpg" ]]; then
+            echo "${id} Whole cake island image manquante" >> "${log}"
+        fi
+    fi
+done < ../csv/wci.csv
 
-# first_line=0
-# while IFS=";" read -r id citation reponse coeur; do
-#     base_dossier="Wano/"
-#     if [[ $first_line -eq 0 ]]; then
-#         first_line=1
-#     else
-#         if [[ ! -f "${base}${base_dossier}${id}.jpg" && ! -f "${base}${base_dossier}${id},1.jpg" ]]; then
-#             echo "${id} Wano image manquante" >> "${log}"
-#         fi
-#     fi
-# done < ../csv/wano.csv
+first_line=0
+while IFS=";" read -r id citation reponse coeur; do
+    base_dossier="Wano/"
+    if [[ $first_line -eq 0 ]]; then
+        first_line=1
+    else
+        if [[ ! -f "${base}${base_dossier}${id}.jpg" && ! -f "${base}${base_dossier}${id},1.jpg" ]]; then
+            echo "${id} Wano image manquante" >> "${log}"
+        fi
+    fi
+done < ../csv/wano.csv
