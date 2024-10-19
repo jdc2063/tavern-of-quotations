@@ -1,79 +1,98 @@
-id;citation;reponse;coeur
-1;-"Ah...oui nous faisons caca";Brook;0
-2;-"Je vis dans un monde où la lumière n'existe pas";Brook;0
-3;-"Je viens de vous rencontrer..Je ne veux pas vous envoyer vers ce qui serait sans doute votre mort pour mon compte";Brook;0
-4;-"J'étais parti à la poursuite de mon chien quand, je suis gêné de le dire, j'ai commencé à vous espionner";Hildon;0
-5;-"Hé toi, tu as perdu ça";Un zombie du cimetière;0
-6;-"Merci pour votre flexibilité, docteur";Docteur Hogback;0
-7;-"Ne vas jamais dans mon labo";Docteur Hogback;0
-8;-"Dans ce cas, la nappe sera soigneusement lavée, comme ça nous pourrons manger soulagés";Docteur Hogback;0
-9;-"L'origine est un obsédé";Sanji;0
-10;-"Hééé!? Tu vends un de tes camarades!!!";Un zombie du cimetière;0
-11;-"Eroleader";Les zombies acclamant Absalom;0
-12;-"C'est très peu galant d'ouvrir autant ta bouche, même si tu es charmantes";Robin;0
-13;-"Vous tous, ne faites pas les fiers parce qu'ici nous sommes des faibles";Buhichuck;0
-14;-"T'as aussi perdu ton coeur quand tu as eu ce corps de métal?;Luffy;0
-15;-"Je ne mourrai pas simplement en étant touché par un cadavre comme toi";Franky;0
-16;-"Mon corps ne bouge pas comme je le veux... Ce corps...est trop fragile";Chienguin;0
-17;-"Je suis un homme en fait";Nami;0
-18;-"Est-ce réellement le navire de l'homme qui a défait crocodile?";Perona;0
-19;-"Oh mon dieu, ça fait des années que je n'ai pas eu une telle conversation";Brook;0
-20;-"C'est pourquoi cette fois...Je ne ferai pas le couard";Brook;0
-21;-"Si j'avais un sous fifre de cette puissance, même ce bâtard ne pourrait me battre, pas vrai?";Moria;0
-22;-"Ce n'est pas le moment de discuter de cette folie. Nos amis sont les victimes de ce jeu de foire";Usopp;0
-23;-"Quel apparence misérable pour mon ancien maître";Ryuma;0
-24;-"Une beauté épéiste vient d'arriver avec une tonne de viande";Usopp;0
-25;-"La mort n'est pas une excuse";Brook;1
-26;-"Parce qu'un homme a dit un jour que nous reviendrons absolument";Brook;0
-27;-"Ils ont tous dit que ma tête te faisait rire";Brook;0
-28;-"Comme si c'était le moment pour danser";Hogback;0
-29;-"Vous m'avez totalement déçu! Je ne vous reconnaîtrai plus comme tel";Chopper;0
-30;-"Je suis pessimiste de nature";Usopp;1
-31;-"Cet homme ne peut pas être un ermite ou un saint si?";Zombie de Perona;0
-32;-"Tu es presque comme un phenix, ou peut-être un zombie";Ryuma;0
-33;-"Ceux qui ont perdu leur humanité comme toi ne devrait jamais utiliser ce nom";Brook;0
-34;-"Dans le passé j'étais trop confiant de mes capacités et de mon ambition";Moria;0
-35;-"He?!! Un ange?!";Absalom;0
-36;-"On n'utilise pas des attaques qui vont dans les spectateurs";Sanji;0
-37;-"Uwah!! Quoi?! C'est salé..";Absalom;0
-38;-"Tu m'as volé l'un de mes rêves les plus nostalgiques";Sanji;0
-39;-"Mais bon, je te croyais différent! Mais t'es qu'un gros pervers";Absalom;0
-40;-"Y a pas de combat aussi injuste que celui-là";Usopp;0
-41;-"Non, tu as tout faux. Tu es un homme qui peut tout changer et changer";Sogeking;0
-42;-"Je dois au moins te reconnaître ça, reste suffisamment calme pour utiliser sérieusement ta tête";Perona;0
-43;-"Victoire ou défaite vont probablement se jouer assez vite à présent";Brook;0
-44;-"Si tu deviens son maître, cette épée comblera également ses désirs";Ryuma;0
-45;-"J'ai laissé le corps de ce samourai être vaincu...Mon honneur perdu";Ryuma;0
-46;-"Mais on va faire comme si ce duel s'est jamais déroulé";Zoro;0
-47;-"Mais dans la mort tu deviendras l'assistant du docteur que tu admirais tellement";Hogback;0
-48;-"Un humain a plus de liberté que ça!! Tu ne la traites vraiment pas comme un humain";Chopper;1
-49;-"Alors ne dites pas que c'est corps vous obéissent";Chopper;0
-50;-"Alors tu ne devrais pas sous-estimer le pouvoir de tes propres nakama";Sanji;0
-51;-"ça va être trop gênant";Robin;0
-52;-"Ce que je fais ici, c'est à moi d'en décider";Kuma;0
-53;-"Si tu devais partir en voyage, où souhaiterais-tu aller?";Kuma;1
-54;-"Il n'y a pas de bataille dont l'issue soit certaine";Kuma;0
-55;-"Je suis comme un robot!! Ca augmente vraiment la tension dramatique";Oz;0
-56;-"Tout le monde sait que le lait soigne les fractures";Brook;0
-57;-"Ce serait bien plus douloureux de ne pas pouvoir rembourser ma dette envers vous";Brook;0
-58;-"Pourquoi attaquez-vous toujours le même point? Si ça ne fonctionne pas la première fois, ça ne fonctionnera pas les autres fois non plus";Oz;0
-59;-"Je l'ai protégé de l'intérieur de son corps, imbéciles!";Moria;0
-60;-"Je ne sais même plus lequel des deux est le zombie";Laura;0
-61;-"Un vrai pirate n'a pas peur face à la mort";Moria;1
-62;-"Mes mots viennent de mon expérience. Mes compagnons...Ils étaient connus, bon et nombreux";Moria;0
-63;-"Sommes nous le type de personnes qui tournent le dos et fuient après être allés aussi loin?";Laura;0
-64;-"Si c'est un cauchemar que tu veux, je vais t'en montrer un";Luffy;0
-65;-"Vous êtes tous blessés, vous tuez maintenant n'aurait aucun sens";Kuma;0
-66;-"Tu nous demandes de trahir notre nakama, JAMAIS!!!";Les Mugi + les victimes thriller bark;0
-67;-"À quoi te sert ton ambition si tu ne peux pas protéger ton capitaine?";Zoro;1
-68;-"Il a un bon nakama. Comme on aurait pu s'y attendre, pour ton fils";Kuma;0
-69;-"Rien du tout. Il ne s'est absolument rien passé";Zoro;1
-70;-"Je crois que je connais cette chanson. Elle me ramène beaucoup de vieux souvenirs";Robin;0
-71;-"Et alors, peu importe où on ira, tu pourras venir à l'aventure avec nous";Yorki;0
-72;-"C'est quelque chose pour lui dire que nous avons tous été heureux et joyeux jusqu'à la fin de notre voyage";Brook;0
-73;-"Car j'ai aussi la fierté d'un pirate";Brook;0
-74;-"Je suis si heureux d'être en vie";Brook;0
-75;-"Les sirènes ne portent pas de sous vêtements";Frères Risky;0
-76;-"Même s'il était dans la pire des galères, il ne voudrait sûrement pas que je m'inquiète";Luffy;0
-77;-"Changez moi ces visages, guys, et redressez-vous";Yorki;0
-78;-"Faire parti de cet équipage, c'est un peu comme être les cinq doigts de la main, tu saisis?";Zoro;0
+id;citation;reponse;coeur;chapitre;page;
+1;-"Oui, je fais caca;Brook;0;442;17;
+2;-"Je vis dans un monde où la lumière n'existe pas";Brook;0;443;10;
+3;-"Nous venons à peine de faire connaissance et je ne peux pas me permettre de vous demander de mourir pour moi";Brook;0;443;14;
+4;-"Je me trompe ou tu viens de dire "Sbleurf"?";Zoro;0;444;13;
+5;-"J'étais parti à la poursuite de mon chien quand, je suis gêné de le dire, j'ai commencé à vous espionner";Hildon;0;444;19;
+6;-"Tiens, t'as perdu ça";Un zombie du cimetière;0;445;13;
+7;-"Quelle souplesse d'esprit, docteur";Docteur Hogback;0;446;9;
+8;-"Sous aucun prétexte vous ne devez pénétrer dans mon labo";Docteur Hogback;0;446;10;
+9;-"Les nappes ont été lavées et relavées pour justement parer à ce genre d'incident";Docteur Hogback;0;446;10;
+10;-"Dommage!! La salle aux trésors est ailleurs";Un zombie surprise;0;448;5;
+11;-"À la base t'es un gros pervers";Sanji;0;448;7;
+12;-"Laisse-moi sortir de ce trou, pauver idiot";Un zombie du cimetière;0;448;12;
+13;-"Hein?! T'as pas honte de balancer tes potes? Je te signale que toi t'en as mordu un";Un zombie du cimetière;0;448;16;
+14;-"Avant de casser ma pipe... j'aimerais sentir une dernière fois... la chaleur du soleil sur ma peau";Spoil;0;449;3;
+15;-"Érochef";Les zombies acclamant Absalom;0;449;11;
+16;-"Il faut être un minimum mignon pour avoir le privilège de me servir";Perona;1;449;12;
+17;-"Vous ne devriez pas ouvrir si grand la bouche, ça ne met pas en valeur vos jolis traits";Robin;0;450;13;
+18;-"Let's fiesta night! Nous ne laisserons aucun pirate s'échapper";Les Zombies du cimetière;1;450;20;
+19;-"Aurais-tu laissé s'envoler tes rêves le jour où t'es devenu un homme de fer?";Luffy;0;452;2;
+20;-"Je ne vais pas me laisser battre par un satané cadavre";Franky;0;452;8;
+21;-"Ce n'est pas pour des pervers dans ton genre que je prend soin de mon corps au quotidien";Nami;0;453;7;
+22;-"Et puis ce corps qui ne bouge pas comme je voudrais. Décidément, je me sens bien faible";Chienguin;0;453;8;
+23;-"Je sais pas si je m'adresse à une abrutie d'araignée ou bien à un imbécile de singe";Franky;0;453;13;
+24;-"Je suis un homme";Nami;0;454;3;
+25;-"J'ai du mal à croire que c'est le navire de l'homme qui a vaincu crocodile";Perona;0;454;7;
+26;-"Cela fait tellement longtemps que je n'ai pas échangé avec des gens. Je suis aux anges";Brook;0;455;11;
+27;-"De nombreuses années se sont écoulées depuis, mais le problème n'est toujours pas résolu. C'est pourquoi cette fois, je ne me défilerai pas";Brook;0;456;6;
+28;-"Si j'avais eu un serviteur aussi puissant, cet abruti n'aurait jamais pu me vaincre";Moria;0;456;10;
+29;-"Ce n'est pas le moment de te lamenter. Nos amis sont sur le point de faire les frais de ce petit jeu";Usopp;0;457;13;
+30;-"Si je ne parviens même pas à protéger une femme, je ne pourrais plus jamais prétendre être un homme";Usopp;0;457;16;
+31;-"Se dire qu'on va bientôt disparaître, c'est le comble pour des immortels";Un zombie dans le chateau;0;458;2;
+32;-"Tu fais peine à voir, mon ancien maître";Ryuma;0;458;12;
+33;-"Une splendide demoiselle avec des sabres nous a apporté de la viande";Usopp;0;458;17;
+34;-"La mort n'est pas une excuse";Brook;1;459;11;
+35;-"Un homme n'a qu'une parole, et je tiendrai la mienne";Brook;0;459;12;
+36;-"J'aimerais au moins protéger cette tête qui vous a tant fait rire, toi et les autres";Brook;0;459;16;
+37;-"Non mais tu crois que c'est le moment d'aller danser";Hogback;0;460;14;
+38;-"Moi j'ai le sourcil trop vrillé. Mieux vaut mourir";Sanji;0;460;19;
+39;-"Vous m'avez beaucoup déçu. Je ne vous considère plus comme un médecin";Chopper;0;461;6;
+40;-"À la base je pense tout en négatif";Usopp;1;461;16;
+41;-"Mais qui est cet homme? Un ermite, ou bien un saint?";Zombie de Perona;0;462;3;
+42;-"Tel un phénix, ou bien un zombie, tu te relèves encore";Ryuma;0;462;6;
+43;-"Ceux qui ont perdu leur humanité comme toi ne devrait jamais utiliser ce nom";Brook;0;462;7;
+44;-"Autrefois, moi aussi j'étais trop sûr de mes propres capacités";Moria;0;463;5;
+45;-"Quoi? Serait-ce un ange?";Absalom;0;463;12;
+46;-"Tu ne sais donc pas qu'il faut éviter d'attaquer en présence d'une demoiselle?";Sanji;0;463;13;
+47;-"Uwah!! Quoi?! C'est salé..";Absalom;0;463;18;
+48;-"Tu es l'homme qui a volé l'un de mes rêves";Sanji;0;464;3;
+49;-"Dans la vie, il faut savoir positiver';Perona;0;465;3;
+50;-"Je serre ton coeur dans mes mains et je vais le réduire en bouillie";Perona;0;465;7;
+51;-"J'ai déjà vu plus fair-play comme combat";Usopp;0;465;12;
+52;-"Non, tu as tout faux. Tu es un homme qui peut tout changer et changer";Sogeking;0;465;17;
+53;-"En tout cas, ça me surprend de te voir réfléchir si calmement";Perona;0;466;3;
+54;-"Tu as commis une grave erreur en voulant me defier sur le terrain du "pessimisme" et du "mensonge"";Usopp;1;466;12;
+55;-"Ça signifierai que leur force de destruction est d'un niveau équivalent. En d'autres termes, leur combat sera bref";Brook;0;467;3;
+56;-"Je suis certain qu'il sera comblé de t'avoir pour maître";Ryuma;0;467;16;
+57;-"Je me sens si honteux d'avoir fait subir une défaite au corps de ce samouraï";Ryuma;0;467;17;
+58;-"Mais on va dire que ce duel a eu deux vainqueurs";Zoro;0;467;17;
+59;-"Libre à toi de me respecter, mais il est absurde de m'imputer la responsabilité de ta déception";Hogback;0;468;5;
+60;-"Après ta mort, je ferai de toi l'assistant du médecin que tu respectes tant";Hogback;0;468;10;
+61;-"Les êtres humains doivent être libre!! Et toi tu es le premier à les traiter comme des bêtes";Chopper;1;468;13;
+62;-"Il n'a nullement besoin de nous y forcer comme tu peux le faire avec tes cadavres serviles";Chopper;0;469;4;
+63;-"Alors tu ne devrais pas sous-estimer le pouvoir de tes propres nakama";Sanji;0;471;21;
+64;-"Désolé, mais en tant qu'être humain, c'est vraiment trop la honte";Robin;0;472;6;
+65;-"Je ne veux plus jamais que tu m'invites à "fusionner"";Robin;0;472;7;
+66;-"Quand même, ce pont, pourquoi est-il si étroit? Et les finitions sont parfaites, c'est étrange";Nami;0;473;3;
+67;-"Si tu devais voyager, où aimerais-tu aller?";Kuma;1;473;13;
+68;-"Ce que je fais ici, c'est à moi d'en décider";Kuma;0;473;17;
+69;-"Je suis comme un robot!! Ca augmente vraiment la tension dramatique";Oz;0;474;16;
+70;-"Tout le monde sait que le lait est excellent pour les os";Brook;0;475;2;
+71;-"Rien ne serait plus douloureux que de ne pouvoir honorer la dette que j'ai envers vous";Brook;0;476;13;
+72;-"Pourquoi attaquez-vous toujours le même point? Si ça ne fonctionne pas la première fois, ça ne fonctionnera pas les autres fois non plus";Oz;0;477;16;
+73;-"Elle le protège depuis son ventre, gros bêta";Moria;0;478;7;
+74;-"Hé, toi! Le gros bide! Je peux savoir ce que tu écrases? Il n'y a personne sous tes pieds";Dark Luffy;0;478;10;
+75;-"C'est à se demander lequel de vous deux est le zombie";Laura;0;480;5;
+76;-"Les vrais pirates ne craignent pas la mort. Ils n'ont peur de rien";Moria;1;481;7;
+77;-"Nous ne sommes pas de ces lâches qui fuient la queue entre les jambes face au moindre obstacles";Laura;0;481;16;
+78;-"Si tu veux vivre un cauchemar, fais-le sans nous";Luffy;0;481;17;
+79;-"Si tu veux devenir l'ombre du roi des pirates,  je te conseille de me suivre de près";Luffy;0;482;18;
+80;-"Si je meurs ici, cela voudra dire  que j'aurais atteint mes limites en tant qu'homme";Zoro;0;484;4;
+81;-"Je savais que l'état d'épuisement dans lequel vous vous trouvez maintenant m'empêcherai de prendre du plaisir à me débarrasser de vous";Kuma;0;484;16;
+82;-"Tu nous demandes de trahir notre nakama, JAMAIS!!!";Les Mugi + les victimes thriller bark;0;484;17;
+83;-"À quoi te sert ton ambition si tu ne peux pas protéger ton capitaine?";Zoro;1;485;11;
+84;-"En échange, je vais devoir te montrer à quoi ressemble l'enfer";Kuma;0;485;14;
+85;-"Il possède des camarades sur qui compter. Je reconnais bien là ton fils";Kuma;0;485;17;
+86;-"Il ne s'est rien passé du tout";Zoro;1;485;19;
+87;-"Elle a donné une partie de son trésor!! Les poules vont bientôt avoir des dents";Usopp et Luffy;0;486;6;
+88;-""Le saké de binks", j'ai déjà entendu ce morceau quelque part";Robin;0;486;14;
+89;-"Et alors, peu importe où on ira, tu pourras venir à l'aventure avec nous";Yorki;0;487;11;
+90;-"Changez moi ces visages, guys, et redressez-vous";Yorki;0;487;18;
+91;-"C'est un message pour lui dire que notre voyage s'est terminé dans la joie et la bonne humeur";Brook;0;488;7;
+92;-"Car j'ai aussi la fierté d'un pirate";Brook;0;488;19;
+93;-"Je suis si heureux d'être en vie";Brook;0;489;5;
+94;-"Faire parti de cet équipage, c'est un peu comme être les cinq doigts de la main, tu saisis?";Zoro;0;489;13;
+95;-"Vous ne savez pas que les sirènes ne portent pas de culotte?";Frères Risky;0;489;15;
+96;-"Même s'il était vraiment dans le pétrin, je suis sûr qu'il n'apprécierait pas que je me fasse du souci pour lui";Luffy;0;490;5;
+97;-"Ah, j'allais presque oublier. J'ai apporté un nouveau thé. Où sont les biscuits?";Garp;0;490;7;
