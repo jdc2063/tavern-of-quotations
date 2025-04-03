@@ -333,30 +333,10 @@ while IFS=";" read -r id citation reponse coeur; do
 done < ./csv/ellipse.csv
 if [[ $choose -eq 2 ]]; then
     if [[ $compteur_ellipse -eq 0 ]]; then
-        echo "Ellipse ne possède pas de citations!"
+        echo "Post-Marineford/Retour Sabaody ne possède pas de citations!"
         echo "========="
     else
-        echo "Ellipse possède $compteur_drum citations!"
-        echo "========="
-    fi
-fi
-
-first_line=0
-compteur_sabaody_r=0
-while IFS=";" read -r id citation reponse coeur; do
-    if [[ $first_line -eq 0 ]]; then
-        first_line=1
-    else
-        compteur_sabaody_r=$((compteur_sabaody_r+1))
-        compteur_t=$((compteur_t+1))
-    fi
-done < ./csv/sabaody_r.csv
-if [[ $choose -eq 2 ]]; then
-    if [[ $compteur_sabaody_r -eq 0 ]]; then
-        echo "Sabaody après ellipse ne possède pas de citations!"
-        echo "========="
-    else
-        echo "Sabaody après ellipse possède $compteur_sabaody_r citations!"
+        echo "Post-Marineford/Retour Sabaody possède $compteur_ellipse citations!"
         echo "========="
     fi
 fi

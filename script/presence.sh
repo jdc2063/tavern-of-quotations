@@ -167,16 +167,6 @@ ellipse() {
     done < ./csv/ellipse.csv
 }
 
-sabaody_r() {
-    while IFS=';' read -r ud citation reponse coeur; do
-        declare -i ud
-        if [[ $ud -eq $ran_a ]]; then
-            echo $citation
-            raiponce=$reponse
-        fi
-    done < ./csv/sabaody_r.csv
-}
-
 poisson() {
     while IFS=';' read -r ud citation reponse coeur; do
         declare -i ud
@@ -899,43 +889,6 @@ elif [[ $arc_ellipse -eq 1 ]]; then
         echo "========"
         source ./script/reinitialisation.sh
         arc_ellipse=2
-        source ./script/arc2.sh
-    fi
-
-elif [[ $arc_sabaody_r -eq 1 ]]; then
-    nombre=$compteur_sabaody_r
-    while [[ $nombre_a -ne $nombre && $quit -ne 1 ]]; do
-        exist=0
-        ran_a=$((RANDOM%compteur_sabaody_r+1))
-        source ./script/recherche.sh
-        if [[ $exist -eq 1 ]]; then
-            source ./script/installation.sh
-            sabaody_r
-            if [[ $joueur -ne 4 ]]; then
-                read
-            fi
-            echo "réponse: $raiponce"
-            nombre_a=$((nombre_a+1))
-            read next
-            if [[ $next -eq 1 ]]; then
-                quit=1
-                echo "====="
-                echo "fin du jeu"
-                echo "====="
-            fi
-        fi
-    done
-    if [[ $nombre_a -eq $nombre && $aleatoire -eq 3 ]]; then
-        quit=1
-        echo "====="
-        echo "fin du jeu"
-        echo "====="
-    elif [[ $nombre_a -eq $nombre && $aleatoire -ne 3 ]]; then
-        echo "========"
-        echo "changement d'arc"
-        echo "========"
-        source ./script/reinitialisation.sh
-        arc_sabaody_r=2
         source ./script/arc2.sh
     fi
 

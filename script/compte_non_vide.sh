@@ -101,12 +101,6 @@ if [[ $limite -ge 17 ]]; then
     fi
 fi
 
-if [[ $limite -ge 18 ]]; then
-    if [[ $compteur_sabaody_r -ne 0 ]]; then
-        non_vide=$((non_vide+1))
-    fi
-fi
-
 if [[ $limite -ge 19 ]]; then
     if [[ $compteur_poisson -ne 0 ]]; then
         non_vide=$((non_vide+1))

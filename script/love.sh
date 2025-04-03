@@ -386,7 +386,7 @@ while [[ $end -ne 1 ]]; do
     done < ./csv/marineford.csv
 
     first_line=0
-    compteur_sabaody_r=0
+    compteur_ellipse=0
     while IFS=";" read -r id citation reponse coeur; do
         if [[ $first_line -eq 0 ]]; then
             first_line=1
@@ -403,11 +403,11 @@ while [[ $end -ne 1 ]]; do
                     fi
                 fi
                 if [[ $actif -eq 1 && "$principale" == "$reponse" && $coeur > 1 ]]; then
-                    echo "$citation dans l'arc Sabaody après ellipse";
+                    echo "$citation dans l'arc Post-Marineford/Retour Sabaody";
                 fi
             fi
         fi
-    done < ./csv/sabaody_r.csv
+    done < ./csv/ellipse.csv
 
     first_line=0
     compteur_poisson=0

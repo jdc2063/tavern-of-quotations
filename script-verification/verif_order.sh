@@ -414,13 +414,13 @@ while IFS=";" read -r id citation reponse coeur chap page fin; do
         first_line=1
     else
         if [[ ! $id -eq $(($last_id + 1)) ]]; then
-            echo "${id} faux par rapport à ${last_id} sur l'Ellipse" >> ${log_id}
+            echo "${id} faux par rapport à ${last_id} sur Post-Marineford/Retour Sabaody" >> ${log_id}
         fi
 
         if [[ $chap == '' || $page == '' ]];then
-            echo "${id} chapitre ou page non rempli à l'Ellipse" >> ${log_absent}
+            echo "${id} chapitre ou page non rempli à Post-Marineford/Retour Sabaody" >> ${log_absent}
         elif [[ $chap -lt $last_chapitre || ($chap -eq $last_chapitre && $page -lt $last_page) ]];then
-            echo "${id} mauvais chapitre par rapport au suivant sur l'Ellipse" >> ${log_chap}
+            echo "${id} mauvais chapitre par rapport au suivant sur Post-Marineford/Retour Sabaody" >> ${log_chap}
         fi
 
         if [[ $chap != '' && $page != '' ]];then
@@ -431,31 +431,6 @@ while IFS=";" read -r id citation reponse coeur chap page fin; do
         last_id=$id
     fi
 done < ../csv/ellipse.csv
-
-first_line=0
-last_id=0
-while IFS=";" read -r id citation reponse coeur chap page fin; do
-    if [[ $first_line -eq 0 ]]; then
-        first_line=1
-    else
-        if [[ ! $id -eq $(($last_id + 1)) ]]; then
-            echo "${id} faux par rapport à ${last_id} sur Sabaody retour" >> ${log_id}
-        fi
-
-        if [[ $chap == '' || $page == '' ]];then
-            echo "${id} chapitre ou page non rempli à Sabaody retour" >> ${log_absent}
-        elif [[ $chap -lt $last_chapitre || ($chap -eq $last_chapitre && $page -lt $last_page) ]];then
-            echo "${id} mauvais chapitre par rapport au suivant sur Sabaody retour" >> ${log_chap}
-        fi
-
-        if [[ $chap != '' && $page != '' ]];then
-            last_chapitre=$chap
-            last_page=$page
-        fi
-
-        last_id=$id
-    fi
-done < ../csv/sabaody_r.csv
 
 first_line=0
 last_id=0

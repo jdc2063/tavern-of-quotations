@@ -227,23 +227,10 @@ while [[ $arc -eq 0 && $quit1 -ne 1 ]]; do
     if [[ $arc_ellipse -eq 0 && $arc -ne 1 ]]; then
         if [[ $non_null -eq $ran_arc ]]; then
             if [[ $joueur -eq 4 ]]; then
-                echo "Ellipse choisi"
+                echo "Post-Marineford/Retour Sabaody choisi"
             fi
             arc=1
             arc_ellipse=1
-            non_vide=$((non_vide-1))
-        else
-            non_null=$((non_null+1))
-        fi
-    fi
-
-    if [[ $arc_sabaody_r -eq 0 && $arc -ne 1 ]]; then
-        if [[ $non_null -eq $ran_arc ]]; then
-            if [[ $joueur -eq 4 ]]; then
-                echo "Sabaody après ellipse choisi"
-            fi
-            arc=1
-            arc_sabaody_r=1
             non_vide=$((non_vide-1))
         else
             non_null=$((non_null+1))

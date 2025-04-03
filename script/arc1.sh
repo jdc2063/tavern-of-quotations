@@ -338,7 +338,7 @@ while [[ $arc -ne 1 && $quit1 -ne 1 ]]; do
     if [[ $arc_ellipse -eq 0 && $arc -eq 0 ]]; then
         if [[ $non_null -eq $ran_arc ]]; then
             if [[ $joueur -eq '' ]]; then
-                echo "Ellipse choisi"
+                echo "Post-Marineford et Retour Sabaody choisi"
             fi
             if [[ $nombre -gt $compteur_ellipse ]]; then
                 echo "Mais pas assez de citation"
@@ -348,26 +348,6 @@ while [[ $arc -ne 1 && $quit1 -ne 1 ]]; do
             else
                 arc=1
                 arc_ellipse=1
-                non_vide=$((non_vide-1))
-            fi
-        else
-            non_null=$((non_null+1))
-        fi
-    fi
-
-    if [[ $arc_sabaody_r -eq 0 && $arc -eq 0 ]]; then
-        if [[ $non_null -eq $ran_arc ]]; then
-            if [[ $joueur -eq '' ]]; then
-                echo "Sabaody après ellipse choisi"
-            fi
-            if [[ $nombre -gt $compteur_sabaody_r ]]; then
-                echo "Mais pas assez de citation"
-                arc_sabaody_r=2
-                non_vide=$((non_vide-1))
-                arc=0
-            else
-                arc=1
-                arc_sabaody_r=1
                 non_vide=$((non_vide-1))
             fi
         else

@@ -122,13 +122,6 @@ ellipse() {
     done < ./csv/ellipse.csv
 }
 
-sabaody_r() {
-    while IFS=';' read -r ed citation reponse coeur; do
-        declare -i ed
-        echo "$ed $citation de $reponse"
-    done < ./csv/sabaody_r.csv
-}
-
 poisson() {
     while IFS=';' read -r ed citation reponse coeur; do
         declare -i ed
@@ -230,15 +223,9 @@ elif [[ $arc_ford -eq 1 ]]; then
     marineford
     arc_ford=2
 
-
 elif [[ $arc_ellipse -eq 1 ]]; then
     ellipse
     arc_ellipse=2
-
-
-elif [[ $arc_sabaody_r -eq 1 ]]; then
-    sabaody_r
-    arc_sabaody_r=2
 
 elif [[ $arc_poisson -eq 1 ]]; then
     poisson

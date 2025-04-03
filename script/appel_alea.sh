@@ -32,20 +32,18 @@ arc() {
     elif [[ $arc_actuel -eq 16 ]]; then
         echo -e "\t\tMarineford"
     elif [[ $arc_actuel -eq 17 ]]; then
-        echo -e "\t\tEllipse"
+        echo -e "\t\tPost-Marineford/Retour Sabaody"
     elif [[ $arc_actuel -eq 18 ]]; then
-        echo -e "\t\tSabaody post-ellipse"
-    elif [[ $arc_actuel -eq 19 ]]; then
         echo -e "\t\tIle des Hommes poissons"
-    elif [[ $arc_actuel -eq 20 ]]; then
+    elif [[ $arc_actuel -eq 19 ]]; then
         echo -e "\t\tPunk Hazard"
-    elif [[ $arc_actuel -eq 21 ]]; then
+    elif [[ $arc_actuel -eq 20 ]]; then
         echo -e "\t\tDressrosa"
-    elif [[ $arc_actuel -eq 22 ]]; then
+    elif [[ $arc_actuel -eq 21 ]]; then
         echo -e "\t\tZo"
-    elif [[ $arc_actuel -eq 23 ]]; then
+    elif [[ $arc_actuel -eq 22 ]]; then
         echo -e "\t\tWhole Cake Island"
-    elif [[ $arc_actuel -eq 24 ]]; then
+    elif [[ $arc_actuel -eq 23 ]]; then
         echo -e "\t\tWano"
     fi
 }

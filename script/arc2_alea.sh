@@ -169,15 +169,6 @@ while [[ $arc -eq 0 && $quit1 -ne 1 ]]; do
         fi
     fi
 
-    if [[ $arc_sabaody_r -eq 0 && $arc -ne 1 ]]; then
-        if [[ $non_null -eq $ran_arc ]]; then
-            arc=1
-            arc_sabaody_r=1
-        else
-            non_null=$((non_null+1))
-        fi
-    fi
-
     if [[ $arc_poisson -eq 0 && $arc -ne 1 ]]; then
         if [[ $non_null -eq $ran_arc ]]; then
            arc=1

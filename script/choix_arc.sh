@@ -5,14 +5,14 @@ if [[ $joueur -eq 1 ]]; then
     echo "Cependant, je ne te garantis pas que j'en aurai assez "
 fi
 
-while [[ $choix_arc -lt 1 || $choix_arc -gt 26 || $sortie -eq 0 ]]; do
+while [[ $choix_arc -lt 1 || $choix_arc -gt 24 || $sortie -eq 0 ]]; do
     refus=0
     echo "1.East Blue    2.LogueTown/Cap Jumeaux    3.Whiskey Peak     4.Little Garden    5.Drum"
     echo "6.Alabasta    7.Jaya   8.Skypea    9.Davy Back Fight   10.Water Seven"
     echo "11.Enies Lobby    12.Thriller Bark   13.Sabaody    14.Amazone Lily"
-    echo "15.Impel Down        16.Marineford     17.Ellipse      18.Sabaody post-ellipse"
-    echo "19.Ile des Hommes poissons     20.Punk Hazard    21.Dressrosa      22.Zo"
-    echo "23.Whole Cake Island     24. Wano    25.retour menu"
+    echo "15.Impel Down        16.Marineford     17.Post-Marineford/Retour Sabaody"
+    echo "18.Ile des Hommes poissons     19.Punk Hazard    20.Dressrosa      21.Zo"
+    echo "22.Whole Cake Island     23.Wano    24.retour menu"
     read choix_arc
 
     if [[ $choix_arc -eq 1 ]]; then
@@ -544,42 +544,11 @@ while [[ $choix_arc -lt 1 || $choix_arc -gt 26 || $sortie -eq 0 ]]; do
     fi 
     if [[ $choix_arc -eq 18 ]]; then
         if [[ $choose -ne 4 ]]; then
-            if [[ $limite -lt 18 && $compteur_sabaody_r -ge $nombre ]]; then
-                echo "Même si il y a $compteur_sabaody_r ici, tu as choisi une limite qui ne te conseilles pas cet arc"
-                echo "Veux tu quand même continuer?"
-                echo "1.Oui     2.Non"
-            elif [[ $limite -ge 18 && $compteur_sabaody_r -ge $nombre ]]; then
-                echo "Il y a $compteur_sabaody_r citation ici, tu souhaites jouer dessus?"
-                echo "1.Oui     2.Non"
-            else 
-                echo "Il va falloir que tu te renseignes un peu mieux. Il n'y a pas assez de citation par rapport à ce que tu as demandé"
-                echo "Donc soit tu retournes au début pour savoir combien j'ai de citation, soit tu choisis un autre arc"
-                choix_arc=0
-                decision=0
-                refus=1
-                sleep 3
-            fi
-            while [[ $decision -ne 1 && $decision -ne 2 && $refus -eq 0 ]]; do
-                read decision
-            done
-        fi
-        if [[ $decision -eq 1 || $choose -eq 4 ]]; then
-            echo "Très bien, ton choix a été pris"
-            arc_sabaody_r=1
-            sortie=2
-        elif [[ $decision -eq 2 ]]; then
-            echo "Tu ne veux pas celui la? Entendu. Rechoisis dans ce cas"
-            choix_arc=0
-            decision=0
-        fi
-    fi 
-    if [[ $choix_arc -eq 19 ]]; then
-        if [[ $choose -ne 4 ]]; then
-            if [[ $limite -lt 19 && $compteur_poisson -ge $nombre ]]; then
+            if [[ $limite -lt 18 && $compteur_poisson -ge $nombre ]]; then
                 echo "Même si il y a $compteur_poisson ici, tu as choisi une limite qui ne te conseilles pas cet arc"
                 echo "Veux tu quand même continuer?"
                 echo "1.Oui     2.Non"
-            elif [[ $limite -ge 19 && $compteur_poisson -ge $nombre ]]; then
+            elif [[ $limite -ge 18 && $compteur_poisson -ge $nombre ]]; then
                 echo "Il y a $compteur_poisson citation ici, tu souhaites jouer dessus?"
                 echo "1.Oui     2.Non"
             else 
@@ -604,13 +573,13 @@ while [[ $choix_arc -lt 1 || $choix_arc -gt 26 || $sortie -eq 0 ]]; do
             decision=0
         fi
     fi 
-    if [[ $choix_arc -eq 20 ]]; then
+    if [[ $choix_arc -eq 19 ]]; then
         if [[ $choose -ne 4 ]]; then
-            if [[ $limite -lt 20 && $compteur_hazard -ge $nombre ]]; then
+            if [[ $limite -lt 19 && $compteur_hazard -ge $nombre ]]; then
                 echo "Même si il y a $compteur_hazard ici, tu as choisi une limite qui ne te conseilles pas cet arc"
                 echo "Veux tu quand même continuer?"
                 echo "1.Oui     2.Non"
-            elif [[ $limite -ge 20 && $compteur_hazard -ge $nombre ]]; then
+            elif [[ $limite -ge 19 && $compteur_hazard -ge $nombre ]]; then
                 echo "Il y a $compteur_hazard citation ici, tu souhaites jouer dessus?"
                 echo "1.Oui     2.Non"
             else 
@@ -635,13 +604,13 @@ while [[ $choix_arc -lt 1 || $choix_arc -gt 26 || $sortie -eq 0 ]]; do
             decision=0
         fi
     fi 
-    if [[ $choix_arc -eq 21 ]]; then
+    if [[ $choix_arc -eq 20 ]]; then
         if [[ $choose -ne 4 ]]; then
-            if [[ $limite -lt 21 && $compteur_dressrosa -ge $nombre ]]; then
+            if [[ $limite -lt 20 && $compteur_dressrosa -ge $nombre ]]; then
                 echo "Même si il y a $compteur_dressrosa ici, tu as choisi une limite qui ne te conseilles pas cet arc"
                 echo "Veux tu quand même continuer?"
                 echo "1.Oui     2.Non"
-            elif [[ $limite -ge 21 && $compteur_dressrosa -ge $nombre ]]; then
+            elif [[ $limite -ge 20 && $compteur_dressrosa -ge $nombre ]]; then
                 echo "Il y a $compteur_dressrosa citation ici, tu souhaites jouer dessus?"
                 echo "1.Oui     2.Non"
             else 
@@ -666,13 +635,13 @@ while [[ $choix_arc -lt 1 || $choix_arc -gt 26 || $sortie -eq 0 ]]; do
             decision=0
         fi
     fi 
-    if [[ $choix_arc -eq 22 ]]; then
+    if [[ $choix_arc -eq 21 ]]; then
         if [[ $choose -ne 4 ]]; then
-            if [[ $limite -lt 22 && $compteur_zo -ge $nombre ]]; then
+            if [[ $limite -lt 21 && $compteur_zo -ge $nombre ]]; then
                 echo "Même si il y a $compteur_zo ici, tu as choisi une limite qui ne te conseilles pas cet arc"
                 echo "Veux tu quand même continuer?"
                 echo "1.Oui     2.Non"
-            elif [[ $limite -ge 22 && $compteur_zo -ge $nombre ]]; then
+            elif [[ $limite -ge 21 && $compteur_zo -ge $nombre ]]; then
                 echo "Il y a $compteur_zo citation ici, tu souhaites jouer dessus?"
                 echo "1.Oui     2.Non"
             else 
@@ -697,13 +666,13 @@ while [[ $choix_arc -lt 1 || $choix_arc -gt 26 || $sortie -eq 0 ]]; do
             decision=0
         fi
     fi 
-    if [[ $choix_arc -eq 23 ]]; then
+    if [[ $choix_arc -eq 22 ]]; then
         if [[ $choose -ne 4 ]]; then
-            if [[ $limite -lt 23 && $compteur_wci -ge $nombre ]]; then
+            if [[ $limite -lt 22 && $compteur_wci -ge $nombre ]]; then
                 echo "Même si il y a $compteur_wci ici, tu as choisi une limite qui ne te conseilles pas cet arc"
                 echo "Veux tu quand même continuer?"
                 echo "1.Oui     2.Non"
-            elif [[ $limite -ge 23 && $compteur_wci -ge $nombre ]]; then
+            elif [[ $limite -ge 22 && $compteur_wci -ge $nombre ]]; then
                 echo "Il y a $compteur_wci citation ici, tu souhaites jouer dessus?"
                 echo "1.Oui     2.Non"
             else 
@@ -728,13 +697,13 @@ while [[ $choix_arc -lt 1 || $choix_arc -gt 26 || $sortie -eq 0 ]]; do
             decision=0
         fi
     fi 
-    if [[ $choix_arc -eq 24 ]]; then
+    if [[ $choix_arc -eq 23 ]]; then
         if [[ $choose -ne 4 ]]; then
-            if [[ $limite -lt 24 && $compteur_wano -ge $nombre ]]; then
+            if [[ $limite -lt 23 && $compteur_wano -ge $nombre ]]; then
                 echo "Même si il y a $compteur_wano ici, tu as choisi une limite qui ne te conseilles pas cet arc"
                 echo "Veux tu quand même continuer?"
                 echo "1.Oui     2.Non"
-            elif [[ $limite -ge 24 && $compteur_wano -ge $nombre ]]; then
+            elif [[ $limite -ge 23 && $compteur_wano -ge $nombre ]]; then
                 echo "Il y a $compteur_wano citation ici, tu souhaites jouer dessus?"
                 echo "1.Oui     2.Non"
             else 
@@ -759,7 +728,7 @@ while [[ $choix_arc -lt 1 || $choix_arc -gt 26 || $sortie -eq 0 ]]; do
             decision=0
         fi
     fi
-    if [[ $choix_arc -eq 25 ]]; then
+    if [[ $choix_arc -eq 24 ]]; then
         sortie=2
     fi 
 
